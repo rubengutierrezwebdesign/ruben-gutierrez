@@ -3,6 +3,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy('./src/css');
     eleventyConfig.addPassthroughCopy('./src/assets');
     eleventyConfig.addPassthroughCopy('./src/pages/web-designer');
+
     eleventyConfig.addCollection("posts", function(collection) {
         const coll = collection.getFilteredByTag("posts");
     
@@ -16,6 +17,7 @@ module.exports = function (eleventyConfig) {
     
         return coll;
     });
+
     return {
         dir: {
             input: "src",
