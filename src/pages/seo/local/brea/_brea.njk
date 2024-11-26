@@ -1,0 +1,18 @@
+---
+layout: 'default.njk'
+title: "brea"
+permalink: /brea/
+description: Get Website Services in The La Habra, California Area. WordPress, Website Design, Search Engine Optimizaiton.
+---
+<div class="paa-20">
+     <div class="cont">
+        {% for post in collections.brea | reverse %}
+            {% if loop.index0 < 5 %}
+                <div>
+                    <a href="{{post.url}}"><h2>{{post.data.title}}</h2></a>
+                    <p>{{post.data.description}}</p>   
+                </div>
+            {% endif %}
+        {% endfor %}
+    </div>
+</div>
