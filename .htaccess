@@ -1,3 +1,0 @@
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^ruben-gutierrez\.com [NC]
-RewriteRule ^(.*)$ http://www.ruben-gutierrez.com/$1 [L,R=301,NC]
