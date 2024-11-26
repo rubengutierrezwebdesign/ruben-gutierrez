@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^ruben-gutierrez.com 
+RewriteRule (.*) https://www.ruben-gutierrez.com/$1 [R=301,L]
