@@ -2,7 +2,6 @@
 layout: 'default.njk'
 title:  "Local SEO"
 permalink: /local-seo/
-tags: la_habra
 ---
 
     <div class="cont mb-100">
@@ -10,7 +9,6 @@ tags: la_habra
             {% if loop.index0 < 10 %}
                 <div>
                     <a href="{{post.url}}"><h1>{{post.data.title}}</h1></a>
-                    <p>{{post.data.description}}</p>   
                 </div>
             {% endif %}
         {% endfor %}
