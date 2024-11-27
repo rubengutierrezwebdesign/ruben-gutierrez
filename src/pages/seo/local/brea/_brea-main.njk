@@ -10,7 +10,7 @@ tags: local
         {% for post in collections.brea | reverse %}
             {% if loop.index0 < 5 %}
                 <div class="mw-50">
-                    <a href="{{post.url}}"><h3>{{post.data.title}}</h3></a>
+                    <a href="{{post.url}}"><h3>{{post.data.display}}</h3></a>
                     <p>{{post.data.description}}</p>   
                 </div>
             {% endif %}
