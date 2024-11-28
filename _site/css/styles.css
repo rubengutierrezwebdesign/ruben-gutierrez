@@ -8,12 +8,14 @@ div {width: 100%;}
 .br {border: 1px solid #000 !important ;}
 .bw {border: 1px solid #fff !important;}
 .br-10 {border-radius:10px;}
+.back-grey {background: rgb(244, 244, 244);}
+.back-grey-other {background: rgb(202, 202, 202);}
 
 .black-b {background: #000;}
 .color-w {color: #fff;}
 
 /* Layouts - Container */
-.cont {width: 100%;max-width: 1280px;margin-left: auto;margin-right: auto;padding-left:30px;padding-right:30px;}
+.cont {width: 100%;max-width: 1080px;margin-left: auto;margin-right: auto;padding-left:20px;padding-right:20px;}
 .cont-full {width: 100%;max-width: 1280px;margin-left: auto;margin-right: auto;}
 .post {max-width: 760px;margin-left: auto;margin-right: auto; padding-left: 20px;padding-right: 20px;}
 
@@ -32,7 +34,7 @@ div {width: 100%;}
 .mw-500 {max-width: 500px !important;}
 @media (min-width: 600px) {.flex {display:flex;justify-content: space-between;}}
 @media (min-width: 600px) {.mw-75 {max-width: 75%;}}
-@media (min-width: 600px) {.mw-50 {max-width: 47.5%;}}
+@media (min-width: 600px) {.mw-50 {max-width: 50%;}}
 @media (min-width: 600px) {.mw-30 {max-width: 33.3%;}}
 @media (min-width: 600px) {.mw-25 {max-width: 25%;}}
 .j-flex {display:flex;}
@@ -43,10 +45,10 @@ div {width: 100%;}
 /* Fonts */
 h1 {font-size:2em;}
 @media (min-width: 700px){h1 {font-size:2.375em;}}
-@media (min-width: 1000px){h1 {font-size:3em;}}
+@media (min-width: 1000px){h1 {font-size:2.25em;}}
 h2 {font-size:1.5em;}
 @media (min-width: 700px){h2 {font-size:1.675em;}}
-@media (min-width: 1000px){h2 {font-size:1.875em;}}
+@media (min-width: 1000px){h2 {font-size:1.375em;}}
 h3 {font-size:1.25em;}
 @media (min-width: 700px){h3 {font-size:1.25em;}}
 @media (min-width: 1000px){h3 {font-size:1.375em;}}
@@ -58,8 +60,8 @@ h3,h4 {font-weight: 500;margin-bottom:20px;}
 
 img { max-width: 100%; width: auto;}
 
-p {font-size: 14px;line-height:160%;margin-bottom:20px;}
-@media (min-width: 700px){p {font-size: 14px;line-height:160%;margin-bottom:25px;}
+p {font-size: 16px;line-height:160%;margin-bottom:20px;width:}
+@media (min-width: 700px){p {font-size: 16px;line-height:160%;margin-bottom:25px;}
 }
 
 .mb-10  {margin-bottom: 10px;}
@@ -75,6 +77,8 @@ p {font-size: 14px;line-height:160%;margin-bottom:20px;}
 .mt-50  {margin-top: 50px;}
 .pd-10  {padding-top: 10px; padding-bottom: 10px;}
 .pd-20  {padding-top: 20px; padding-bottom: 20px;}
+.pd-25  {padding-top: 25px; padding-bottom: 30px;}
+
 .pd-30  {padding-top: 30px; padding-bottom: 30px;}
 .pd-40  {padding-top: 40px; padding-bottom: 40px;}
 .pd-50  {padding-top: 50px; padding-bottom: 50px;}
@@ -103,7 +107,8 @@ nav a {text-decoration: none;font-size:12px;font-weight:500;}
 
 .transition{transition: all .3s ease-out;}
 
-.btn {background:#f3f3f3;padding:7.5px 15px;color:#000;text-decoration: none;font-weight:600;transition:.25s;border-radius: 40px;font-size:14px;}
+.btn {background:#ffffff;padding:10px 15px;color:#000;text-decoration: none;font-weight:600;transition:.25s;border-radius: 40px;font-size:12px;border:1px solid #000;
+display:inline-block}
 .btn:hover {background:#000;color:#fff;}
 
   /* off-screen-menu */
@@ -114,6 +119,7 @@ nav a {text-decoration: none;font-size:12px;font-weight:500;}
  /*Active Class For Closin Hamburger  */
 .off-screen-menu.active {right: 0;}
 
+nav {position:fixed; background:white;width:100%;}
 nav .nav {align-items: center;display: flex;justify-content: space-between;}
 nav .nav .logo {border: 1px solid #000 !important;padding: 2.5px 5px;}
 
@@ -166,3 +172,9 @@ nav .nav .logo {border: 1px solid #000 !important;padding: 2.5px 5px;}
 .ham-menu.active div:nth-child(1) {top: 50%; transform: translate(-50%, -50%) rotate(45deg);}
 .ham-menu.active div:nth-child(2) {opacity: 0;}
 .ham-menu.active div:nth-child(3) {top: 50%; transform: translate(-50%, -50%) rotate(-45deg);}
+
+.content {
+    padding-top:65px;;
+}
+
+.pr-5 {padding-right: 5%;}

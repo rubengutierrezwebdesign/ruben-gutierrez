@@ -5,9 +5,12 @@ permalink: /blog/
 ---
 <div class="paa-20">
 
-    <div class="cont mb-100">
+    <div class="cont pd-25 flex">
         {% for post in collections.current_post | reverse %}
             {% if loop.index0 < 1 %}
+                <div>
+
+                </div>
                 <div>
                     <a href="{{post.url}}"><h1>{{post.data.title}}</h1></a>
                     <p>{{post.data.description}}</p>   
@@ -19,7 +22,7 @@ permalink: /blog/
     <div class="cont flex flex-wrap">
         {% for post in collections.posts | reverse %}
             {% if loop.index0 < 8 %}
-                <li class="mw-50 mb-50">
+                <li class="mw-50 mb-50 pr-5">
                     <article class="">
                         <a href="{{post.url}}"><h2 class="">{{post.data.title}}</h2></a>
                         <p>{{post.data.description}}</p>   
