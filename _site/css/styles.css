@@ -9,13 +9,13 @@ div {width: 100%;}
 .bw {border: 1px solid #fff !important;}
 .br-10 {border-radius:10px;}
 .back-grey {background: rgb(244, 244, 244);}
-.back-grey-other {background: rgb(202, 202, 202);}
+.back-grey-other {background: rgb(219, 219, 219);}
 
 .black-b {background: #000;}
 .color-w {color: #fff;}
 
 /* Layouts - Container */
-.cont {width: 100%;max-width: 1080px;margin-left: auto;margin-right: auto;padding-left:20px;padding-right:20px;}
+.cont {width: 100%;max-width: 1080px;margin-left: auto;margin-right: auto;}
 .cont-full {width: 100%;max-width: 1280px;margin-left: auto;margin-right: auto;}
 .post {max-width: 760px;margin-left: auto;margin-right: auto; padding-left: 20px;padding-right: 20px;}
 
@@ -41,15 +41,17 @@ div {width: 100%;}
 .align-items{align-items: center;}
 .justify-center{align-items: center;}
 .flex-wrap {flex-wrap: wrap;}
+@media (min-width: 1000px) {.dt-flex {display:flex;}}
+
 
 /* Fonts */
 h1 {font-size:2em;}
 @media (min-width: 700px){h1 {font-size:2.375em;}}
 @media (min-width: 1000px){h1 {font-size:2.25em;}}
-h2 {font-size:1.5em;}
-@media (min-width: 700px){h2 {font-size:1.675em;}}
-@media (min-width: 1000px){h2 {font-size:1.375em;}}
-h3 {font-size:1.25em;}
+h2 {font-size:1.125em;}
+@media (min-width: 700px){h2 {font-size:1.275em;}}
+@media (min-width: 1000px){h2 {font-size:1.50em;}}
+h3 {font-size:1em;}
 @media (min-width: 700px){h3 {font-size:1.25em;}}
 @media (min-width: 1000px){h3 {font-size:1.375em;}}
 
@@ -119,7 +121,7 @@ display:inline-block}
  /*Active Class For Closin Hamburger  */
 .off-screen-menu.active {right: 0;}
 
-nav {position:fixed; background:white;width:100%;}
+nav {position:fixed; background:white;width:100%;padding:10px 20px;}
 nav .nav {align-items: center;display: flex;justify-content: space-between;}
 nav .nav .logo {border: 1px solid #000 !important;padding: 2.5px 5px;}
 
