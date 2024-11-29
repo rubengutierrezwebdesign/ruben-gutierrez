@@ -11,6 +11,7 @@ div {width: 100%;}
 .back-grey {background: rgb(244, 244, 244);}
 .back-grey-other {background: rgb(219, 219, 219);}
 
+
 .black-b {background: #000;}
 .color-w {color: #fff;}
 
@@ -22,6 +23,7 @@ div {width: 100%;}
 
 /* Padding */
 .pp-5 {padding: 5%;}
+.pt-50 {padding-top: 100px !important;}
 .paa-30 {padding: 30px;}
 .paa-20 {padding: 20px;}
 .paa-10 {padding: 10px;}
@@ -62,7 +64,7 @@ h3,h4 {font-weight: 500;margin-bottom:20px;}
 
 img { max-width: 100%; width: auto;}
 
-p {font-size: 16px;line-height:160%;margin-bottom:20px;width:}
+p {font-size: 16px;line-height:160%;margin-bottom:20px;}
 @media (min-width: 700px){p {font-size: 16px;line-height:160%;margin-bottom:25px;}
 }
 
