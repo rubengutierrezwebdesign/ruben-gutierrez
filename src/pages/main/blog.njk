@@ -3,29 +3,39 @@ title: Blog
 layout: 'default.njk'
 permalink: /blog/
 ---
+<style>
+.main {
+  display:flex;
+  align-items: center;
+  padding-right: 50px;
+}
+</style>
 
-<div class="cont pd-100 dt-flex">
+<div class="cont pd-25 flex">
     {% for post in collections.current_post | reverse %}
         {% if loop.index0 < 1 %}
-            <div>   
-                <a href="{{post.url}}" style="text-decoration:none!important;"><h1>{{post.data.title}}</h1></a>
-                <p class="large-copy">{{post.data.description}}</p>   
+            <div class="mw-50 mb-20 main">   
+                <div class="">
+                    <a href="{{post.url}}" style="text-decoration:none!important;"><h1>{{post.data.title}}</h1></a>
+                    <p class="large-copy">{{post.data.description}}</p>   
+                    <a href="{{post.url}}" class="btn">Read More ></a>
+                </div>
             </div>
 
-            <div>
-
+            <div class="mw-50" style="width:100%;">
+                <img src="{{post.data.thumbnail}}" alt="">
             </div>
         {% endif %}
     {% endfor %}
 </div>
 
-<div class="cont flex flex-wrap">
+<div class="cont pd-50 flex flex-wrap">
     {% for post in collections.posts | reverse %}
-        {% if loop.index0 < 8 %}
-            <li class="mw-50 mb-50 pr-5">
+        {% if loop.index0 < 4 %}
+            <li class="mw-50 mb-50">
                 <article class="">
-                    <a href="{{post.url}}"><h3 class="">{{post.data.title}}</h3></a>
-                    <p>{{post.data.description}}</p>   
+                    <a href="{{post.url}}" style="text-decoration:none;"><h3 class="">{{post.data.title}}</h3></a>
+                    <p class="_14">{{post.data.description}}</p>   
                 </article>
             </li>
         {% endif %}
