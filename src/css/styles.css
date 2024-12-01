@@ -2,7 +2,6 @@ h1 h2 h3 h4{font-weight: 500;} * {margin: 0;box-sizing: border-box;}
 body {font-family: "SUSE", sans-serif;}
 li{ list-style-type: none !important;}
 a {color: #000;}
-div {width: 100%;}
 
 /* Tools */
 .br {border: 1px solid #000 !important ;}
@@ -16,7 +15,8 @@ div {width: 100%;}
 .color-w {color: #fff;}
 
 /* Layouts - Container */
-.cont {width: 100%;max-width: 1080px;margin-left: auto;margin-right: auto;}
+.text-cont {width: 100%;max-width: 760px;margin-left: auto;margin-right: auto;}
+.cont {width: 100%;max-width: 90%;margin-left:auto;margin-right: auto;}
 .cont-full {width: 100%;max-width: 1280px;margin-left: auto;margin-right: auto;}
 .post {max-width: 760px;margin-left: auto;margin-right: auto; padding-left: 20px;padding-right: 20px;}
 
@@ -24,6 +24,7 @@ div {width: 100%;}
 /* Padding */
 .pp-5 {padding: 5%;}
 .pt-50 {padding-top: 100px !important;}
+.paa-50 {padding: 50px;}
 .paa-30 {padding: 30px;}
 .paa-20 {padding: 20px;}
 .paa-10 {padding: 10px;}
@@ -39,23 +40,33 @@ div {width: 100%;}
 @media (min-width: 600px) {.mw-50 {max-width: 50%;}}
 @media (min-width: 600px) {.mw-30 {max-width: 33.3%;}}
 @media (min-width: 600px) {.mw-25 {max-width: 25%;}}
-.j-flex {display:flex;}
 .align-items{align-items: center;}
 .justify-center{align-items: center;}
 .flex-wrap {flex-wrap: wrap;}
 @media (min-width: 1000px) {.dt-flex {display:flex;}}
+@media (min-width: 600px) {.j-flex {display:flex;}}
 
 
 /* Fonts */
-h1 {font-size:2em;}
-@media (min-width: 700px){h1 {font-size:2.375em;}}
-@media (min-width: 1000px){h1 {font-size:2.25em;}}
-h2 {font-size:1.125em;}
-@media (min-width: 700px){h2 {font-size:1.275em;}}
-@media (min-width: 1000px){h2 {font-size:1.50em;}}
-h3 {font-size:1em;}
-@media (min-width: 700px){h3 {font-size:1.25em;}}
-@media (min-width: 1000px){h3 {font-size:1.375em;}}
+h1,.h1 {font-size:2.25em;}
+@media (min-width: 1000px){h1 {font-size:2.5em;}}
+h2 {font-size:2em;}
+@media (min-width: 700px){h2 {font-size:2.25em;}}
+@media (min-width: 1000px){h2 {font-size:2em;}}
+h3 {font-size:1.5em;}
+@media (min-width: 700px){h3 {font-size:1.50em;}}
+@media (min-width: 1000px){h3 {font-size:1.5em;}}
+
+p {font-size: 16px;line-height:160%;margin-bottom:20px;}
+@media (min-width: 700px){p {font-size: 18px;line-height:160%;margin-bottom:25px;}}
+
+.large-copy {font-size: 20px;line-height: 140%;}
+@media (min-width: 700px){.large-copy {font-size: 22px;line-height:140%;margin-bottom:25px;}}
+
+
+p {font-size: 16px;line-height:160%;margin-bottom:20px;}
+@media (min-width: 700px){p {font-size: 18px;line-height:160%;margin-bottom:25px;}
+}
 
 .flex-wrap {flex-wrap: wrap;}
 
@@ -64,10 +75,7 @@ h3,h4 {font-weight: 500;margin-bottom:20px;}
 
 img { max-width: 100%; width: auto;}
 
-p {font-size: 16px;line-height:160%;margin-bottom:20px;}
-@media (min-width: 700px){p {font-size: 16px;line-height:160%;margin-bottom:25px;}
-}
-
+.mr-20  {margin-right: 20px;}
 .mb-10  {margin-bottom: 10px;}
 .mb-20  {margin-bottom: 20px;}
 .mb-25  {margin-bottom: 25px;}
@@ -123,7 +131,7 @@ display:inline-block}
  /*Active Class For Closin Hamburger  */
 .off-screen-menu.active {right: 0;}
 
-nav {position:fixed; background:white;width:100%;padding:10px 20px;}
+nav {position:fixed; background:white;width:100%;}
 nav .nav {align-items: center;display: flex;justify-content: space-between;}
 nav .nav .logo {border: 1px solid #000 !important;padding: 2.5px 5px;}
 
@@ -178,7 +186,10 @@ nav .nav .logo {border: 1px solid #000 !important;padding: 2.5px 5px;}
 .ham-menu.active div:nth-child(3) {top: 50%; transform: translate(-50%, -50%) rotate(-45deg);}
 
 .content {
-    padding-top:65px;;
+    padding-top:85px;;
 }
 
 .pr-5 {padding-right: 5%;}
+
+.prev-next p { fot-si
+}

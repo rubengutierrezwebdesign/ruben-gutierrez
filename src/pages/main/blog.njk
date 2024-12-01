@@ -3,34 +3,32 @@ title: Blog
 layout: 'default.njk'
 permalink: /blog/
 ---
-<div class="paa-20">
 
-    <div class="cont pd-25 dt-flex">
-        {% for post in collections.current_post | reverse %}
-            {% if loop.index0 < 1 %}
-                <div>
+<div class="cont pd-100 dt-flex">
+    {% for post in collections.current_post | reverse %}
+        {% if loop.index0 < 1 %}
+            <div>   
+                <a href="{{post.url}}" style="text-decoration:none!important;"><h1>{{post.data.title}}</h1></a>
+                <p class="large-copy">{{post.data.description}}</p>   
+            </div>
 
-                </div>
-                <div>
-                    <a href="{{post.url}}"><h1>{{post.data.title}}</h1></a>
+            <div>
+
+            </div>
+        {% endif %}
+    {% endfor %}
+</div>
+
+<div class="cont flex flex-wrap">
+    {% for post in collections.posts | reverse %}
+        {% if loop.index0 < 8 %}
+            <li class="mw-50 mb-50 pr-5">
+                <article class="">
+                    <a href="{{post.url}}"><h3 class="">{{post.data.title}}</h3></a>
                     <p>{{post.data.description}}</p>   
-                </div>
-            {% endif %}
-        {% endfor %}
-    </div>
-
-    <div class="cont flex flex-wrap">
-        {% for post in collections.posts | reverse %}
-            {% if loop.index0 < 8 %}
-                <li class="mw-50 mb-50 pr-5">
-                    <article class="">
-                        <a href="{{post.url}}"><h2 class="">{{post.data.title}}</h2></a>
-                        <p>{{post.data.description}}</p>   
-                    </article>
-                </li>
-            {% endif %}
-        {% endfor %}
-    </div>
-
-<div
+                </article>
+            </li>
+        {% endif %}
+    {% endfor %}
+</div>
 
