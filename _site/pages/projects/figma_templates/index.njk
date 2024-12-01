@@ -1,0 +1,37 @@
+---
+layout: 'default.njk'
+permalink: /figma-templates/
+display:      "Web Design Agency"
+title: Figma Templates
+description: Figma Templates
+---
+
+<div class="cont pd-50">
+    <h1>Figma Templates</h1>
+    <p class="large-copy">
+        These are designs that I've made in Figma. Feel Free to 
+        duplicate them.  Hopefully they help you in your 
+        website design journey!
+    </p>
+</div>
+
+<div class="cont">
+    <ul class="flex flex-wrap" style="padding-left:0;">
+            
+        <div class="flex flex-wrap">
+        {%- for post in collections.figma -%}
+
+                <li class=" mw-50">
+                    <article class="">
+                        <img src="{{post.data.thumbnail}}" alt="">
+                        <h3 class="">{{post.data.display}}</h3>
+                        <a class="btn" href="{{post.url}}">Read More</a>
+                    </article>
+                </li>
+
+        {%- endfor -%}
+        </div>
+
+    </ul>
+</div>
+

@@ -29,6 +29,7 @@ p {
     font-size: 16px;
     font-weight: 600;
     line-height: 125%;
+    margin-bottom: 0;
 
     @media (min-width:780px) {
         font-size: 20px;
@@ -102,7 +103,7 @@ p {
             justify-content: center;
 
             p {
-                margin: 30px 0;
+                margin: 20px 0;
             }
 
             .lp-download-button {

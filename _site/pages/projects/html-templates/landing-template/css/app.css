@@ -30,6 +30,7 @@ p {
   font-size: 16px;
   font-weight: 600;
   line-height: 125%;
+  margin-bottom: 0;
 }
 @media (min-width: 780px) {
   p {
@@ -102,7 +103,7 @@ p {
   justify-content: center;
 }
 .lp-hero .inner-hero .hero-left p {
-  margin: 30px 0;
+  margin: 20px 0;
 }
 .lp-hero .inner-hero .hero-left .lp-download-button {
   margin-bottom: 30px;
