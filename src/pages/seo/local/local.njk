@@ -10,11 +10,11 @@ permalink: /local/
         <p>Directory for local pages in North Orange County.</p>
     </div>
 
-    <div class="flex">
+    <div class="flex flex-wrap">
         {% for post in collections.local | reverse %}
             {% if loop.index0 < 10 %}
-                <div class="local-directory">
-                    <a href="{{post.url}}" style="text-decoration:none"><h3>{{post.data.title}}</h3></a>
+                <div class="br paa-20 mb-20" style="width:200px;">
+                    <a href="{{post.url}}" style="text-decoration:none"><h3 class="_18">{{post.data.title}}</h3></a>
                 </div>
             {% endif %}
         {% endfor %}

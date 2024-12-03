@@ -10,8 +10,7 @@ permalink: /blog/
   padding-right: 50px;
 }
 
-h1 {
-    font-size:36px !important;
+@media (min-width: 700px){img {max-width: 75%;margin-bottom:25px;}
 }
 
 h3 {
@@ -38,13 +37,13 @@ h3 {
     {% endfor %}
 </div>
 
-<div class="cont pd-50 flex flex-wrap">
+<div class="cont pd-50 j-flex flex-wrap">
     {% for post in collections.posts | reverse %}
         {% if loop.index0 < 4 %}
-            <li class="mw-50 mb-50">
-                <article class="">
-                    <a href="{{post.url}}" style="text-decoration:none;"><h3 class="">{{post.data.title}}</h3></a>
-                    <p class="_14">{{post.data.description}}</p>   
+            <li class="mw-50 mb-50" style="max-width:25%;">
+                <article class="tp-5">
+                    <a href="{{post.url}}" style="text-decoration:none;"><h3 class="_18">{{post.data.title}}</h3></a>
+                    <p class="_12">{{post.data.description}}</p>   
                 </article>
             </li>
         {% endif %}
