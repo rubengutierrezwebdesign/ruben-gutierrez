@@ -8,7 +8,7 @@ tags: local
 
 <div class="cont pd-50">
     <span class=" _600">Fullerton, California</span>
-    <h1>Website Design Services</h1>
+    <h1>Website Services</h1>
     <p class="mw-50">
         Are you looking for website design services in La Habra, California?
     </p>
@@ -16,7 +16,7 @@ tags: local
 
 <div class="cont">
     {% for post in collections.fullerton | reverse %}
-        {% if loop.index0 < 4 %}
+        {% if loop.index0 < 6 %}
             <div>
                 <a href="{{post.url}}" style="text-decoraiton:none!important;"><h3>{{post.data.display}}</h3></a>
             </div>
