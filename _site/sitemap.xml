@@ -162,11 +162,6 @@
         </url>
     
         <url>
-            <loc>https://www.ruben-gutierrez.com/calculator/</loc>
-            <lastmod>2024-12-01T00:00:00.000Z</lastmod>
-        </url>
-    
-        <url>
             <loc>https://www.ruben-gutierrez.com/figma-templates/web-agency-design/</loc>
             <lastmod>2024-12-01T00:00:00.000Z</lastmod>
         </url>
@@ -208,6 +203,16 @@
     
         <url>
             <loc>https://www.ruben-gutierrez.com/figma-templates/wordpress-pricing-table/</loc>
+            <lastmod>2024-12-01T00:00:00.000Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>https://www.ruben-gutierrez.com/tools/</loc>
+            <lastmod>2024-12-01T00:00:00.000Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>https://www.ruben-gutierrez.com/calculator/</loc>
             <lastmod>2024-12-01T00:00:00.000Z</lastmod>
         </url>
     
@@ -333,7 +338,7 @@
     
         <url>
             <loc>https://www.ruben-gutierrez.com/figma-templates/</loc>
-            <lastmod>2024-12-03T18:42:25.512Z</lastmod>
+            <lastmod>2024-12-03T22:21:23.709Z</lastmod>
         </url>
     
 </urlset>

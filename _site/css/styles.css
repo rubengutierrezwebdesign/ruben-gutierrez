@@ -59,7 +59,7 @@ a {color: #000;}
 
 
 /* Fonts */
-h1,.h1 {font-size:2em;}
+h1,.h1 {font-size:1.75em;}
 @media (min-width: 1000px){h1 {font-size:2em;}}
 h2 {font-size:1.5em;}
 @media (min-width: 700px){h2 {font-size:1.5em;}}
@@ -74,13 +74,13 @@ p {font-size: 16px;line-height:160%;margin-bottom:20px;}
 .large-copy {font-size: 18px;line-height: 140%;}
 @media (min-width: 700px){.large-copy {font-size: 20px;line-height:140%;margin-bottom:25px;}}
 
-.large-title {font-size: 32px;line-height: 140%;}
-@media (min-width: 700px){.large-title {font-size: 48px;line-height:140%;margin-bottom:25px;}}
+.large-title {font-size: 32px !important;line-height: 140%;}
+@media (min-width: 700px){.large-title {font-size: 48px !important;line-height:140%;margin-bottom:25px;}}
 
 
 
 p {font-size: 16px;line-height:160%;margin-bottom:20px;}
-@media (min-width: 700px){p {font-size: 18px;line-height:160%;margin-bottom:25px;}
+@media (min-width: 700px){p {font-size: 16px;line-height:160%;margin-bottom:25px;}
 }
 
 .flex-wrap {flex-wrap: wrap;}

@@ -37,10 +37,12 @@ h3 {
     {% endfor %}
 </div>
 
-<div class="cont pd-50 j-flex flex-wrap">
+<div class="cont">
+
+    <div class=" pd-50 j-flex flex-wrap" style="max-width: 600px;">
     {% for post in collections.posts | reverse %}
         {% if loop.index0 < 4 %}
-            <li class="mw-50 mb-50" style="max-width:25%;">
+            <li class="mw-50 mb-50">
                 <article class="tp-5">
                     <a href="{{post.url}}" style="text-decoration:none;"><h3 class="_18">{{post.data.title}}</h3></a>
                     <p class="_12">{{post.data.description}}</p>   
@@ -50,3 +52,4 @@ h3 {
     {% endfor %}
 </div>
 
+</div>

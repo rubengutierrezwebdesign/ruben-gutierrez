@@ -4,7 +4,6 @@ layout:    'default.njk'
 permalink: /web-dev/
 ---
 
-<div class="paa-20">
 
     <div class="cont pd-50">
         <h1>Website Development</h1>
@@ -12,23 +11,24 @@ permalink: /web-dev/
     </div>
 
     
-    <div class="cont pd-50">
-        <h2>Websites</h2>
-        {% for post in collections.websites | reverse %}
-            {% if loop.index0 < 5 %}
-                <a href="{{post.url}}"><h3>{{post.data.title}}</h3></a>
-            {% endif %}
-        {% endfor %}
-    </div>
+    <div class="cont flex">
+        <div class=" pd-50">
+            <h2>Websites</h2>
+            {% for post in collections.websites | reverse %}
+                {% if loop.index0 < 5 %}
+                    <a href="{{post.url}}"><h3 class="_18">{{post.data.title}}</h3></a>
+                {% endif %}
+            {% endfor %}
+        </div>
 
-    
-    <div class="cont pd-50">
-        <h2>Search Engine Optimization</h2>
-        {% for post in collections.seodev | reverse %}
-            {% if loop.index0 < 5 %}
-                <a href="{{post.url}}"><h3>{{post.data.title}}</h3></a>
-            {% endif %}
-        {% endfor %}
-    </div>
+        
+        <div class=" pd-50">
+            <h2>Search Engine Optimization</h2>
+            {% for post in collections.seodev | reverse %}
+                {% if loop.index0 < 5 %}
+                    <a href="{{post.url}}"><h3 class="_18">{{post.data.title}}</h3></a>
+                {% endif %}
+            {% endfor %}
+        </div>
 
-<div
+    </div>
