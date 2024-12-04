@@ -15,7 +15,7 @@ permalink: /web-dev/
         <div class=" pd-50">
             <h2>Websites</h2>
             {% for post in collections.websites | reverse %}
-                {% if loop.index0 < 5 %}
+                {% if loop.index0 < 10 %}
                     <a href="{{post.url}}"><h3 class="_18">{{post.data.title}}</h3></a>
                 {% endif %}
             {% endfor %}
@@ -25,7 +25,7 @@ permalink: /web-dev/
         <div class=" pd-50">
             <h2>Search Engine Optimization</h2>
             {% for post in collections.seodev | reverse %}
-                {% if loop.index0 < 5 %}
+                {% if loop.index0 < 10 %}
                     <a href="{{post.url}}"><h3 class="_18">{{post.data.title}}</h3></a>
                 {% endif %}
             {% endfor %}

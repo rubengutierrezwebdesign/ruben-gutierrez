@@ -6,24 +6,20 @@ description:  Get Website Services in The La Habra, California Area. WordPress, 
 tags:         local
 ---
 
-<div class="paa-20">
-    <div class="cont">
+    <div class="cont pd-50">
          <span class=" _600">La Habra, California</span>
         <h1>Website Design Services</h1>
         <p class="mw-50">
             Are you looking for website design services in La Habra, California?
         </p>
     </div>
-</div>
-<div class="paa-20">
      <div class="cont flex">
         {% for post in collections.la_habra | reverse %}
             {% if loop.index0 < 4 %}
                 <div>
-                    <a href="{{post.url}}"><h2>{{post.data.display_title}}</h2></a>
+                    <a href="{{post.url}}"><h2>{{post.data.display}}</h2></a>
                     <p>{{post.data.description}}</p>   
                 </div>
             {% endif %}
         {% endfor %}
     </div>
-</div>
