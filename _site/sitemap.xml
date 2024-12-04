@@ -157,11 +157,6 @@
         </url>
     
         <url>
-            <loc>https://www.ruben-gutierrez.com/2024-12-01/</loc>
-            <lastmod>2024-12-01T00:00:00.000Z</lastmod>
-        </url>
-    
-        <url>
             <loc>https://www.ruben-gutierrez.com/figma-templates/web-agency-design/</loc>
             <lastmod>2024-12-01T00:00:00.000Z</lastmod>
         </url>
@@ -219,6 +214,11 @@
         <url>
             <loc>https://www.ruben-gutierrez.com/html-templates/</loc>
             <lastmod>2024-12-01T21:23:56.137Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>https://www.ruben-gutierrez.com/2024-12-03/</loc>
+            <lastmod>2024-12-03T00:00:00.000Z</lastmod>
         </url>
     
         <url>
@@ -312,11 +312,6 @@
         </url>
     
         <url>
-            <loc>https://www.ruben-gutierrez.com/what-is-google-search-console/</loc>
-            <lastmod>2024-12-03T14:19:06.063Z</lastmod>
-        </url>
-    
-        <url>
             <loc>https://www.ruben-gutierrez.com/how-to-get-your-website-on-google/</loc>
             <lastmod>2024-12-03T14:20:13.069Z</lastmod>
         </url>
@@ -339,6 +334,11 @@
         <url>
             <loc>https://www.ruben-gutierrez.com/figma-templates/</loc>
             <lastmod>2024-12-03T22:21:23.709Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>https://www.ruben-gutierrez.com/what-is-google-search-console/</loc>
+            <lastmod>2024-12-03T22:48:12.270Z</lastmod>
         </url>
     
 </urlset>

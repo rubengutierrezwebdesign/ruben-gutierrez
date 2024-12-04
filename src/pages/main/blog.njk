@@ -10,9 +10,6 @@ permalink: /blog/
   padding-right: 50px;
 }
 
-@media (min-width: 700px){img {max-width: 75%;margin-bottom:25px;}
-}
-
 h3 {
     font-size: 20px;
 }
@@ -44,6 +41,7 @@ h3 {
         {% if loop.index0 < 4 %}
             <li class="mw-50 mb-50">
                 <article class="tp-5">
+                    <img src="{{post.data.thumbnail}}" alt="">
                     <a href="{{post.url}}" style="text-decoration:none;"><h3 class="_18">{{post.data.title}}</h3></a>
                     <p class="_12">{{post.data.description}}</p>   
                 </article>

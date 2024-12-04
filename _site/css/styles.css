@@ -8,6 +8,7 @@ a {color: #000;}
 .br {border: 1px solid #000 !important ;}
 .bw {border: 1px solid #fff !important;}
 .br-10 {border-radius:10px;}
+.br-5 {border-radius:5px;}
 .back-grey {background: rgb(244, 244, 244);}
 .back-grey-other {background: rgb(219, 219, 219);}
 .local-directory {
@@ -24,7 +25,7 @@ a {color: #000;}
 
 /* Layouts - Container */
 .text-cont {width: 100%;max-width: 760px;margin-left: auto;margin-right: auto;}
-.cont {width: 100%;max-width: 90%;margin-left:auto;margin-right: auto;}
+.cont {width: 90%;max-width: 1280px;margin-left:auto;margin-right: auto;}
 .cont-full {width: 100%;max-width: 1280px;margin-left: auto;margin-right: auto;}
 .post {width: 90%;max-width: 760px;margin-left:auto;margin-right:auto;}
 
@@ -59,17 +60,16 @@ a {color: #000;}
 
 
 /* Fonts */
-h1,.h1 {font-size:1.75em;}
+h1,.h1 {font-size:2em;}
 @media (min-width: 1000px){h1 {font-size:2em;}}
-h2 {font-size:1.5em;}
-@media (min-width: 700px){h2 {font-size:1.5em;}}
-@media (min-width: 1000px){h2 {font-size:1.75em;}}
+h2 {font-size:1.25em;}
+@media (min-width: 700px){h2 {font-size:1.25em;}}
 h3 {font-size:1.5em;}
 @media (min-width: 700px){h3 {font-size:1.50em;}}
 @media (min-width: 1000px){h3 {font-size:1.5em;}}
 
-p {font-size: 16px;line-height:160%;margin-bottom:20px;}
-@media (min-width: 700px){p {font-size: 18px;line-height:160%;margin-bottom:25px;}}
+p {font-size: 14px;line-height:160%;margin-bottom:20px;}
+@media (min-width: 700px){p {font-size: 16px;line-height:160%;margin-bottom:25px;}}
 
 .large-copy {font-size: 18px;line-height: 140%;}
 @media (min-width: 700px){.large-copy {font-size: 20px;line-height:140%;margin-bottom:25px;}}
@@ -79,7 +79,7 @@ p {font-size: 16px;line-height:160%;margin-bottom:20px;}
 
 
 
-p {font-size: 16px;line-height:160%;margin-bottom:20px;}
+p {font-size: 14px;line-height:160%;margin-bottom:20px;}
 @media (min-width: 700px){p {font-size: 16px;line-height:160%;margin-bottom:25px;}
 }
 
@@ -112,7 +112,7 @@ img { max-width: 100%; width: auto;}
 .pd-50  {padding-top: 50px; padding-bottom: 50px;}
 .pd-100 {padding-top: 100px; padding-bottom: 100px;}
 
-nav a {text-decoration: none;font-size:12px;font-weight:500;}
+nav a {text-decoration: none;font-size:12px;font-weight:500;top:0;}
 
 .nav .logo {font-size:14px;padding:2.5px 5px;color:#000;}
 
@@ -129,10 +129,9 @@ nav a {text-decoration: none;font-size:12px;font-weight:500;}
 
 .text-center {text-align:center}
 
-#myForm div {text-align:center;}
 #myForm ul {border: 1px solid black;}
 #myForm ul li {display: inline-block;border: 1px solid black;justify-content: space-between;padding: 15px 0;}
-#myForm ul li label {cursor: pointer;padding: 15px 20px;}
+#myForm ul li label {cursor: pointer;padding: 20px;}
 #myForm ul li input {display: none;}
 #myForm ul li input:checked + label {background: black;color: white;}
 
@@ -143,7 +142,7 @@ display:inline-block}
 .btn:hover {background:#000;color:#fff;}
 
   /* off-screen-menu */
-.off-screen-menu {background-color: #ffffff;height: 100%;position: fixed;top: 0;right: -100%;transition: .3s ease;}
+.off-screen-menu {background-color: #ffffff;width: 100%;height: 100%;position: fixed;top: 0;right: -100%;transition: .3s ease;}
 .off-screen-menu ul {padding-top: 30px;display: flex;flex-direction: column;}
 .off-screen-menu ul a {padding:10px;color:#000;text-align: center;font-size: 16px;margin-bottom: 30px;}
 
@@ -170,7 +169,7 @@ nav .nav .logo {border: 1px solid #000 !important;padding: 2.5px 5px;}
 
 /* Outter Hamburger Container*/
 .ham-menu-outter {
-    width: 30px;
+    width: 25px;
     position: relative;
 }
 
@@ -183,7 +182,7 @@ nav .nav .logo {border: 1px solid #000 !important;padding: 2.5px 5px;}
 
 /* Inner Hamburger Container */
 .ham-menu {
-    height: 40px;
+    height: 35px;
 }
 
 /* Display Inner Hamburger Menu at 600px*/

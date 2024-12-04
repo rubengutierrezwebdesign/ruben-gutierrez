@@ -5,10 +5,39 @@
 
     <body>
 
-        {%- include 'nav.njk' -%}
+        <style>
+            #page-container {
+                position: relative;
+                min-height: 100vh;
+                padding-top: ;
+            }
 
-        <div class="content">
-            {{ content  | safe}}
+            #footer {
+                position: absolute;
+                bottom: 0;
+            }
+        </style>
+
+        <div id="page-container">
+
+            {%- include 'nav.njk' -%}
+            <div id="content-wrap content" style="padding-top:65px;">
+                {{ content  | safe}}
+            </div>
+
+            <div class="cont  pd-25" style="height: 164px;">
+            <footer id="footer" class=" pd-25">
+                <span class="_12 _600">Author</span>
+                <h3 class="mb-0 ">Ruben Gutierrez</h3>
+                <p class="_12 mb-0">Hello My name is Ruben Gutierrez</p>
+                <div class="link pd-10">
+                    <a class="_12" href="https://dribbble.com/ruben_gutierrez" target="_blank">Dribbble</a>
+                    <a class="_12" href="https://www.behance.net/ruben__gutierrez" target="_blank">Behance</a>
+                    <a class="_12" href="https://x.com/rubengutierre_z" target="_blank">Twitter</a>
+                </div>
+            </footer>
+            </div>
+
         </div>
 
     </body>

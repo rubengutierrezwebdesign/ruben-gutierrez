@@ -4,15 +4,15 @@
 <body>
 {%- include 'nav.njk' -%}
 
-<div class="main" style="padding-top:85px!important;;">
+<div class="main">
 
-    <div class="post pd-20">
-        <h1>{{title}}<h1>
+    <div class="cont pd-20" style="padding-top:65px;">
+        <h1 class="large-title">{{title}}<h1>
     </div>
 
-    {{ content  | safe}}
+        {{ content  | safe}}
 
-   	<div class="post prev-next paa-20 flex">
+   	<div class="cont prev-next flex">
         {% if nextPost.url %}
                 <p class="ctr mw-50 _14">
                     <strong>Next</strong>: <br>

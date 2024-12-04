@@ -29,7 +29,22 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-55F069ENCX"></script>
     <script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-55F069ENCX');</script>
 </head>
-<body><nav>
+<body>
+
+        <style>
+            #page-container {
+                position: relative;
+                min-height: 100vh;
+                padding-top: ;
+            }
+
+            #footer {
+                position: absolute;
+                bottom: 0;
+            }
+        </style>
+
+        <div id="page-container"><nav>
     <div class="cont nav flex pd-20">     
         <!-- Logo -->
         <a class="logo br" href="/" style="border-radius:2px;">
@@ -72,107 +87,154 @@
     hamMenu.classList.toggle("active");
     offScreenMenu.classList.toggle("active");
     }); 
-</script><div class="content">
-            <div class="cont mb-100 pd-50">
+</script><div id="content-wrap content" style="padding-top:65px;">
+                
+<style>
+#myForm label {
+  font-size: 12px;
+  width: 10px;
+  height: 10px;
+  margin: 0 auto;
+  border-radius: 50px;
+      text-align: center;
+}
+
+#myForm p {
+  margin-bottom: 0;
+}
+
+#myForm ul {
+  padding: 0;
+}
+
+#myForm ul li  {
+  display: flex;
+  width: 100px;
+  flex-direction: column;
+    border: 1px solid black;
+}
+
+#myForm ul li label  {
+    border: 1px solid black;
+}
+
+#myForm ul li span  {
+  text-align:center;
+  font-weight: 600;
+}
+</style>
+<div class="cont mb-100 pd-50">
     
     <div class=" pd-50">
         <h1>How much should a website cost?
         </h1>
-        <p class="_16 mb-25 mw-50">Have you ever asked yourself how much a website should cost? Well here I've compiled a few questions to help you guage how much a website should cost based on research.</p>
+        <p class="_16 mb-25 mw-75">Have you ever asked yourself how much a website should cost? Well here I've compiled a few questions to help you guage how much a website should cost based on research.</p>
     </div>
 
    
     <div class="">
-      <form class="flex flex-wrap" id="myForm" name="myForm">
+      <form class="j-flex flex-wrap" id="myForm" name="myForm">
           <!-- Amoutn of Page -->
-          <div class="paa-20 br pd-50 mw-50">
-            <label class="_20 _600">Number of Pages?</label>
-            <p class="_14">
+          <div class="paa-20 br pd-25 mw-25" style="max-width:300px;">
+            <label class="_18 _600">Number of Pages?</label>
+            <p class="_12">
               How many pages is your website going to need? If you don't just estimate.
+              Pages can range from the homepage all the way to custom landing pages.
             </p>
             <br>
-            <ul>
+            <ul class="flex flex-wrap">
               <li>
-                <input type='radio' value='300' name='radio' id='3-5'/>
-                <label for='3-5'>1 - 9</label>
+                <input type='radio' value='300' name='radio' id='3-5' placeholder="20"/>
+                <label placeholder="20"for='3-5'></label>
+                <span class="_10">1- 9</span>
               </li>
               <li>
                 <input type='radio' value='1000' name='radio' id='10-19'/>
-                <label for='10-19'>10 - 19</label>
+                <label for='10-19'></label>
+                <span class="_10">10 - 19</span>
               </li>
               <li>
                 <input type='radio' value='2000' name='radio' id='20+'/>
-                <label for='20+'>20+</label>
+                <label for='20+'></label>
+                <span class="_10">+20</span>
               </li>
             </ul>
           </div>
           <!-- CMS Platform -->
-          <div class="paa-10 br paa-20 pd-50 mw-50">
-            <label class="_20 _600">Content Management System?</label>
-            <p class="_14">
-              Will you be using a content managment system?
+          <div class="paa-10 br paa-20 pd-25 mw-25">
+            <label class="_18 _600">Content Management System?</label>
+            <p class="_12">
+              Will your website be requiring a content managment system like WordPress or Drupal?
             </p>
             <br>
-            <ul>
+            <ul class="flex">
               <li>
                 <input type='radio' value='200' name='cms' id='cms-yes'/>
-                <label for='cms-yes'>Yes</label>
+                <label for='cms-yes'></label>
+                 <span class="_12">Yes</span>
               </li>
               <li>
                 <input type='radio' value='0' name='cms' id='cms-no'/>
-                <label for='cms-no'>No</label>
+                <label for='cms-no'></label>
+                <span class="_12">Yes</span>
               </li>
             </ul>
           </div>
           <!-- Level of Design -->
-          <div class="paa-20 br pd-50 mw-50">
-            <label class="_20 _600">Level of Design?</label>
+          <div class="paa-20 br pd-25 mw-25">
+            <label class="_18 _600">Level of Design?</label>
             <p class="_14">
               How many pages is your website going to need? If you don't just estimate.
             </p>
             <br>
-            <ul>
+            <ul class="flex flex-wrap">
               <li>
                 <input type='radio' value='300' name='design' id='basic'/>
-                <label for='basic'>Baisc</label>
+                <label for='basic'></label>
+                <span class="_12">Basic</span>
               </li>
               <li>
                 <input type='radio' value='750' name='design' id='templates'/>
-                <label for='templates'>Templates</label>
+                <label for='templates'></label>
+                <span class="_12">Templates</span>
               </li>
               <li>
                 <input type='radio' value='1500' name='design' id='custom'/>
-                <label for='custom'>Custom</label>
+                <label for='custom'></label>
+                <span class="_12">Custom</span>
               </li>
             </ul>
           </div>
           <!-- Mobile Design -->
           <!-- Amoutn of Page -->
-          <div class="paa-10 br paa-20 pd-50 mw-50">
-            <label class="_20 _600">Responsive Design</label>
-            <p class="_14">
-              How many pages is your website going to need? If you don't just estimate.
+          <div class="paa-10 br paa-20 pd-25 mw-25">
+            <label class="_18 _600">Responsive Design</label>
+            <p class="_12">
+              Is your website going to need customized repsonsive design? Or are you just going to want minimal responsive features.
             </p>
             <br>
             <ul>
               <li>
                 <input type='radio' value='0'name='responsive' id='responsive-yes'/>
-                <label for='responsive-yes'>Minimal</label>
+                <label for='responsive-yes'></label>
+                <span class="_12">Minimal</span>
               </li>
               <li>
                 <input type='radio' value='500' name='responsive' id='responsive-no'/>
-                <label for='responsive-no'>Fully</label>
+                <label for='responsive-no'></label>
+                <span class="_12">Fully</span>
               </li>
             </ul>
           </div>
 
       </form>
         
-      <div class="cont br mt-100 mb-50 flex pd-100" style="justify-content: center;">
-        <button class="_24 _400"onclick="getValues()">Get Values</button>
-        
-        <p class="br">Total:<span id="total"></span></p>
+      <div class="br mt-100 mb-50  pd-50" style="justify-content: center;width:300px;">
+        <h4>Total:</h4>
+        <p class="br _20 paa-20 back-grey" style="width:300px;"><span id="total"></span></p>
+        <button class="_16 _400" onclick="getValues()" style="">Get Values</button>
       </div>
+
     </div>
 
     <div class="cont pd-50">
@@ -193,6 +255,21 @@
     </script>
 
 </div>
+            </div>
+
+            <div class="cont  pd-25" style="height: 164px;">
+            <footer id="footer" class=" pd-25">
+                <span class="_12 _600">Author</span>
+                <h3 class="mb-0 ">Ruben Gutierrez</h3>
+                <p class="_12 mb-0">Hello My name is Ruben Gutierrez</p>
+                <div class="link pd-10">
+                    <a class="_12" href="https://dribbble.com/ruben_gutierrez" target="_blank">Dribbble</a>
+                    <a class="_12" href="https://www.behance.net/ruben__gutierrez" target="_blank">Behance</a>
+                    <a class="_12" href="https://x.com/rubengutierre_z" target="_blank">Twitter</a>
+                </div>
+            </footer>
+            </div>
+
         </div>
 
     </body>

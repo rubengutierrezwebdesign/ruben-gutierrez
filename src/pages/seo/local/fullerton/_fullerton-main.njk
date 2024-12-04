@@ -18,7 +18,9 @@ tags:        local
     {% for post in collections.fullerton | reverse %}
         {% if loop.index0 < 6 %}
             <div>
-                <a href="{{post.url}}" style="text-decoraiton:none!important;"><h3>{{post.data.display}}</h3></a>
+                <a href="{{post.url}}" style="text-decoration:none!important;">
+                    <h3 class="_20">{{post.data.display}}</h3>
+                </a>
             </div>
         {% endif %}
     {% endfor %}
