@@ -22,8 +22,8 @@ h3 {
             <div class="mw-45 mb-20 main">   
                 <div class="">
                     <strong><p class="mb-0 _12">Most Recent Post</p></strong>
-                    <a href="{{post.url}}" style="text-decoration:none!important;"><h1 class="_24">{{post.data.title}}</h1></a>
-                    <p class="">{{post.data.description}}</p>   
+                    <a href="{{post.url}}" style="text-decoration:none!important;"><h1 class="_24 largest-title">{{post.data.title}}</h1></a>
+                    <p class="large-copy">{{post.data.description}}</p>   
                     <a href="{{post.url}}" class="btn">Read More ></a>
                 </div>
             </div>
@@ -37,14 +37,20 @@ h3 {
 
 <div class="cont">
 
-    <div class=" pd-50 j-flex flex-wrap">
+    <div class=" pd-50 flex flex-wrap">
     {% for post in collections.posts | reverse %}
         {% if loop.index0 < 4 %}
-            <li class="mw-25 mb-50">
-                <article class="tp-5">
-                    <img src="{{post.data.thumbnail}}" alt="">
-                    <a href="{{post.url}}" style="text-decoration:none;"><h3 class="_18">{{post.data.title}}</h3></a>
-                    <p class="_12">{{post.data.description}}</p>   
+            <li class="mw-50  paa-10" style="height:max-content;">
+                <article class="flex">
+                    <div class="" style="width: 200px">
+                        <img src="{{post.data.thumbnail}}" alt="" >
+
+                    </div>
+                    <div class="" style="width: 200px">
+                        <a href="{{post.url}}" style="text-decoration:none;"><h3 class="_18">{{post.data.title}}</h3></a>
+                        <p class="_12">{{post.data.description}}</p>   
+                    
+                    </div>
                 </article>
             </li>
         {% endif %}

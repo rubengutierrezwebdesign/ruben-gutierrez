@@ -152,24 +152,19 @@ description: A Website Calculator to help you estimate the price of a website.
         <p class="br _20 paa-20 back-grey" style="width:300px;"><span id="total"></span></p>
         <button class="_16 _400" onclick="getValues()" style="">Get Values</button>
       </div>
-
     </div>
-
-    <div class="cont pd-50">
-      <h3>The Amount of Pages?</h3>
-      <p>The amount of pages is somehting that you're going to have to consider when your going to invest in a website.</p>
-    </div>
-    
-    <script>
-        function getValues() {
-        let myForm = document.getElementById('myForm');
-        let formData = new FormData(myForm);
-        let total = 0;
-        for (var value of formData.values()) {
-            total += parseInt(value);
-        }
-        document.getElementById("total").innerHTML = total;
-        console.log(total);}
-    </script>
-
 </div>
+
+
+
+<script>
+    function getValues() {
+    let myForm = document.getElementById('myForm');
+    let formData = new FormData(myForm);
+    let total = 0;
+    for (var value of formData.values()) {
+        total += parseInt(value);
+    }
+    document.getElementById("total").innerHTML = total;
+    console.log(total);}
+</script>
