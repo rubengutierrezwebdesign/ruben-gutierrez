@@ -27,11 +27,6 @@
         </url>
     
         <url>
-            <loc>https://www.ruben-gutierrez.com/</loc>
-            <lastmod>2024-11-25T17:02:02.000Z</lastmod>
-        </url>
-    
-        <url>
             <loc>https://www.ruben-gutierrez.com/blog/</loc>
             <lastmod>2024-11-25T17:02:02.000Z</lastmod>
         </url>
@@ -157,6 +152,11 @@
         </url>
     
         <url>
+            <loc>https://www.ruben-gutierrez.com/figma-templates/</loc>
+            <lastmod>2024-12-01T00:00:00.000Z</lastmod>
+        </url>
+    
+        <url>
             <loc>https://www.ruben-gutierrez.com/figma-templates/web-agency-design/</loc>
             <lastmod>2024-12-01T00:00:00.000Z</lastmod>
         </url>
@@ -222,7 +222,7 @@
         </url>
     
         <url>
-            <loc>https://www.ruben-gutierrez.com/about/</loc>
+            <loc>https://www.ruben-gutierrez.com/</loc>
             <lastmod>2024-12-03T00:00:00.000Z</lastmod>
         </url>
     
@@ -337,13 +337,18 @@
         </url>
     
         <url>
-            <loc>https://www.ruben-gutierrez.com/figma-templates/</loc>
-            <lastmod>2024-12-04T05:27:43.829Z</lastmod>
+            <loc>https://www.ruben-gutierrez.com/what-is-landing-page/</loc>
+            <lastmod>2024-12-04T06:49:52.657Z</lastmod>
         </url>
     
         <url>
-            <loc>https://www.ruben-gutierrez.com/what-is-landing-page/</loc>
-            <lastmod>2024-12-04T06:49:52.657Z</lastmod>
+            <loc>https://www.ruben-gutierrez.com/2024-12-05/</loc>
+            <lastmod>2024-12-05T00:00:00.000Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>https://www.ruben-gutierrez.com/contact/</loc>
+            <lastmod>2024-12-05T17:10:58.490Z</lastmod>
         </url>
     
 </urlset>
