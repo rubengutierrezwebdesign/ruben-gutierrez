@@ -1,9 +1,7 @@
-h1 h2 h3 h4{font-weight: 500;}
 * {margin: 0;box-sizing: border-box;} 
 body {font-family: "SUSE", sans-serif;}
 li{ list-style-type: none !important;}
 a {color: #000;}
-
 /* Tools */
 .br {border: 1px solid #000 !important ;}
 .bw {border: 1px solid #fff !important;}
@@ -49,7 +47,7 @@ a {color: #000;}
 @media (min-width: 600px) {.mw-45 {max-width: 45%;}}
 @media (min-width: 600px) {.mw-55 {max-width: 55%;}}
 
-@media (min-width: 600px) {.mw-50 {max-width: 50%;}}
+@media (min-width: 600px) {.mw-50 {width: 50%;}}
 @media (min-width: 600px) {.mw-30 {max-width: 33.3%;}}
 @media (min-width: 600px) {.mw-25 {max-width: 25%;}}
 .align-items{align-items: center;}
@@ -60,9 +58,9 @@ a {color: #000;}
 
 
 /* Fonts */
-h1,.h1 {font-size:1.5em;}
-@media (min-width: 700px){h1 {font-size:1.75em;}}
-@media (min-width: 1000px){h1 {font-size:2.00em;}}
+h1,.h1 {font-size:1.75em;}
+@media (min-width: 700px){h1 {font-size:2.00em;}}
+@media (min-width: 1000px){h1 {font-size:2.25em;}}
 h2 {font-size:1.25em;}
 @media (min-width: 700px){h2 {font-size:1.5em;}}
 h3 {font-size:1em;}
@@ -72,8 +70,8 @@ h3 {font-size:1em;}
 p {font-size: 14px;line-height:160%;margin-bottom:15px;}
 @media (min-width: 700px){p {font-size: 14px;line-height:160%;margin-bottom:20px;}}
 
-.large-copy {font-size: 18px;line-height: 140%;}
-@media (min-width: 700px){.large-copy {font-size: 18px;line-height:140%;margin-bottom:25px;}}
+.large-copy {font-size: 16px;line-height: 140%;}
+@media (min-width: 700px){.large-copy {font-size: 20px;line-height:140%;margin-bottom:25px;}}
 
 .large-title {font-size: 24px !important;line-height: 140%;}
 @media (min-width: 700px){.large-title {font-size: 36px !important;line-height:140%;margin-bottom:25px;}}
@@ -86,10 +84,8 @@ p {font-size: 14px;line-height:160%;margin-bottom:15px;}
 
 .flex-wrap {flex-wrap: wrap;}
 
-h1,h2 {font-weight: 500;margin-bottom:15px;line-height: 130%;}
-
-
-h3,h4 {font-weight: 500;margin-bottom:20px;}
+h1,h2 {margin-bottom:15px;line-height: 130%;}
+h3,h4 {margin-bottom:20px;}
 
 img { max-width: 100%; width: auto;}
 
@@ -130,14 +126,15 @@ nav a {text-decoration: none;font-size:12px;font-weight:500;top:0;}
 ._24 {font-size: 24px !important;}
 
 ._600 {font-weight: 600;}
-
+._700 {font-weight: 600;}
+ul {padding:0;}
 .text-center {text-align:center}
 
-#myForm ul {border: 1px solid black;}
-#myForm ul li {display: inline-block;border: 1px solid black;justify-content: space-between;padding: 15px 0;}
-#myForm ul li label {cursor: pointer;padding: 20px;}
+#myForm ul li {display: inline-block;justify-content: space-between;padding: 0 0;}
+#myForm ul li label { border: 1px solid black;cursor: pointer;height:112px;width:100px;;display:flex;align-items: center;justify-content: center;}
+#myForm ul li label svg {stroke: red !important;}
 #myForm ul li input {display: none;}
-#myForm ul li input:checked + label {background: black;color: white;}
+#myForm ul li input:checked + label {background: rgb(56, 56, 56);color: white!important;stroke:red;fill:red;}
 
 .transition{transition: all .3s ease-out;}
 
@@ -214,3 +211,18 @@ nav .nav .logo {border: 1px solid #000 !important;padding: 2.5px 5px;}
 
 .pr-5 {padding-right: 5%;}
 
+@keyframes fade-up {
+    0% {
+        opacity: 0%;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px) ;
+    }
+}
+
+.home-intro {
+    animation: fade-up 2s;
+}
