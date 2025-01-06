@@ -1,0 +1,63 @@
+---
+title: Blog
+layout: 'default.njk'
+permalink: /blog/
+description: "Welcome to the blog of Ruben Gutierrez, Website Designer & Developer. Check out my current project, along with insights into my design and development processes"
+---
+
+<style>
+.main {
+  display:flex;
+  align-items: center;
+  padding-right: 50px;
+}
+</style>
+
+<div class="cont mtb-100 flex">
+    {% for post in collections.current_post | reverse %}
+        {% if loop.index0 < 1 %}
+            <div class="mw-45 mb-20 main">   
+                <div class="">
+                    <strong><p class="mb-0 _12">Most Recent Post</p></strong>
+                    <a href="{{post.url}}" style="text-decoration:none!important;"><h1 class=" large-title">{{post.data.title}}</h1></a>
+                    <p class="">{{post.data.description}}</p>   
+                    <a href="{{post.url}}" class="btn">Read More ></a>
+                </div>
+            </div>
+
+            <div class="mw-55" style="width:100%;">
+                <img src="{{post.data.thumbnail}}" alt="">
+            </div>
+        {% endif %}
+    {% endfor %}
+</div>
+
+<hr>
+
+<div class="cont mtb-50">
+
+    <div class=" flex flex-wrap back-grey">
+
+    {% for post in collections.posts | reverse %}
+        {% if loop.index0 < 4 %}
+
+            <li class="mw-50 br mtb-25">
+                <article class="flex br">
+
+                    <div class="br" style="width: 50%">
+                        <img src="{{post.data.thumbnail}}" alt="" >
+                    </div>
+
+                    <div class="br" style="width:50%">
+                        <a href="{{post.url}}" style="text-decoration:none;"><h3 class="_18">{{post.data.title}}</h3></a>
+                        <p class="_12">{{post.data.description}}</p>   
+                    </div>
+
+                </article>
+            </li>
+
+        {% endif %}
+    {% endfor %}
+</div>
+
+</div>

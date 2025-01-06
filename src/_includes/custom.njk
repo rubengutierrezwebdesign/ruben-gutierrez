@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    {%- include 'head.njk' -%}  
+
+    <body>
+
+        <style>
+            #page-container {
+                position: relative;
+                min-height: 100vh;
+                padding-top: ;
+            }
+
+            #footer {
+                position: absolute;
+                bottom: 0;
+            }
+        </style>
+
+        <div id="page-container">
+
+            <div id="content-wrap content" style="padding-top:65px;">
+                {{ content  | safe}}
+            </div>
+
+         
+
+        </div>
+
+    </body>
+
+</html>

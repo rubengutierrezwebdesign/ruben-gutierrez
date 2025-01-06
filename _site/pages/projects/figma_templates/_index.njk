@@ -1,0 +1,39 @@
+---
+title:       Figma Templates
+layout:      'default.njk'
+date:        2024-12-01
+permalink:   /figma-templates/
+display:     "Web Design Agency"
+description: "Free Figma Templates - Download Now - Car Importing Website, Pricing Table, IT Website Designs"
+---
+<div class="cont pd-50">
+    <h1>Figma Templates</h1>
+    <p class="large-copy">
+        These are designs that I've made in Figma. Feel Free to 
+        duplicate them.  Hopefully they help you in your 
+        website design journey!
+    </p>
+
+    <p>Figam is  cloud-based design tool that give you the abilitiy to create and mock up designs for websites, mobile apps, and other digital mediums.</p>
+</div>
+
+<div class="cont">
+    <ul class="flex flex-wrap" style="padding-left:0;">
+            
+        <div class="flex flex-wrap">
+        {%- for post in collections.figma -%}
+
+                <li class="" style='max-width: 330px;'>
+                    <article class="">
+                        <img src="{{post.data.thumbnail}}" alt="">
+                        <h3 class="_18">{{post.data.display}}</h3>
+                        <a class="btn" href="{{post.url}}">Read More</a>
+                    </article>
+                </li>
+
+        {%- endfor -%}
+        </div>
+
+    </ul>
+</div>
+

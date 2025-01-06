@@ -1,0 +1,15 @@
+# Navigation
+- page: Home
+  url: /
+
+- page: About
+  url: /about/
+
+- page: Blog
+  url: /blog/
+
+- page: Figma
+  url: /figma-templates/
+  
+- page: Websites
+  url: /websites/

@@ -1,0 +1,35 @@
+---
+title:     Blog
+layout:    'default.njk'
+date:      2024-12-05
+permalink: /web-dev/
+---
+
+
+    <div class="cont pd-50">
+        <h1>Website Development</h1>
+        <p>Are you intrested in learning about website development and design.Tutorials about Website Developments, Search Engine Optimization, Website Design and More.</p>
+    </div>
+
+    
+    <div class="cont flex">
+        <div class=" pd-50">
+            <h2>Websites</h2>
+            {% for post in collections.websites | reverse %}
+                {% if loop.index0 < 10 %}
+                    <a href="{{post.url}}"><h3 class="_18">{{post.data.title}}</h3></a>
+                {% endif %}
+            {% endfor %}
+        </div>
+
+        
+        <div class=" pd-50">
+            <h2>Search Engine Optimization</h2>
+            {% for post in collections.seodev | reverse %}
+                {% if loop.index0 < 10 %}
+                    <a href="{{post.url}}"><h3 class="_18">{{post.data.title}}</h3></a>
+                {% endif %}
+            {% endfor %}
+        </div>
+
+    </div>

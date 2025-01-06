@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    {%- include 'head.njk' -%}  
+
+    <body>
+
+        <style>
+            #page-container {
+                position: relative;
+                min-height: 100vh;
+                padding-top: ;
+            }
+
+            #footer {
+                position: absolute;
+                bottom: 0;
+            }
+        </style>
+
+        <div id="page-container">
+
+            {%- include 'nav.njk' -%}
+            <div id="content-wrap content" style="padding-top:60px;">
+                {{ content  | safe}}
+            </div>
+
+            <div class="cont  pd-25" style="height: 164px;">
+            <footer id="footer" class=" pd-25">
+                <h3 class="mb-0 _18">Ruben Gutierrez</h3>
+                <p class="_12 mb-0">Ruben Gutierrez is a website designer.</p>
+                <div class="link pd-10">
+                    <a class="_12" href="https://dribbble.com/ruben_gutierrez" target="_blank">Dribbble</a>
+                    <a class="_12" href="https://www.behance.net/ruben__gutierrez" target="_blank">Behance</a>
+                    <a class="_12" href="https://x.com/rubengutierre_z" target="_blank">Twitter</a>
+                    <a class="_12" href="/local/">SEO</a>
+                    <a class="_12" href="/web-dev/">Web</a>
+                </div>
+            </footer>
+            </div>
+
+        </div>
+
+        <script>
+            const hamMenu = document.querySelector(".ham-menu");
+            const offScreenMenu = document.querySelector(".off-screen-menu");
+
+            hamMenu.addEventListener("click", () => {
+            hamMenu.classList.toggle("active");
+            offScreenMenu.classList.toggle("active");
+            }); 
+        </script>
+        
+    </body>
+
+</html>

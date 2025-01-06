@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+{%- include 'head.njk' -%}
+<body>
+{%- include 'nav.njk' -%}
+
+<div class="main">
+
+    <div class="cont pd-20" style="padding-top:65px;">
+        <h1 class="large-title">{{title}}<h1>
+    </div>
+
+        {{ content  | safe}}
+
+   	<div class="cont prev-next flex">
+        {% if nextPost.url %}
+                <p class="ctr mw-50 _14">
+                    <strong>Next</strong>: <br>
+                    <a class="next" href="{{ nextPost.url }}">{{ nextPost.data.title }}</a>
+                </p>
+            {% endif %}
+            {% if prevPost.url %}
+                <p class="ctr mw-50 _14">
+                    <strong>Previous</strong>:
+                    <a class="previous" href="{{ prevPost.url }}">{{ prevPost.data.title }}</a>
+                </p>
+        {% endif %}
+    </div>
+
+    {%- include 'footer.njk' -%}
+
+</div>
+
+</body>
+</html>

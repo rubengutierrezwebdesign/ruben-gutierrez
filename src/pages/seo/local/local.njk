@@ -1,0 +1,23 @@
+---
+layout: 'default.njk'
+title:  "Local"
+date:        2024-12-03
+permalink: /local/
+---
+<div class="cont mb-100">
+
+    <div class="pd-50">
+        <h1>Local SEO Directory</h1>
+        <p>Directory for local pages in North Orange County.</p>
+    </div>
+
+    <div class="flex flex-wrap">
+        {% for post in collections.local | reverse %}
+            {% if loop.index0 < 10 %}
+                <div class="br paa-10 mb-20" style="width:200px;">
+                    <a href="{{post.url}}" style="text-decoration:none"><h3 class="_18 mb-0">{{post.data.title}}</h3></a>
+                </div>
+            {% endif %}
+        {% endfor %}
+    </div>
+</div>
