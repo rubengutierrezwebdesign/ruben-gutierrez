@@ -97,31 +97,27 @@
   display: flex;
 }
 
-#myForm p {
-  max-width: 400px;
-}
-
 #myForm ul li span  {
   text-align:center;
   font-weight: 600;
 }
 </style>
 
-<div class="cont mt-50">
+<div class="cont mt-50 br ">
     
-    <div class="back-grey pd-50 paa-30">
+    <div class="back-grey paa-30">
         <h1 class="largest-title">Website Pricing Calulator</h1>
         <p>Have you ever asked yourself how much a website should cost? Well here I've compiled a few questions to help you guage how much a website should cost based on research.</p>
     </div>
    
-    <div class="back-grey">
+    <div class="back-grey-light">
 
-      <form class="j-flex flex-wrap paa-20" id="myForm" name="myForm">
+      <form class="j-flex flex-wrap paa-25" id="myForm" name="myForm">
 
           <!-- Pages? -->
-          <div class="paa-20 br pd-25 mw-50">
+          <div class="paa-20 br mw-50 back-grey-light">
 
-            <label class=" h2">Number of Pages?</label>
+            <label class="h2">Number of Pages?</label>
             <p class="">
               How many pages is your website going to need? If you don't just estimate.
               Pages can range from the homepage all the way to custom landing pages.
@@ -155,15 +151,15 @@
           </div>
 
           <!-- CMS -->
-          <div class="paa-10 br paa-20 pd-25 mw-50">
+          <div class="paa-20 br mw-50">
 
-            <label class="h2">Content Management System?</label>
+            <label class="h2 back-grey">Content Management System?</label>
 
             <p>
               Will your website be requiring a content managment system like WordPress or Drupal?
             </p>
 
-            <ul class="flex">
+            <ul class="j-flex">
               <li>
                 <input type='radio' value='200' name='cms' id='cms-yes'/>
                 <label for='cms-yes'>
@@ -227,14 +223,14 @@
                 <label for='responsive-yes'>
                                     <img src="/assets/icons/simple-design.svg" alt="">
                 </label>
-                <span class="_14">Minimal</span>
+                <span class="_14">Simple</span>
               </li>
               <li>
                 <input type='radio' value='500' name='responsive' id='responsive-no'/>
                 <label for='responsive-no'>
                   <img src="/assets/icons/complex-design.svg" alt="">
                 </label>
-                <span class="_14">Fully</span>
+                <span class="_14">Comprehensive</span>
               </li>
             </ul>
           </div>
@@ -246,8 +242,8 @@
         <h4 class="h1">Total:</h4>
 
         <div>
-          <p class="br _20 paa-20 back-grey" style="width:300px;"><span id="total"></span></p>
-          <button class="_16 _400" onclick="getValues()" style="">Get Values</button>
+          <p class="br" style="width:200px;height:80px;"><span id="total" style="height:120px;font-size:40px;" class="paa-25"></span></p>
+          <button onclick="getValues()" style="height:50px;">Get Values</button>
         </div>
 
       </div>
