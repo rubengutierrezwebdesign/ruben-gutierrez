@@ -13,19 +13,19 @@ description: "Welcome to the blog of Ruben Gutierrez, Website Designer & Develop
 }
 </style>
 
-<div class="cont mtb-100 flex">
+<div class="cont mtb-100">
     {% for post in collections.current_post | reverse %}
         {% if loop.index0 < 1 %}
-            <div class="mw- mb-20 main">   
+            <div class="" style="width:100%;">
+                <img src="{{post.data.thumbnail}}" alt="">
+            </div>
+            
+            <div class=" mb-20 main" style="max-width:65%;">   
                 <div class="">
-                    <a href="{{post.url}}"><h1 class="mb-25">{{post.data.title}}</h1></a>
+                    <a href="{{post.url}}" style="text-decoration:none;"><h1 class="mb-25">{{post.data.title}}</h1></a>
                     <p class="">{{post.data.description}}</p>   
                     <a href="{{post.url}}" class="btn">Read More ></a>
                 </div>
-            </div>
-
-            <div class="" style="width:100%;">
-                <img src="{{post.data.thumbnail}}" alt="">
             </div>
         {% endif %}
     {% endfor %}
@@ -35,20 +35,20 @@ description: "Welcome to the blog of Ruben Gutierrez, Website Designer & Develop
 
 <div class="cont mtb-50">
 
-    <div class=" flex flex-wrap back-grey">
+    <div class=" flex flex-wrap">
 
     {% for post in collections.posts | reverse %}
         {% if loop.index0 < 4 %}
 
-            <li class="mw-50 mtb-25">
-                <article class="flex">
+            <li class="mw-30 mtb-25">
+                <article class="">
 
-                    <div class="br" style="width: 50%">
+                    <div class="br" style="">
                         <img src="{{post.data.thumbnail}}" alt="" >
                     </div>
 
-                    <div class="" style="width:50%">
-                        <a href="{{post.url}}" style="text-decoration:none;"><h3 class="">{{post.data.title}}</h3></a>
+                    <div class="" style="">
+                        <a href="{{post.url}}" style="text-decoration:none;"><h2 class="">{{post.data.title}}</h2></a>
                         <p class="_16">{{post.data.description}}</p>   
                     </div>
 

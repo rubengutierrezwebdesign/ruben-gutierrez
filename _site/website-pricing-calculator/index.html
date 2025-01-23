@@ -103,28 +103,26 @@
 }
 </style>
 
-<div class="cont mt-50 br ">
+<div class="cont mt-50">
     
-    <div class="back-grey paa-30">
-        <h1 class="largest-title">Website Pricing Calulator</h1>
+    <div class="paa-30 text-center mb-50">
+        <h1 class="largest-title">Website Pricing Calculator</h1>
         <p>Have you ever asked yourself how much a website should cost? Well here I've compiled a few questions to help you guage how much a website should cost based on research.</p>
     </div>
    
-    <div class="back-grey-light">
+    <div class="back-grey-light br" style="max-width:600px;">
 
-      <form class="j-flex flex-wrap paa-25" id="myForm" name="myForm">
+      <form class="j-flex flex-wrap" id="myForm" name="myForm">
 
           <!-- Pages? -->
-          <div class="paa-25 mw-50 back-grey">
+          <div class="mw-50 br" style="max-width:300px;">
 
-            <label class="h2">Number of Pages?</label>
-            <p class="">
-              How many pages is your website going to need? If you don't just estimate.
-              Pages can range from the homepage all the way to custom landing pages.
-            </p>
+              <div class="paa-10" style="background:#000;">
+                <label class="" style="color:#fff;">Number of Pages?</label>
+              </div>
 
-            <ul class="j-flex flex-wrap">
-                <li class="">
+              <ul class="j-flex flex-wrap paa-25">
+                <li>
                   <input type='radio' value='300' name='radio' id='3-5'/>
                   <label for='3-5'>                    
                     <img src="/assets/icons/one.svg" alt="">
@@ -141,25 +139,24 @@
                 </li>
                 
                 <li>
-                <input type='radio' value='2000' name='radio' id='20+'/>
+                  <input type='radio' value='2000' name='radio' id='20+'/>
                   <label for='20+'>                       
                     <img src="/assets/icons/three.svg" alt="">
                   </label>
                   <span class="_12">+20</span>
                 </li>
-            </ul>
+              </ul>
+
           </div>
 
           <!-- CMS -->
-          <div class="paa-25 br mw-50">
+          <div class="br mw-50" style="max-width:300px;">
 
-            <label class="h2 back-grey">Content Management System?</label>
+            <div class="paa-10" style="background:#000;">
+              <label class="" style="color:#fff;">Number of Pages?</label>
+            </div>
 
-            <p>
-              Will your website be requiring a content managment system like WordPress or Drupal?
-            </p>
-
-            <ul class="j-flex">
+            <ul class="j-flex paa-25">
               <li>
                 <input type='radio' value='200' name='cms' id='cms-yes'/>
                 <label for='cms-yes'>
@@ -185,13 +182,13 @@
           </div>
 
           <!-- Design-->
-          <div class="paa-25 br pd-25 mw-50">
-            <label class="h2">Level of Design?</label>
-            <p class="">
-              What level of design are you looking to achieve with your websites design. Basic, Template, Custom.
-            </p>
+          <div class="br mw-50" style="max-width:300px;">
+
+            <div class="paa-10" style="background:#000;">
+              <label class="" style="color:#fff;">Level of Design?</label>
+            </div>
             <br>
-            <ul class="j-flex flex-wrap">
+            <ul class="j-flex flex-wrap paa-25">
               <li>
                 <input type='radio' value='300' name='design' id='basic'/>
                 <label for='basic'>
@@ -211,11 +208,12 @@
           </div>
 
           <!-- Responsive -->
-          <div class="paa-10 br pd-25 mw-50">
-            <label class="h2">Responsive Design</label>
-            <p>
-              Is your website going to need customized repsonsive design? Or are you just going to want minimal responsive features.
-            </p>
+          <div class="br mw-50" style="max-width:300px;">
+
+            <div class="paa-10" style="background:#000;">
+              <label class="" style="color:#fff;">Responsive Design</label>
+            </div>
+
             <br>
             <ul>
               <li>
@@ -237,9 +235,10 @@
 
       </form>
         
-      <div class="br mtb-50 flex paa-20 mw-75">
-
-        <h4 class="h1">Total:</h4>
+      <div class="br mtb-50 mw-45">
+        <div class="paa-10" style="background:#000;">
+          <h4 class="" style="color:#fff;text-align:center;font-weight:600;">TOTAL</h4>
+        </div>
 
         <div>
           <p class="br" style="width:200px;height:80px;"><span id="total" style="height:120px;font-size:40px;" class="paa-25"></span></p>
