@@ -53,6 +53,7 @@ h2,h3 {
 /* Margin */
 .maa-10 {margin:10px;}
 .maa-25 {margin:25px;}
+.maa-50 {margin:50px;}
 
 .mw-100 {max-width: 150px !important;}
 .mw-500 {max-width: 500px !important;}
@@ -153,9 +154,9 @@ ul {padding:0;}
 .text-center {text-align:center}
 
 #myForm ul li {display: inline-block;justify-content: space-between;padding: 0 0;}
-#myForm ul li label { border: 1px solid black;cursor: pointer;height:112px;width:75px;;display:flex;}
+#myForm ul li label { outline: 1px solid black;cursor: pointer;height:112px;width:75px;;display:flex;}
 #myForm ul li input {display: none;}
-#myForm ul li input:checked + label {color: white!important; border: 5px solid #000;animation: transition 2s;}
+#myForm ul li input:checked + label {color: white!important; outline: 4px solid #000;animation: transition 2s;}
 
 .transition{transition: all .3s ease-out;}
 
