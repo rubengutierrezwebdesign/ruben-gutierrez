@@ -13,16 +13,18 @@ description: "Welcome to the blog of Ruben Gutierrez, Website Designer & Develop
 }
 </style>
 
-<div class="cont mtb-100">
+<div class="cont mtb-100" style="max-width:65%;">
     {% for post in collections.current_post | reverse %}
         {% if loop.index0 < 1 %}
-            <div class="" style="width:100%;">
+            <div class="mb-25" style="width:100%;">
                 <img src="{{post.data.thumbnail}}" alt="">
             </div>
             
             <div class=" mb-20 main" style="max-width:65%;">   
                 <div class="">
-                    <a href="{{post.url}}" style="text-decoration:none;"><h1 class="mb-25">{{post.data.title}}</h1></a>
+                    <a href="{{post.url}}" style="text-decoration:none;">
+                        <h1 class="mb-25">{{post.data.title}}</h1>
+                    </a>
                     <p class="">{{post.data.description}}</p>   
                     <a href="{{post.url}}" class="btn">Read More ></a>
                 </div>
@@ -43,7 +45,7 @@ description: "Welcome to the blog of Ruben Gutierrez, Website Designer & Develop
             <li class="mw-30 mtb-25">
                 <article class="">
 
-                    <div class="br" style="">
+                    <div class="" style="">
                         <img src="{{post.data.thumbnail}}" alt="" >
                     </div>
 

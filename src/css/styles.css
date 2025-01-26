@@ -50,6 +50,9 @@ h2,h3 {
 .pr-50 {padding-right: 50px;}
 .lr-30 {padding-left:30px;padding-right:30px;}
 
+/* Margin */
+.maa-10 {margin:10px;}
+.maa-25 {margin:25px;}
 
 .mw-100 {max-width: 150px !important;}
 .mw-500 {max-width: 500px !important;}
@@ -88,7 +91,7 @@ p {font-size: 16px;line-height:160%;margin-bottom:15px;}
 @media (min-width: 700px){.large-title {font-size: 36px !important;line-height:140%;margin-bottom:25px;}}
 
 .largest-title {font-size: 32px !important;line-height: 140%;}
-@media (min-width: 700px){.largest-title {font-size: 48px !important;line-height:140%;margin-bottom:25px;}}
+@media (min-width: 700px){.largest-title {font-size: 40px !important;line-height:140%;margin-bottom:25px;}}
 
 /* Spacing */
 .mtb-100 {margin-top: 100px;margin-bottom:100px;}
@@ -142,13 +145,15 @@ nav a {text-decoration: none;font-size:12px;font-weight:500;top:0;}
 ._20 {font-size: 20px !important;}
 ._24 {font-size: 24px !important;}
 
-._600 {font-weight: 600;}
-._700 {font-weight: 600;}
+._500 {font-weight:500}
+._600 {font-weight:600;}
+._700 {font-weight:700;}
+._800 {font-weight:800;}
 ul {padding:0;}
 .text-center {text-align:center}
 
 #myForm ul li {display: inline-block;justify-content: space-between;padding: 0 0;}
-#myForm ul li label { border: 1px solid black;cursor: pointer;height:112px;width:100px;;display:flex;align-items: center;justify-content: center;}
+#myForm ul li label { border: 1px solid black;cursor: pointer;height:112px;width:75px;;display:flex;}
 #myForm ul li input {display: none;}
 #myForm ul li input:checked + label {color: white!important; border: 5px solid #000;animation: transition 2s;}
 

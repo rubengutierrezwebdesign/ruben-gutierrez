@@ -85,169 +85,252 @@
 #myForm label {
   margin: 0 auto;
   text-align: center;
+  border-radius:5px;
 }
 
 #myForm ul li  {
   display: flex;
-  width: 100px;
+  width: 75px;
   height: 100px;
   flex-direction: column;
 }
+
+
 #myForm ul   {
   display: flex;
 }
 
-#myForm ul li span  {
+#myForm ul li p  {
   text-align:center;
   font-weight: 600;
 }
 </style>
 
-<div class="cont mt-50">
-    
-    <div class="paa-30 text-center mb-50">
+ <div class="cont mtb-50">
         <h1 class="largest-title">Website Pricing Calculator</h1>
         <p>Have you ever asked yourself how much a website should cost? Well here I've compiled a few questions to help you guage how much a website should cost based on research.</p>
-    </div>
+  </div>
    
-    <div class="back-grey-light br" style="max-width:600px;">
+
+<div class="cont mt-50 flex">
+
+    <div class="" style="max-width:410px;">
 
       <form class="j-flex flex-wrap" id="myForm" name="myForm">
 
           <!-- Pages? -->
-          <div class="mw-50 br" style="max-width:300px;">
+          <div class="" style="width:min-content;margin:0 5px 5px 0;">
 
-              <div class="paa-10" style="background:#000;">
-                <label class="" style="color:#fff;">Number of Pages?</label>
-              </div>
+            <div class="br" style="width:200px;">
 
-              <ul class="j-flex flex-wrap paa-25">
-                <li>
-                  <input type='radio' value='300' name='radio' id='3-5'/>
-                  <label for='3-5'>                    
-                    <img src="/assets/icons/one.svg" alt="">
-                  </label>
-                  <span class="_12">1 - 9</span>
-                </li>
+                <div class="paa-10" style="background:#000;">
+                  <label class="" style="color:#fff;">Number of Pages?</label>
+                </div>
 
-                <li>
-                  <input type='radio' value='1000' name='radio' id='10-19'/>
+                <ul class="flex flex-wrap paa-10">
+                  <li>
+                    <input type='radio' value='300' name='radio' id='3-5'/>
+                    <label for='3-5' style="border-radius:5px;">                    
+                      <img src="/assets/icons/one.svg" alt="">
+                    </label>
+                    <p class="_12">1 - 9</p>
+                  </li>
+
+                  <li>
+                    <input type='radio' value='1000' name='radio' id='10-19'/>
                     <label for='10-19'>
                       <img src="/assets/icons/two.svg" alt="">
                     </label>
-                    <span class="_12">10 - 19</span>
-                </li>
-                
-                <li>
-                  <input type='radio' value='2000' name='radio' id='20+'/>
-                  <label for='20+'>                       
-                    <img src="/assets/icons/three.svg" alt="">
-                  </label>
-                  <span class="_12">+20</span>
-                </li>
-              </ul>
+                    <p class="_12">10 - 19</span>
+                  </li>
+                  
+                  <li>
+                    <input type='radio' value='2000' name='radio' id='20+'/>
+                    <label for='20+'>                       
+                      <img src="/assets/icons/three.svg" alt="">
+                    </label>
+                    <p class="_12">+20</p>
+                  </li>
+                </ul>
+
+            </div>
+          
+            <div class="paa-10 br" style="width:200px;height:150px;">
+              <div class="j-flex">
+                <h4 class="_12 _800" style="width:45px;">1 - 9</h4>
+                <p class="_12 _600 mb-0">Small Website with home, contact, about us pages</p>
+              </div>
+              <div class="j-flex">
+                <h4 class="_12 _800" style="width:45px;">1 - 9</h4>
+                <p class="_12 _600 mb-0">Small Website with home, contact, about us pages</p>
+              </div>
+              <div class="j-flex">
+                <h4 class="_12 _800" style="width:45px;">1 - 9</h4>
+                <p class="_12 _600 mb-0">Small Website with home, contact, about us pages</p>
+              </div>
+            </div>
 
           </div>
 
           <!-- CMS -->
-          <div class="br mw-50" style="max-width:300px;">
+          <div class="" style="width:min-content;">
 
-            <div class="paa-10" style="background:#000;">
-              <label class="" style="color:#fff;">Number of Pages?</label>
+            <div class="br">
+
+                <div class="paa-10" style="background:#000;">
+                  <label class="" style="color:#fff;">CMS?</label>
+                </div> 
+
+                <ul class="flex paa-10">
+                  <li>
+                    <input type='radio' value='0' name='cms' id='cms-no'/>
+                    <label for='cms-no'>
+                      <img src="/assets/icons/cms.svg" alt="">
+                    </label>
+                    <p class="_12">Yes</p>
+                  </li>
+                  <li>
+                    <input type='radio' value='200' name='cms' id='cms-yes'/>
+                    <label for='cms-yes'>
+
+                                  
+                      <img src="/assets/icons/html-css-js.svg" alt="">
+
+                    </label>
+
+                    <p class="_12">No</p>
+                  </li>
+                </ul>
+
             </div>
-
-            <ul class="j-flex paa-25">
-              <li>
-                <input type='radio' value='200' name='cms' id='cms-yes'/>
-                <label for='cms-yes'>
-
-                              
-                  <img src="/assets/icons/html-css-js.svg" alt="">
-
-                </label>
-
-                 <span class="_14">No</span>
-              </li>
-
-              <li>
-                <input type='radio' value='0' name='cms' id='cms-no'/>
-                <label for='cms-no'>
-                  <img src="/assets/icons/cms.svg" alt="">
-                </label>
-                <span class="_14">Yes</span>
-              </li>
-
-            </ul>
+    
+            <hr>
+    
+           <div class="paa-10 br" style="width:200px;height:100px;">
+              <div class="j-flex">
+                <h4 class="_12 _800" style="width:45px;">Yes</h4>
+                <p class="_12 _600 mb-0">Content Management Systems: Drupal, WordPress, Wix, Etc.</p>
+              </div>
+              <div class="j-flex">
+                <h4 class="_12 _800" style="width:45px;">No</h4>
+                <p class="_12 _600 mb-0">Simple Website (HTML, CSS, & JavaScript)</p>
+              </div>
+            </div>
 
           </div>
 
           <!-- Design-->
-          <div class="br mw-50" style="max-width:300px;">
+          <div class="" style="width:min-content;">
 
-            <div class="paa-10" style="background:#000;">
-              <label class="" style="color:#fff;">Level of Design?</label>
+            <div class="br" style="margin-right:10px;">
+              <div class="paa-10" style="background:#000;">
+                  <label class="" style="color:#fff;">Responsiveness?</label>
+              </div>
+
+              <ul class="flex flex-wrap paa-10">
+                <li>
+                  <input type='radio' value='300' name='design' id='basic'/>
+                  <label for='basic'>
+                    <img src="/assets/icons/phone.svg" alt="">
+
+                  </label>
+                    <p class="_10">Basic</p>
+                </li>
+                <li>
+                  <input type='radio' value='750' name='design' id='templates'/>
+                  <label for='templates'>
+                    <img src="/assets/icons/responsive-design.svg" alt="">
+                  </label>
+                    <p class="_10">Full</p>
+                </li>
+              </ul>
+
+            </div> 
+
+            <div class=" br" style="width:200px;height:100px;">
+              <div class="j-flex">
+                <h4 class="_12 _800" style="width:45px;">Basic</h4>
+                <p class="_10 _600 mb-0">Basic Responsiveness</p>
+              </div>
+              <div class="j-flex">
+                <h4 class="_12 _800" style="width:45px;">Full</h4>
+                <p class="_10 _600 mb-0">Small Website with home, contact, about us pages</p>
+              </div>
             </div>
-            <br>
-            <ul class="j-flex flex-wrap paa-25">
-              <li>
-                <input type='radio' value='300' name='design' id='basic'/>
-                <label for='basic'>
-                  <img src="/assets/icons/phone.svg" alt="">
 
-                </label>
-                <span class="_12">Basic</span>
-              </li>
-              <li>
-                <input type='radio' value='750' name='design' id='templates'/>
-                <label for='templates'>
-                  <img src="/assets/icons/responsive-design.svg" alt="">
-                </label>
-                <span class="_12">Templates</span>
-              </li>
-            </ul>
           </div>
 
+          
           <!-- Responsive -->
-          <div class="br mw-50" style="max-width:300px;">
+          <div class="" style="width:min-content;">
 
-            <div class="paa-10" style="background:#000;">
-              <label class="" style="color:#fff;">Responsive Design</label>
+            <div class="br">
+              
+              <div class="paa-10" style="background:#000;">
+                <label class="" style="color:#fff;">Level of Design?</label>
+              </div>
+
+              <ul class="paa-10">
+                <li>
+                  <input type='radio' value='0'name='responsive' id='responsive-yes'/>
+                  <label for='responsive-yes'>
+                                      <img src="/assets/icons/simple-design.svg" alt="">
+                  </label>
+                    <p class="_10">Simple</p>
+                </li>
+                <li>
+                  <input type='radio' value='500' name='responsive' id='responsive-no'/>
+                  <label for='responsive-no'>
+                    <img src="/assets/icons/complex-design.svg" alt="">
+                  </label>
+                    <p class="_10">Comprehensive</p>
+                </li>
+              </ul>
+
+            </div>
+            
+            <div class="paa-10 br" style="width:200px;height:100px;">
+              <div class="j-flex">
+                <h4 class="_12 _800" style="width:45px;">Simple</h4>
+                <p class="_10 _600 mb-0">Small Website with home, contact, about us pages</p>
+              </div>
+              <div class="j-flex">
+                <h4 class="_12 _800" style="width:45px;">Complete</h4>
+                <p class="_10 _600 mb-0">Small Website with home, contact, about us pages</p>
+              </div>
             </div>
 
-            <br>
-            <ul>
-              <li>
-                <input type='radio' value='0'name='responsive' id='responsive-yes'/>
-                <label for='responsive-yes'>
-                                    <img src="/assets/icons/simple-design.svg" alt="">
-                </label>
-                <span class="_14">Simple</span>
-              </li>
-              <li>
-                <input type='radio' value='500' name='responsive' id='responsive-no'/>
-                <label for='responsive-no'>
-                  <img src="/assets/icons/complex-design.svg" alt="">
-                </label>
-                <span class="_14">Comprehensive</span>
-              </li>
-            </ul>
+           
           </div>
 
       </form>
-        
-      <div class="br mtb-50 mw-45">
+      
+      <!-- Total -->
+      <div class="br ">
+
         <div class="paa-10" style="background:#000;">
           <h4 class="" style="color:#fff;text-align:center;font-weight:600;">TOTAL</h4>
         </div>
 
-        <div>
-          <p class="br" style="width:200px;height:80px;"><span id="total" style="height:120px;font-size:40px;" class="paa-25"></span></p>
-          <button onclick="getValues()" style="height:50px;">Get Values</button>
+        <div class="paa-10">
+
+          <p class="br back-grey mb-0" style="width:200px;height:42px;">
+            <span id="total" style="height:120px;font-size:36px;font-weight:600;" class=""></span>
+          </p>
+
         </div>
 
       </div>
 
-  </div>
+      <button onclick="getValues()" style="height:50px;background:black;color:#fff;" class="paa-10">Get Estimate</button>
+
+    </div>
+
+    <div class="download paa-25 maa-25" style="height:300px;width:300px;border:2px solid #000;">
+      <h3 class="text-center">Download This Application</h3>
+      <a href=""></a>
+    </div>
+
 </div>
 
 
