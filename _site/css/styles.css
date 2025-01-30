@@ -70,6 +70,7 @@ h2,h3 {
 .flex-wrap {flex-wrap: wrap;}
 @media (min-width: 1000px) {.dt-flex {display:flex;}}
 @media (min-width: 600px) {.j-flex {display:flex;}}
+.flex {display:flex;justify-content: space-between;}
 
 /* Fonts */
 h1,.h1 {font-size: 1.25rem;font-weight:600;}
