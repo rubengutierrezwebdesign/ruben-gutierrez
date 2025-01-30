@@ -154,7 +154,7 @@ ul {padding:0;}
 .text-center {text-align:center}
 
 #myForm ul li {display: inline-block;justify-content: space-between;padding: 0 0;}
-#myForm ul li label { outline: 1px solid black;cursor: pointer;height:112px;width:75px;;display:flex;}
+#myForm ul li label { outline: 2px solid rgb(63, 63, 63);cursor: pointer;height:112px;width:75px;;display:flex;}
 #myForm ul li input {display: none;}
 #myForm ul li input:checked + label {color: white!important; outline: 4px solid #000;animation: transition 2s;}
 
@@ -248,3 +248,10 @@ nav .nav .logo {border: 1px solid #000 !important;padding: 2.5px 5px;}
 .home-intro {
     animation: fade-up 2s;
 }
+
+
+/* 
+Content Management Systems: Drupal, WordPress, Wix, Etc.
+
+No
+Simple Website (HTML, CSS, & JavaScript) */
