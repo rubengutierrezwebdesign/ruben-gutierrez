@@ -18,7 +18,7 @@ description: "Welcome to the blog of Ruben Gutierrez, Website Designer & Develop
     </div>
 
     
-    <form action="contact-form">
+    <form class="contact-form">
         <input type="search" class="full-name mb-20 paa-10" placeholder="Your Name">
         <br>
         <input type="search" class="email-address mb-20 paa-10" placeholder="Your Email" required>
@@ -28,21 +28,12 @@ description: "Welcome to the blog of Ruben Gutierrez, Website Designer & Develop
         <button class="submit-form" type="submit">Submit</button>
     </form>
     
-    <script>
+    <script src="/assets/js/firebase.js"></script>
 
-        const firebaseConfig = {
-            apiKey: "AIzaSyDCZCQ6uQSw1NYF1SeCe_cDqQSgjL3xkMU",
-            authDomain: "contact-form-c8fef.firebaseapp.com",
-            projectId: "contact-form-c8fef",
-            storageBucket: "contact-form-c8fef.firebasestorage.app",
-            messagingSenderId: "946172510136",
-            appId: "1:946172510136:web:f9f52263ad7546ff4a994d"
-        };
-        
+    <script>
         firebase.initializeApp(firebaseConfig);
 
         const db = firebase.firestore();
-    
     </script>
 
     <script >
