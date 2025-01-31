@@ -136,7 +136,7 @@ img { max-width: 100%; width: auto;}
 
 nav a {text-decoration: none;font-size:12px;font-weight:500;top:0;}
 
-.nav .logo {font-size:14px;padding:15px;color:#000; height: 40px;width: 40px;display: flex;align-items: center;justify-content: center;}
+.nav .logo {color:#000;display: flex;align-items: center;justify-content: center;}
 
 
 ._10 {font-size: 10px !important;}
@@ -176,7 +176,6 @@ display:inline-block}
 nav {position:fixed; background:white;width:100%;  box-shadow: 0 1.5px 4px 0 rgba(212, 212, 212, 0.2);
 }
 nav .nav {align-items: center;display: flex;justify-content: space-between;}
-nav .nav .logo {border: 1px solid #000 !important;padding: 2.5px 5px;}
 
 /* Hides Desktop Links */
 .links {display: none;}
