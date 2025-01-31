@@ -81,24 +81,69 @@
 </nav>
 
 <div id="content-wrap content" style="padding-top:60px;">
-                
+                <script src="https://www.gstatic.com/firebasejs/11.2.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/11.2.0/firebase-firestore-compat.js"></script>
+
 <div class="cont">
 
     <div class="pd-50">
-        <h1 class="">Let's Talk!</h1>
+        <h1 class="large-title">Let's Talk!</h1>
         <p>Are you thinkig of making a website for you or your business?</p>
-        <p>Let's talk!</p>
         <h2>Contact Information</h2>
         <p>Email: rubengutierrezwebdesign@gmail.com</p>
         <p>Phone: (562) 475 - 8959</p>
     </div>
 
-    <input type="text">
-        <input type="text">
-    <input type="text">
-    <br>
-    <br>
-    <a href="" class="btn">Submit</a>
+    
+    <form action="contact-form">
+        <input type="search" class="full-name mb-20 paa-10" placeholder="Your Name">
+        <br>
+        <input type="search" class="email-address mb-20 paa-10" placeholder="Your Email" required>
+        <br>
+        <textarea name="" class="message paa-10 mb-20" placeholder="Your Message"></textarea>
+        <br>
+        <button class="submit-form" type="submit">Submit</button>
+    </form>
+    
+    <script>
+
+        const firebaseConfig = {
+            apiKey: "AIzaSyDCZCQ6uQSw1NYF1SeCe_cDqQSgjL3xkMU",
+            authDomain: "contact-form-c8fef.firebaseapp.com",
+            projectId: "contact-form-c8fef",
+            storageBucket: "contact-form-c8fef.firebasestorage.app",
+            messagingSenderId: "946172510136",
+            appId: "1:946172510136:web:f9f52263ad7546ff4a994d"
+        };
+        
+        firebase.initializeApp(firebaseConfig);
+
+        const db = firebase.firestore();
+    
+    </script>
+
+    <script >
+        const contactForm = document.querySelector('.contact-form');
+        const name = document.querySelector('.full-name');
+        const email = document.querySelector('.email-address');
+        const submit = document.querySelector('.submit-form');
+        const message = document.querySelector('.message');
+
+        submit.addEventListener("click", (e) => {
+            e.preventDefault();
+            db.collection('contact-form')
+                .doc()
+                .set({
+                    name: name.value,
+                    email: email.value,
+                    message: message.value,
+                })
+                .then(() => {
+                    contactForm.reset();
+                });
+        });
+    </script>
+
 </div>
             </div>
 
