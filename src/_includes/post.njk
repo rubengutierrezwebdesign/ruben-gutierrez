@@ -1,35 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-{%- include 'head.njk' -%}
+    {%- include 'head.njk' -%}
 <body>
-{%- include 'nav.njk' -%}
 
-<div class="main">
+    {%- include 'nav.njk' -%}
 
-    <div class="cont pd-20" style="padding-top:65px;">
-        <h1 class="large-title">{{title}}<h1>
+    <div class="cont mtb-100 j-flex">
+        
+        {# Post Information #}
+        <div class="inner-cont post border-box" style="max-width:650px;">
+            <div class="inner-cont mb-50">
+                <p class="_10 _600">{{ page.date | postDate }}</p>
+                <h1 class="" style="font-size:36px;">{{title}}</h1>
+            </div>
+            
+            {{ content  | safe}}
+            
+        </div>
+            
+        {# Page Content #}
+        <div class="inner-cont mt-50" style="max-width:150px;">
+            
+            {# Recent Posts #}
+            <div class="recent ">
+                <h2 class="h3 _600">Recent Posts</h2>
+
+                {% for post in collections.posts | reverse %}
+                    {% if loop.index0 < 3 %}
+
+                        <li class=" mtb-25">
+                            <article class="">
+
+                                <div class="br" style="">
+                                    <img src="{{post.data.thumbnail}}" alt="" >
+                                </div>
+
+                                <div class="" style="">
+                                    <a href="{{post.url}}" style="text-decoration:none;"><h3 class="h4">{{post.data.title }}</h3></a>
+                                    <p class="_12">{{post.data.description | truncate(50)}}</p>   
+                                </div>
+
+                            </article>
+                        </li>
+
+                        {% endif %}
+                    {% endfor %}
+                </div>
+        </div>
     </div>
+            {%- include 'footer.njk' -%}
 
-        {{ content  | safe}}
-
-   	<div class="cont prev-next flex">
-        {% if nextPost.url %}
-                <p class="ctr mw-50 _14">
-                    <strong>Next</strong>: <br>
-                    <a class="next" href="{{ nextPost.url }}">{{ nextPost.data.title }}</a>
-                </p>
-            {% endif %}
-            {% if prevPost.url %}
-                <p class="ctr mw-50 _14">
-                    <strong>Previous</strong>:
-                    <a class="previous" href="{{ prevPost.url }}">{{ prevPost.data.title }}</a>
-                </p>
-        {% endif %}
-    </div>
-
-    {%- include 'footer.njk' -%}
-
-</div>
 
 </body>
 </html>
