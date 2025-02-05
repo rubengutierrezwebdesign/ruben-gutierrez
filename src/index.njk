@@ -6,20 +6,16 @@ description: "Hello, I'm Ruben Gutierrez A Website Designer in La Habra, Califor
 ---
 
 <!-- About Title -->
-<div class="cont flow mtb-50">
+<div class="container mtb-50">
 
     <div class="flow mtb-100">
-        <div>
-            <h1 class="mb-25">
-                Ruben Gutierrez: Professional Website Designer
-            </h1>
-            <hr>
-            <p>
-                Hello! My name is Ruben Gutierrez and I am a freelance website designer in the La Habra, California area. I've been making websites for a few years and I'd like to help you with your website.
-            </p>
-            <p>When I was around 10 I received my first computer for Christmas. When I wasn't taking it apart and putting it back together I was researching new way to try and make it work faster. Fast forward a couple years and I began to help my friends and family fix their computers. </p>
-
-        </div>
+        <h1 class="mb-25">
+            Ruben Gutierrez: Professional Website Designer
+        </h1>
+        <p>
+            Hello! My name is Ruben Gutierrez and I am a freelance website designer in La Habra, California. I've been working on computers since I was 10 and website for the past few years.
+        </p>
+        <p>My interest in technology started when I received my first computer for Christmas. When I wasn't taking it apart and putting it back together I was researching new ways to try and make it work faster. Fast forward a couple years and I began to help my friends and family fix their computers. </p>
     </div>
 
     <hr>
@@ -28,15 +24,34 @@ description: "Hello, I'm Ruben Gutierrez A Website Designer in La Habra, Califor
         
         <div class="flex border-box">
 
-            <div class="mw-45 back-grey paa-25 ">
-                <h2>Blog</h2>
-                <p>Here you can find information about me and what I'm up too.</p>
-                <a href="/blog">Blog</a>
+            <div class="mw-50 back-grey paa-25 ">
+                <h2>Blog</h2>   
+                <p class="mb-50">Here I post about what I'm currently working on and interesting information about the computers and technology.</p>
+
+                {% for post in collections.posts | reverse %}
+                    {% if loop.index %}
+
+                    <li class="mb-25">
+                        <article class="">
+
+                            <div class="" style="">
+                                <a href="{{post.url}}" style="text-decoration:none;">
+                                    <h3 class="h4">{{post.data.title}}</h3>
+                                </a>
+                                
+                                <p class="_12">{{post.data.description}}</p>   
+                            </div>
+
+                        </article>
+                    </li>
+
+                    {% endif %}
+                {% endfor %}
             </div>
 
-            <div class=" mw-45 back-grey paa-25 ">
+            <div class=" mw-50 back-grey paa-25">
                 <h2>Figma Templates</h2>
-                <p>Figma is a interface design tool that can help you create beatiful websites. When I'm not working on a project I make templates and release them for free.</p>
+                <p>Figma is an interface design tool that can help you create beautiful website designs. When I'm not working on a project I make templates and release them for free.</p>
                 <a href="/figma-templates/">Check out These Figma Templates</a>
             </div>
 

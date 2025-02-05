@@ -10,15 +10,21 @@
     <meta property="og:description" content="Learn what a website is and how it can help you." />
     <meta name="robots" content="index, follow" />
 
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="/css/calculator.css">
+    <link rel="stylesheet" href="/css/nav.css">
     <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/fonts.css">
+    <link rel="stylesheet" href="/css/post.css">
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap" rel="stylesheet">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
     <!-- Google Search Console Verification -->
     <meta name="google-site-verification" content="roJrnTfoY8SOAmERDhpcXA-uyfYj4wit8n4Gs5KH2zw" /> 
 
@@ -31,54 +37,40 @@
 </head>
 <body>
 
-        <style>
-            #page-container {
-                position: relative;
-                min-height: 100vh;
-                padding-top: ;
-            }
+        <div id="page-container"><nav class="container flex pd-25">     
 
-            #footer {
-                position: absolute;
-                bottom: 0;
-            }
-        </style>
+    <!-- Logo -->
+    <a class="logo " href="/">
+        <img src="/assets/icons/logo.svg" alt="">
+    </a>
+    
+    <!-- Desktop Navigation Links -->
+    <ul class="links" >
+        <a class="_600" style="text-decoration:none;" href="/">HOME</a>
+        <a class="_600" style="text-decoration:none;" href="/blog/">BLOG</a>
+        <div style="margin-top:-8px;">
+            <a class="btn" href="/contact/">LETS TALK</a>
+        </div>
+    </ul>
 
-        <div id="page-container"><nav class="cont flex pd-25">     
-
-        <!-- Logo -->
-        <a class="logo " href="/">
-            <img src="/assets/icons/logo.svg" alt="">
-        </a>
-        
-        <!-- Desktop Navigation Links -->
-        <ul class="links" >
-            <a class="_600" style="text-decoration:none;" href="/">HOME</a>
-            <a class="_600" style="text-decoration:none;" href="/blog/">BLOG</a>
+    <!-- Mobile/Off Screen Menu -->
+    <div class="off-screen-menu">
+        <ul>
+            <a href="/">Home</a>
+            <a class="_700" href="/blog/">Blog</a>
             <div style="margin-top:-8px;">
-                <a class="btn" href="/contact/">LETS TALK</a>
+                <a class="btn" href="/contact/">Let's Talk</a>
             </div>
         </ul>
-
-        <!-- Mobile/Off Screen Menu -->
-        <div class="off-screen-menu">
-            <ul>
-                <a href="/">Home</a>
-                <a class="_700" href="/blog/">Blog</a>
-                <div style="margin-top:-8px;">
-                    <a class="btn" href="/contact/">Let's Talk</a>
-                </div>
-            </ul>
-            <!-- Socials -->
+    </div>
+    <!-- Hamburger Icon -->
+    <div class="ham-menu-outter"> 
+        <div class="ham-menu">
+            <div></div>
+            <div></div>
+            <div></div>
         </div>
-        <!-- Hamburger Icon -->
-        <div class="ham-menu-outter"> 
-            <div class="ham-menu">
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-        </div>
+    </div>
 </nav>
 
 <div id="content-wrap content" style="padding-top:60px;">
@@ -117,23 +109,17 @@
 
 
 
-            </div>
-
-            <div class="cont  pd-25" style="height: 164px;">
-            <footer id="footer" class=" pd-25">
-                <h3 class="mb-0 _18">Ruben Gutierrez</h3>
-                <p class="_12 mb-0">Ruben Gutierrez is a website designer.</p>
-                <div class="link pd-10">
-                    <a class="_12" href="https://dribbble.com/ruben_gutierrez" target="_blank">Dribbble</a>
-                    <a class="_12" href="https://www.behance.net/ruben__gutierrez" target="_blank">Behance</a>
-                    <a class="_12" href="https://x.com/rubengutierre_z" target="_blank">Twitter</a>
-                    <a class="_12" href="/local/">SEO</a>
-                    <a class="_12" href="/web-dev/">Web</a>
-                </div>
-            </footer>
-            </div>
-
-        </div>
+            </div><footer class="container">
+    <span class="_12 _600">Author</span>
+    <h3>Ruben Gutierrez</h3>
+    <p class="_12">Hello My name is Ruben Gutierrez</p>
+    <div class="link pd-10">
+        <a class="_12" href="https://dribbble.com/ruben_gutierrez">Dribbble</a>
+        <a class="_12" href="https://www.behance.net/ruben__gutierrez">Behance</a>
+        <a class="_12" href="https://x.com/rubengutierre_z">Twitter</a>
+    </div>
+</footer>
+</div>
 
         <script>
             const hamMenu = document.querySelector(".ham-menu");

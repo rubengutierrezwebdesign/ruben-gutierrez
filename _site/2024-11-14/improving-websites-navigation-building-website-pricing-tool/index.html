@@ -10,15 +10,21 @@
     <meta property="og:description" content="Spent yesterday adding a side menu to my website and currently building out a pricing tool that can help you estimate how much a website is going to cost based on relative information." />
     <meta name="robots" content="index, follow" />
 
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="/css/calculator.css">
+    <link rel="stylesheet" href="/css/nav.css">
     <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/fonts.css">
+    <link rel="stylesheet" href="/css/post.css">
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap" rel="stylesheet">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
     <!-- Google Search Console Verification -->
     <meta name="google-site-verification" content="roJrnTfoY8SOAmERDhpcXA-uyfYj4wit8n4Gs5KH2zw" /> 
 
@@ -29,85 +35,84 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-55F069ENCX"></script>
     <script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-55F069ENCX');</script>
 </head>
-<body><nav class="cont flex pd-25">     
+<body><nav class="container flex pd-25">     
 
-        <!-- Logo -->
-        <a class="logo " href="/">
-            <img src="/assets/icons/logo.svg" alt="">
-        </a>
-        
-        <!-- Desktop Navigation Links -->
-        <ul class="links" >
-            <a class="_600" style="text-decoration:none;" href="/">HOME</a>
-            <a class="_600" style="text-decoration:none;" href="/blog/">BLOG</a>
+    <!-- Logo -->
+    <a class="logo " href="/">
+        <img src="/assets/icons/logo.svg" alt="">
+    </a>
+    
+    <!-- Desktop Navigation Links -->
+    <ul class="links" >
+        <a class="_600" style="text-decoration:none;" href="/">HOME</a>
+        <a class="_600" style="text-decoration:none;" href="/blog/">BLOG</a>
+        <div style="margin-top:-8px;">
+            <a class="btn" href="/contact/">LETS TALK</a>
+        </div>
+    </ul>
+
+    <!-- Mobile/Off Screen Menu -->
+    <div class="off-screen-menu">
+        <ul>
+            <a href="/">Home</a>
+            <a class="_700" href="/blog/">Blog</a>
             <div style="margin-top:-8px;">
-                <a class="btn" href="/contact/">LETS TALK</a>
+                <a class="btn" href="/contact/">Let's Talk</a>
             </div>
         </ul>
-
-        <!-- Mobile/Off Screen Menu -->
-        <div class="off-screen-menu">
-            <ul>
-                <a href="/">Home</a>
-                <a class="_700" href="/blog/">Blog</a>
-                <div style="margin-top:-8px;">
-                    <a class="btn" href="/contact/">Let's Talk</a>
-                </div>
-            </ul>
-            <!-- Socials -->
+    </div>
+    <!-- Hamburger Icon -->
+    <div class="ham-menu-outter"> 
+        <div class="ham-menu">
+            <div></div>
+            <div></div>
+            <div></div>
         </div>
-        <!-- Hamburger Icon -->
-        <div class="ham-menu-outter"> 
-            <div class="ham-menu">
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-        </div>
+    </div>
 </nav>
 
-<div class="cont mtb-100 j-flex">
+<!-- Container -->
+    <div class="container mtb-100 j-flex">
         
-        
-        <div class="inner-cont post border-box" style="max-width:650px;">
-            <div class="inner-cont mb-50">
-                <p class="_10 _600">November 13, 2024</p>
+        <!-- Post Container -->
+        <div class="inner-container post border-box" style="max-width:650px;">
+            
+            <!-- Post Information Container -->
+            <div class="inner-container mb-50">    
 
+                <!-- Date -->
+                <p class="_10 _600">November 13, 2024</p>
+                <!-- Title -->
                 <h1 class="" style="font-size:36px;">Adding A Side Menu To My Website &amp; Building A Pricing Tool</h1>
 
             </div>
-            
-            
-<div class="cont">
-    <div class="pd-50">
-            <h1>Adding A Side Menu To My Website & Building A Pricing Tool</h1>
 
-    </div>
-        <div class="mw-500">
+            <!-- Content Container -->
+            <div class="mtb-50"style="max-width: 500px;">
+                <!-- Content -->
+                <p>
+    Yesterday I finally got around to adding a side menu for mobile devices to my website. 
+</p>
+<p>
+    After testing it and working out the bugs, it's up and functional; how it looks is a work in progress.
+</p>
 
-        
-        <p>
-        Yesterday I finally got around to adding a side menu for mobile devices to my website. 
-        </p>
-        <p>
-            After testing it and working out the bugs, it's up and functional; how it looks is a work in progress.
-        </p>
+<h2>Building A Website Pricing Tool</h2>
+<p>
+    Another projects I managed to get started on earlier was putting some code together for a pricing tool I've had in mind for a while now. I'm going to be hosting this little application on my website for anyone to use,  especially for people interested in get an estimate on developing a website for their business/personal project.
+</p>
 
-        <h2>Building A Website Pricing Tool</h2>
-        <p>
-            Another projects I managed to get started on earlier was putting some code together for a pricing tool I've had in mind for a while now. I'm going to be hosting this little application on my website for anyone to use,  especially for people interested in get an estimate on developing a website for their business/personal project.
-        </p>
+<p>
+    After doing doing some research I was finally able to find the right combination of HTML and JavaScript that does exactly what I need. The code that I Frankensteined takes all the selected values from the inputs in an HTML form and with a little bit of JavaScript it surmises all the selected values and displays a total at the bottom at the click of a button <a href="/calculator">website pricing tool</a>.
+</p>
 
-        <p>
-            After doing doing some research I was finally able to find the right combination of HTML and JavaScript that does exactly what I need. The code that I Frankensteined takes all the selected values from the inputs in an HTML form and with a little bit of JavaScript it surmises all the selected values and displays a total at the bottom at the click of a button <a href="/calculator">website pricing tool</a>.
-        </p>
-        <h2>Future Plans For This Tool I'm Building</h2>
-        <p>
-            While it is just a skeleton right now, in the near future I will be adding things like icons and animations to make it as interactive and engaging as possible.
-        </p>
-    </div>
-</div>
-            
+<h2>Future Plans For This Tool I'm Building</h2>
+<p>
+    While it is just a skeleton right now, in the near future I will be adding things like icons and animations to make it as interactive and engaging as possible.
+</p>
+
+            </div>
+      
         </div>
             
         
@@ -118,44 +123,6 @@
                 <h2 class="h3 _600">Recent Posts</h2>
 
                 
-                    
-
-                        <li class=" mtb-25">
-                            <article class="">
-
-                                <div class="" style="">
-                                    <img src="/assets/images/current-figma-dentist-website-project-2024-12-05.pg" alt="" >
-                                </div>
-
-                                <div class="" style="">
-                                    <a href="/finshing-up-pricing-tool-local-seo-for-my-site-learning-foreground-tool-gimp/" style="text-decoration:none;"><h3 class="h4">Progress For First Week of December 2024</h3></a>
-                                    <p class="_12">Writing JavaScript for my Website Pricing Tool,...</p>   
-                                </div>
-
-                            </article>
-                        </li>
-
-                        
-                    
-                    
-
-                        <li class=" mtb-25">
-                            <article class="">
-
-                                <div class="" style="">
-                                    <img src="/assets/images/current-figma-dentist-website-project-2024-12-05.png" alt="" >
-                                </div>
-
-                                <div class="" style="">
-                                    <a href="/2024-12-05/" style="text-decoration:none;"><h3 class="h4">Almost Done Working On New Figma Template</h3></a>
-                                    <p class="_12">New Figma Template I&#39;m Working on. Deciding what...</p>   
-                                </div>
-
-                            </article>
-                        </li>
-
-                        
-                    
                     
 
                         <li class=" mtb-25">
@@ -176,8 +143,42 @@
                         
                     
                     
+
+                        <li class=" mtb-25">
+                            <article class="">
+
+                                <div class="" style="">
+                                    <img src="" alt="" >
+                                </div>
+
+                                <div class="" style="">
+                                    <a href="/avocados-oranges-richard-nixon-la-habra-california/" style="text-decoration:none;"><h3 class="h4">La Habra, California</h3></a>
+                                    <p class="_12">Learn a little bit about La Habra, California.</p>   
+                                </div>
+
+                            </article>
+                        </li>
+
+                        
                     
                     
+
+                        <li class=" mtb-25">
+                            <article class="">
+
+                                <div class="" style="">
+                                    <img src="/assets/images/jekyll-to-11ty.png" alt="" >
+                                </div>
+
+                                <div class="" style="">
+                                    <a href="/2024-11-24/" style="text-decoration:none;"><h3 class="h4">Moving Over to 11ty from Jekyll</h3></a>
+                                    <p class="_12">Part of the reason I moved over from Jekyll to...</p>   
+                                </div>
+
+                            </article>
+                        </li>
+
+                        
                     
                     
                     
@@ -187,7 +188,7 @@
                     
                 </div>
         </div>
-    </div><footer class="cont  text-center pd-50">
+    </div><footer class="container">
     <span class="_12 _600">Author</span>
     <h3>Ruben Gutierrez</h3>
     <p class="_12">Hello My name is Ruben Gutierrez</p>

@@ -10,15 +10,21 @@
     <meta property="og:description" content="Hello, I&#39;m Ruben Gutierrez A Website Designer in La Habra, California. Let&#39;s talk today! Email: rubengutierrezwebdesign@gmail.com phone: (562) 475-8959" />
     <meta name="robots" content="index, follow" />
 
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="/css/calculator.css">
+    <link rel="stylesheet" href="/css/nav.css">
     <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/fonts.css">
+    <link rel="stylesheet" href="/css/post.css">
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap" rel="stylesheet">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
     <!-- Google Search Console Verification -->
     <meta name="google-site-verification" content="roJrnTfoY8SOAmERDhpcXA-uyfYj4wit8n4Gs5KH2zw" /> 
 
@@ -31,73 +37,55 @@
 </head>
 <body>
 
-        <style>
-            #page-container {
-                position: relative;
-                min-height: 100vh;
-                padding-top: ;
-            }
+        <div id="page-container"><nav class="container flex pd-25">     
 
-            #footer {
-                position: absolute;
-                bottom: 0;
-            }
-        </style>
+    <!-- Logo -->
+    <a class="logo " href="/">
+        <img src="/assets/icons/logo.svg" alt="">
+    </a>
+    
+    <!-- Desktop Navigation Links -->
+    <ul class="links" >
+        <a class="_600" style="text-decoration:none;" href="/">HOME</a>
+        <a class="_600" style="text-decoration:none;" href="/blog/">BLOG</a>
+        <div style="margin-top:-8px;">
+            <a class="btn" href="/contact/">LETS TALK</a>
+        </div>
+    </ul>
 
-        <div id="page-container"><nav class="cont flex pd-25">     
-
-        <!-- Logo -->
-        <a class="logo " href="/">
-            <img src="/assets/icons/logo.svg" alt="">
-        </a>
-        
-        <!-- Desktop Navigation Links -->
-        <ul class="links" >
-            <a class="_600" style="text-decoration:none;" href="/">HOME</a>
-            <a class="_600" style="text-decoration:none;" href="/blog/">BLOG</a>
+    <!-- Mobile/Off Screen Menu -->
+    <div class="off-screen-menu">
+        <ul>
+            <a href="/">Home</a>
+            <a class="_700" href="/blog/">Blog</a>
             <div style="margin-top:-8px;">
-                <a class="btn" href="/contact/">LETS TALK</a>
+                <a class="btn" href="/contact/">Let's Talk</a>
             </div>
         </ul>
-
-        <!-- Mobile/Off Screen Menu -->
-        <div class="off-screen-menu">
-            <ul>
-                <a href="/">Home</a>
-                <a class="_700" href="/blog/">Blog</a>
-                <div style="margin-top:-8px;">
-                    <a class="btn" href="/contact/">Let's Talk</a>
-                </div>
-            </ul>
-            <!-- Socials -->
+    </div>
+    <!-- Hamburger Icon -->
+    <div class="ham-menu-outter"> 
+        <div class="ham-menu">
+            <div></div>
+            <div></div>
+            <div></div>
         </div>
-        <!-- Hamburger Icon -->
-        <div class="ham-menu-outter"> 
-            <div class="ham-menu">
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-        </div>
+    </div>
 </nav>
 
 <div id="content-wrap content" style="padding-top:60px;">
                 
 <!-- About Title -->
-<div class="cont flow mtb-50">
+<div class="container mtb-50">
 
     <div class="flow mtb-100">
-        <div>
-            <h1 class="mb-25">
-                Ruben Gutierrez: Professional Website Designer
-            </h1>
-            <hr>
-            <p>
-                Hello! My name is Ruben Gutierrez and I am a freelance website designer in the La Habra, California area. I've been making websites for a few years and I'd like to help you with your website.
-            </p>
-            <p>When I was around 10 I received my first computer for Christmas. When I wasn't taking it apart and putting it back together I was researching new way to try and make it work faster. Fast forward a couple years and I began to help my friends and family fix their computers. </p>
-
-        </div>
+        <h1 class="mb-25">
+            Ruben Gutierrez: Professional Website Designer
+        </h1>
+        <p>
+            Hello! My name is Ruben Gutierrez and I am a freelance website designer in La Habra, California. I've been working on computers since I was 10 and website for the past few years.
+        </p>
+        <p>My interest in technology started when I received my first computer for Christmas. When I wasn't taking it apart and putting it back together I was researching new ways to try and make it work faster. Fast forward a couple years and I began to help my friends and family fix their computers. </p>
     </div>
 
     <hr>
@@ -106,15 +94,124 @@
         
         <div class="flex border-box">
 
-            <div class="mw-45 back-grey paa-25 ">
-                <h2>Blog</h2>
-                <p>Here you can find information about me and what I'm up too.</p>
-                <a href="/blog">Blog</a>
+            <div class="mw-50 back-grey paa-25 ">
+                <h2>Blog</h2>   
+                <p class="mb-50">Here I post about what I'm currently working on and interesting information about the computers and technology.</p>
+
+                
+                    
+
+                    <li class="mb-25">
+                        <article class="">
+
+                            <div class="" style="">
+                                <a href="/29-11-2024/making-an-ad-for-my-web-services/" style="text-decoration:none;">
+                                    <h3 class="h4">Making An Ad For A $99 Website</h3>
+                                </a>
+                                
+                                <p class="_12">Today I made this advertisement for an offer of a business website for just $99.</p>   
+                            </div>
+
+                        </article>
+                    </li>
+
+                    
+                
+                    
+
+                    <li class="mb-25">
+                        <article class="">
+
+                            <div class="" style="">
+                                <a href="/avocados-oranges-richard-nixon-la-habra-california/" style="text-decoration:none;">
+                                    <h3 class="h4">La Habra, California</h3>
+                                </a>
+                                
+                                <p class="_12">Learn a little bit about La Habra, California.</p>   
+                            </div>
+
+                        </article>
+                    </li>
+
+                    
+                
+                    
+
+                    <li class="mb-25">
+                        <article class="">
+
+                            <div class="" style="">
+                                <a href="/2024-11-24/" style="text-decoration:none;">
+                                    <h3 class="h4">Moving Over to 11ty from Jekyll</h3>
+                                </a>
+                                
+                                <p class="_12">Part of the reason I moved over from Jekyll to 11ty was the Build time. While Jekyll is really good for smaller websites it starts falling on it&#39;s face as the website gets bigger</p>   
+                            </div>
+
+                        </article>
+                    </li>
+
+                    
+                
+                    
+
+                    <li class="mb-25">
+                        <article class="">
+
+                            <div class="" style="">
+                                <a href="/2024-11-14/improving-websites-navigation-building-website-pricing-tool/" style="text-decoration:none;">
+                                    <h3 class="h4">Adding A Side Menu To My Website &amp; Building A Pricing Tool</h3>
+                                </a>
+                                
+                                <p class="_12">Spent yesterday adding a side menu to my website and currently building out a pricing tool that can help you estimate how much a website is going to cost based on relative information.</p>   
+                            </div>
+
+                        </article>
+                    </li>
+
+                    
+                
+                    
+
+                    <li class="mb-25">
+                        <article class="">
+
+                            <div class="" style="">
+                                <a href="/2024-11-12/why-reading-is-important/" style="text-decoration:none;">
+                                    <h3 class="h4">Reading Can Help Improve Your Life &amp; Your Mental Health</h3>
+                                </a>
+                                
+                                <p class="_12">Reading has helped me learn so many skills I would have not otherwise had. It&#39;s helped me gain new perspectives and allowed me to empathies with people who&#39;m I might have just walked by.</p>   
+                            </div>
+
+                        </article>
+                    </li>
+
+                    
+                
+                    
+
+                    <li class="mb-25">
+                        <article class="">
+
+                            <div class="" style="">
+                                <a href="/2024-11-12/getting-over-the-fear-of-failing/" style="text-decoration:none;">
+                                    <h3 class="h4">Your Fear of Failing Is Keeping You From Making Money</h3>
+                                </a>
+                                
+                                <p class="_12">The fear of failing and messing things ups can keep you from doing what you want to do. Even worse if you let those thoughts linger for too long you&#39;ll become paralyzed and you can suddenly feel like your in the passenger seat of your own life.</p>   
+                            </div>
+
+                        </article>
+                    </li>
+
+                    
+                
             </div>
 
-            <div class=" mw-45 back-grey paa-25 ">
+            <div class=" mw-50 back-grey paa-25">
                 <h2>Figma Templates</h2>
-                <p>Figma is a interface design tool that can help you create beatiful websites. When I'm not working on a project I make templates and release them for free.</p>
+                <p>Figma is an interface design tool that can help you create beautiful website designs. When I'm not working on a project I make templates and release them for free.</p>
                 <a href="/figma-templates/">Check out These Figma Templates</a>
             </div>
 
@@ -124,23 +221,17 @@
 
 </div>
 
-            </div>
-
-            <div class="cont  pd-25" style="height: 164px;">
-            <footer id="footer" class=" pd-25">
-                <h3 class="mb-0 _18">Ruben Gutierrez</h3>
-                <p class="_12 mb-0">Ruben Gutierrez is a website designer.</p>
-                <div class="link pd-10">
-                    <a class="_12" href="https://dribbble.com/ruben_gutierrez" target="_blank">Dribbble</a>
-                    <a class="_12" href="https://www.behance.net/ruben__gutierrez" target="_blank">Behance</a>
-                    <a class="_12" href="https://x.com/rubengutierre_z" target="_blank">Twitter</a>
-                    <a class="_12" href="/local/">SEO</a>
-                    <a class="_12" href="/web-dev/">Web</a>
-                </div>
-            </footer>
-            </div>
-
-        </div>
+            </div><footer class="container">
+    <span class="_12 _600">Author</span>
+    <h3>Ruben Gutierrez</h3>
+    <p class="_12">Hello My name is Ruben Gutierrez</p>
+    <div class="link pd-10">
+        <a class="_12" href="https://dribbble.com/ruben_gutierrez">Dribbble</a>
+        <a class="_12" href="https://www.behance.net/ruben__gutierrez">Behance</a>
+        <a class="_12" href="https://x.com/rubengutierre_z">Twitter</a>
+    </div>
+</footer>
+</div>
 
         <script>
             const hamMenu = document.querySelector(".ham-menu");

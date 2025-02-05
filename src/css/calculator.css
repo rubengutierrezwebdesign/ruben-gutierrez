@@ -1,0 +1,4 @@
+#myForm ul li {display: inline-block;justify-content: space-between;padding: 0 0;}
+#myForm ul li label {cursor: pointer;}
+#myForm ul li input {display: none;}
+#myForm ul li input:checked + label img {outline: 4px solid #000;animation: transition 2s;}

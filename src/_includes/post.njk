@@ -5,22 +5,31 @@
 
     {%- include 'nav.njk' -%}
 
-    <div class="cont mtb-100 j-flex">
+    <!-- Container -->
+    <div class="container mtb-100 j-flex">
         
-        {# Post Information #}
-        <div class="inner-cont post border-box" style="max-width:650px;">
-            <div class="inner-cont mb-50">
-                <p class="_10 _600">{{ page.date | postDate }}</p>
+        <!-- Post Container -->
+        <div class="inner-container post border-box" style="max-width:650px;">
+            
+            <!-- Post Information Container -->
+            <div class="inner-container mb-50">    
 
+                <!-- Date -->
+                <p class="_10 _600">{{ page.date | postDate }}</p>
+                <!-- Title -->
                 <h1 class="" style="font-size:36px;">{{title}}</h1>
 
             </div>
-            
-            {{ content  | safe}}
-            
+
+            <!-- Content Container -->
+            <div class="mtb-50"style="max-width: 500px;">
+                <!-- Content -->
+                {{ content  | safe}}
+            </div>
+      
         </div>
             
-        {# Page Content #}
+        {# Related Posts #}
         <div class="inner-cont mt-50" style="max-width:150px;">
             
             {# Recent Posts #}

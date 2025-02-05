@@ -10,15 +10,21 @@
     <meta property="og:description" content="Welcome to the blog of Ruben Gutierrez, Website Designer &amp; Developer. Check out my current project, along with insights into my design and development processes" />
     <meta name="robots" content="index, follow" />
 
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="/css/calculator.css">
+    <link rel="stylesheet" href="/css/nav.css">
     <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/fonts.css">
+    <link rel="stylesheet" href="/css/post.css">
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap" rel="stylesheet">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
     <!-- Google Search Console Verification -->
     <meta name="google-site-verification" content="roJrnTfoY8SOAmERDhpcXA-uyfYj4wit8n4Gs5KH2zw" /> 
 
@@ -31,81 +37,75 @@
 </head>
 <body>
 
-        <style>
-            #page-container {
-                position: relative;
-                min-height: 100vh;
-                padding-top: ;
-            }
+        <div id="page-container"><nav class="container flex pd-25">     
 
-            #footer {
-                position: absolute;
-                bottom: 0;
-            }
-        </style>
+    <!-- Logo -->
+    <a class="logo " href="/">
+        <img src="/assets/icons/logo.svg" alt="">
+    </a>
+    
+    <!-- Desktop Navigation Links -->
+    <ul class="links" >
+        <a class="_600" style="text-decoration:none;" href="/">HOME</a>
+        <a class="_600" style="text-decoration:none;" href="/blog/">BLOG</a>
+        <div style="margin-top:-8px;">
+            <a class="btn" href="/contact/">LETS TALK</a>
+        </div>
+    </ul>
 
-        <div id="page-container"><nav class="cont flex pd-25">     
-
-        <!-- Logo -->
-        <a class="logo " href="/">
-            <img src="/assets/icons/logo.svg" alt="">
-        </a>
-        
-        <!-- Desktop Navigation Links -->
-        <ul class="links" >
-            <a class="_600" style="text-decoration:none;" href="/">HOME</a>
-            <a class="_600" style="text-decoration:none;" href="/blog/">BLOG</a>
+    <!-- Mobile/Off Screen Menu -->
+    <div class="off-screen-menu">
+        <ul>
+            <a href="/">Home</a>
+            <a class="_700" href="/blog/">Blog</a>
             <div style="margin-top:-8px;">
-                <a class="btn" href="/contact/">LETS TALK</a>
+                <a class="btn" href="/contact/">Let's Talk</a>
             </div>
         </ul>
-
-        <!-- Mobile/Off Screen Menu -->
-        <div class="off-screen-menu">
-            <ul>
-                <a href="/">Home</a>
-                <a class="_700" href="/blog/">Blog</a>
-                <div style="margin-top:-8px;">
-                    <a class="btn" href="/contact/">Let's Talk</a>
-                </div>
-            </ul>
-            <!-- Socials -->
+    </div>
+    <!-- Hamburger Icon -->
+    <div class="ham-menu-outter"> 
+        <div class="ham-menu">
+            <div></div>
+            <div></div>
+            <div></div>
         </div>
-        <!-- Hamburger Icon -->
-        <div class="ham-menu-outter"> 
-            <div class="ham-menu">
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-        </div>
+    </div>
 </nav>
 
 <div id="content-wrap content" style="padding-top:60px;">
                 
 
 
-<div class="cont">
+<div class="container">
 
     <div class="mtb-25" style="max-width:400px;">
 
+    <!-- Current Post Container -->
     <div class="todays-post">
         
             
-                <div class=" mb-10 post">   
+
+                <!-- Post Container -->
+                <div class=" mb-10 post"> 
+
                     <div class="">
-                            <!-- Total Container -->
-                            
+
+                        <!-- Current Post Title Link -->
                         <a href="/2025-02-01/" style="text-decoration:none;">
                             <h2 class="mb-25">Finished My Website Pricing Tool</h2>
                         </a>
-                        
+                        <!-- Current Post Image No Link -->
+
                         <div class="mb-25" style="width:100%;">
                             <img src="&#92;assets&#92;images&#92;pricing-tool-blog-post.png" alt="">
                         </div>
-                        <p class="_14">I made 10 Icons for the website pricing tool I&#39;m working on. I was also able to figure out some JavaScript to make it work exactly the way I need it too.</p>   
-                        <a href="/2025-02-01/" class="btn">Read More ></a>
+
+                        <p class="_16 _600">Check out these Icons for the website pricing tool I&#39;m working on. I was also able to figure out some JavaScript to make it work exactly the way I need it too.</p>   
+                        <a href="/2025-02-01/" class="btn">Read More</a>
+
                     </div>
+
                 </div>
             
         
@@ -113,107 +113,143 @@
 
     <div class="">
 
+        <!-- Blog Posts Container -->
         <div class="flex flex-wrap">
-
             
                 
+                    <!-- Blog Post -->
+                    <li class="mw-45">
 
-                    <li class="mw-45 maa-10">
-                        <article class="">
-
+                        <article>
+                            
+                            <!-- Image Container -->
                             <div class="" style="">
-                                <img src="/assets/images/current-figma-dentist-website-project-2024-12-05.pg" alt="" >
-                            </div>
 
-                            <div class="" style="">
-                                <a href="/finshing-up-pricing-tool-local-seo-for-my-site-learning-foreground-tool-gimp/" style="text-decoration:none;">
-                                    <h3>Progress For First Week of December 2024</h3>
-                                    January 6, 2025
-
-                                </a>
-                                
-                                <p class="_14">Writing JavaScript for my Website Pricing Tool, Trying to beat all my local google search competition, Learning How to cut out hair out in GIMP.</p>   
-                            </div>
-
-                        </article>
-                    </li>
-
-                
-            
-                
-
-                    <li class="mw-45 maa-10">
-                        <article class="">
-
-                            <div class="" style="">
-                                <img src="/assets/images/current-figma-dentist-website-project-2024-12-05.png" alt="" >
-                            </div>
-
-                            <div class="" style="">
-                                <a href="/2024-12-05/" style="text-decoration:none;">
-                                    <h3>Almost Done Working On New Figma Template</h3>
-                                    January 6, 2025
-
-                                </a>
-                                
-                                <p class="_14">New Figma Template I&#39;m Working on. Deciding what Icons I&#39;m going to be using.</p>   
-                            </div>
-
-                        </article>
-                    </li>
-
-                
-            
-                
-
-                    <li class="mw-45 maa-10">
-                        <article class="">
-
-                            <div class="" style="">
+                                <!-- Image -->
                                 <img src="&#92;assets&#92;images&#92;website-deal-$99.jpg" alt="" >
-                            </div>
 
+                            </div>
+                            
+                            <!-- Information Container -->
                             <div class="" style="">
+
+                                <!-- Title -->
                                 <a href="/29-11-2024/making-an-ad-for-my-web-services/" style="text-decoration:none;">
                                     <h3>Making An Ad For A $99 Website</h3>
                                     January 6, 2025
-
                                 </a>
                                 
-                                <p class="_14">Today I made this advertisement for an offer of a business website for just $99.</p>   
+                                <!-- Description -->
+                                <p class="_14">Today I made this advertisement for an offer of a business website for just $99.</p> 
+
                             </div>
 
                         </article>
+
                     </li>
 
                 
             
                 
+                    <!-- Blog Post -->
+                    <li class="mw-45">
 
-                    <li class="mw-45 maa-10">
-                        <article class="">
-
+                        <article>
+                            
+                            <!-- Image Container -->
                             <div class="" style="">
+
+                                <!-- Image -->
                                 <img src="" alt="" >
+
                             </div>
-
+                            
+                            <!-- Information Container -->
                             <div class="" style="">
-                                <a href="/avocados-oranges-richard-nixon-la-habra-califoria/" style="text-decoration:none;">
-                                    <h3>Avocados, Oranges, &amp; Richard Nixon La Habra, California</h3>
-                                    January 6, 2025
 
+                                <!-- Title -->
+                                <a href="/avocados-oranges-richard-nixon-la-habra-california/" style="text-decoration:none;">
+                                    <h3>La Habra, California</h3>
+                                    January 6, 2025
                                 </a>
                                 
-                                <p class="_14">Learn a little bit about La Habra, California.</p>   
+                                <!-- Description -->
+                                <p class="_14">Learn a little bit about La Habra, California.</p> 
+
                             </div>
 
                         </article>
+
                     </li>
 
                 
             
                 
+                    <!-- Blog Post -->
+                    <li class="mw-45">
+
+                        <article>
+                            
+                            <!-- Image Container -->
+                            <div class="" style="">
+
+                                <!-- Image -->
+                                <img src="/assets/images/jekyll-to-11ty.png" alt="" >
+
+                            </div>
+                            
+                            <!-- Information Container -->
+                            <div class="" style="">
+
+                                <!-- Title -->
+                                <a href="/2024-11-24/" style="text-decoration:none;">
+                                    <h3>Moving Over to 11ty from Jekyll</h3>
+                                    January 6, 2025
+                                </a>
+                                
+                                <!-- Description -->
+                                <p class="_14">Part of the reason I moved over from Jekyll to 11ty was the Build time. While Jekyll is really good for smaller websites it starts falling on it&#39;s face as the website gets bigger</p> 
+
+                            </div>
+
+                        </article>
+
+                    </li>
+
+                
             
+                
+                    <!-- Blog Post -->
+                    <li class="mw-45">
+
+                        <article>
+                            
+                            <!-- Image Container -->
+                            <div class="" style="">
+
+                                <!-- Image -->
+                                <img src="" alt="" >
+
+                            </div>
+                            
+                            <!-- Information Container -->
+                            <div class="" style="">
+
+                                <!-- Title -->
+                                <a href="/2024-11-14/improving-websites-navigation-building-website-pricing-tool/" style="text-decoration:none;">
+                                    <h3>Adding A Side Menu To My Website &amp; Building A Pricing Tool</h3>
+                                    January 6, 2025
+                                </a>
+                                
+                                <!-- Description -->
+                                <p class="_14">Spent yesterday adding a side menu to my website and currently building out a pricing tool that can help you estimate how much a website is going to cost based on relative information.</p> 
+
+                            </div>
+
+                        </article>
+
+                    </li>
+
                 
             
                 
@@ -228,23 +264,17 @@
 
 
 
-            </div>
-
-            <div class="cont  pd-25" style="height: 164px;">
-            <footer id="footer" class=" pd-25">
-                <h3 class="mb-0 _18">Ruben Gutierrez</h3>
-                <p class="_12 mb-0">Ruben Gutierrez is a website designer.</p>
-                <div class="link pd-10">
-                    <a class="_12" href="https://dribbble.com/ruben_gutierrez" target="_blank">Dribbble</a>
-                    <a class="_12" href="https://www.behance.net/ruben__gutierrez" target="_blank">Behance</a>
-                    <a class="_12" href="https://x.com/rubengutierre_z" target="_blank">Twitter</a>
-                    <a class="_12" href="/local/">SEO</a>
-                    <a class="_12" href="/web-dev/">Web</a>
-                </div>
-            </footer>
-            </div>
-
-        </div>
+            </div><footer class="container">
+    <span class="_12 _600">Author</span>
+    <h3>Ruben Gutierrez</h3>
+    <p class="_12">Hello My name is Ruben Gutierrez</p>
+    <div class="link pd-10">
+        <a class="_12" href="https://dribbble.com/ruben_gutierrez">Dribbble</a>
+        <a class="_12" href="https://www.behance.net/ruben__gutierrez">Behance</a>
+        <a class="_12" href="https://x.com/rubengutierre_z">Twitter</a>
+    </div>
+</footer>
+</div>
 
         <script>
             const hamMenu = document.querySelector(".ham-menu");
