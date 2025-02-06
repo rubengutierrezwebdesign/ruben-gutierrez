@@ -5,11 +5,13 @@ permalink: /blog/
 description: "Welcome to the blog of Ruben Gutierrez, Website Designer & Developer. Check out my current project, along with insights into my design and development processes"
 ---
 
-
-
+<div class="container paa-25 mtb-50" style="background:white;">
+    <h1>Ruben Gutierrez's Blog</h1>
+</div>
+<hr>    
 <div class="container">
 
-    <div class="mtb-25" style="max-width:400px;">
+    <div class="mtb-25">
 
     <!-- Current Post Container -->
     <div class="todays-post">
@@ -48,9 +50,8 @@ description: "Welcome to the blog of Ruben Gutierrez, Website Designer & Develop
             {% for post in collections.posts | reverse %}
                 {% if loop.index0 < 4 %}
                     <!-- Blog Post -->
-                    <li class="mw-45">
 
-                        <article>
+                        <article class="paa-25 maa-10" style="background:white;max-width:300px;">
                             
                             <!-- Image Container -->
                             <div class="" style="">
@@ -65,18 +66,16 @@ description: "Welcome to the blog of Ruben Gutierrez, Website Designer & Develop
 
                                 <!-- Title -->
                                 <a href="{{post.url}}" style="text-decoration:none;">
-                                    <h3>{{post.data.title}}</h3>
-                                    {{ page.date | postDate }}
+                                    <h3 class="h4">{{post.data.title}}</h3>
                                 </a>
                                 
                                 <!-- Description -->
                                 <p class="_14">{{post.data.description}}</p> 
-
+                                <a href="{{post.url}}" class="btn">Read More</a>
                             </div>
 
                         </article>
 
-                    </li>
 
                 {% endif %}
             {% endfor %}

@@ -36,14 +36,13 @@
             <div class="recent ">
                 <h2 class="h3 _600">Recent Posts</h2>
 
-                {% for post in collections.posts | reverse %}
-                    {% if loop.index0 < 3 %}
+                {% for post in collections.la_habra | reverse %}
+                    {% if loop.index0 < 6 %}
 
                             <article class="paa-25 mb-25" style="background:white;">
 
                                 <div class="" style="">
                                     <a href="{{post.url}}" style="text-decoration:none;"><h3 class="h4">{{post.data.title }}</h3></a>
-                                    <p class="_12">{{post.data.description | truncate(100)}}</p>   
                                 </div>
 
                             </article>
