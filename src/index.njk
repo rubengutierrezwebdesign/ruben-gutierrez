@@ -24,42 +24,47 @@ description: "Hello, I'm Ruben Gutierrez A Website Designer in La Habra, Califor
         
         <div class="flex border-box">
 
-            <div class="mw-50 back-grey paa-25 ">
+            <div class=" back-grey paa-25 ">
                 <h2>Blog</h2>   
-                <p class="mb-50">Here I post about what I'm currently working on and interesting information about the computers and technology.</p>
+                <p class="mb-50">
+                    Here I post about what I'm currently working on.    
+                </p>
+                <div class="flex flex-wrap">
+                    {% for post in collections.posts | reverse %}
+                        {% if loop.index %}
 
-                {% for post in collections.posts | reverse %}
-                    {% if loop.index %}
+                            <article class="mw-50 mb-25">
 
-                    <li class="mb-25">
-                        <article class="">
+                                <div class="" style="">
+                                    <a href="{{post.url}}" style="text-decoration:none;">
+                                        <h3 class="h3">{{post.data.title}}</h3>
+                                    </a>
+                                    
+                                    <p class="_14">{{post.data.description}}</p>   
+                                </div>
 
-                            <div class="" style="">
-                                <a href="{{post.url}}" style="text-decoration:none;">
-                                    <h3 class="h4">{{post.data.title}}</h3>
-                                </a>
-                                
-                                <p class="_12">{{post.data.description}}</p>   
-                            </div>
-
-                        </article>
-                    </li>
-
-                    {% endif %}
-                {% endfor %}
-            </div>
-
-            <div class=" mw-50 back-grey paa-25">
-                <h2>Figma Templates</h2>
-                <p>Figma is an interface design tool that can help you create beautiful website designs. When I'm not working on a project I make templates and release them for free.</p>
-                <a href="/figma-templates/">Check out These Figma Templates</a>
+                            </article>
+                        {% endif %}
+                    {% endfor %}
+                </div>
             </div>
 
         </div> 
 
-        <div class="service-cities">
-            <h4>Cities I Services</h4>
-            <a href="/la-habra-california/">La Habra</a>
+        <div class="projects paa-25 br mtb-100">
+            <h3>Projects</h3>
+            <p>Some of the things I've built</p>
+               <div class="inner-container service mtb-25 br">
+                <h4 class="h3">Figma Templates</h4>
+                <p>A pricing calculator</p>
+                <a href="/website-pricing-calculator/">Pricing Calculaotr</a>
+            </div>
+             <hr>
+            <div class="inner-container service mtb-25 br">
+                <h4 class="h3">Pricing Calculator</h4>
+                <p>A pricing calculator</p>
+                <a href="/website-pricing-calculator/">Pricing Calculaotr</a>
+            </div>
         </div>
     </div>
 
