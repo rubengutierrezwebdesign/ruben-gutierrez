@@ -5,11 +5,11 @@ date:        2024-12-05
 description: "Hello, I'm Ruben Gutierrez A Website Designer in La Habra, California. Let's talk today! Email: rubengutierrezwebdesign@gmail.com phone: (562) 475-8959"
 ---
 
-<!-- About Title -->
-<div class="container mtb-50">
+<div class="container mtb-50 ">
 
-    <div class="flow mtb-100">
-        <h1 class="mb-25">
+    <!-- About Title -->
+    <div class="flow mtb-100 back-grey paa-100">
+        <h1 class="mb-25 title">
             Ruben Gutierrez: Professional Website Designer
         </h1>
         <p>
@@ -20,29 +20,28 @@ description: "Hello, I'm Ruben Gutierrez A Website Designer in La Habra, Califor
 
     <hr>
     
-    <div class="mtb-50">
+    <!-- Blog Container -->
+    <div class="mtb-50 paa-100 back-grey">
         
         <div class="flex border-box">
 
-            <div class=" back-grey paa-25 ">
+            <div class="br paa-25 ">
+                
                 <h2>Blog</h2>   
                 <p class="mb-50">
                     Here I post about what I'm currently working on.    
                 </p>
+
+                <!-- Blog -->
                 <div class="flex flex-wrap">
                     {% for post in collections.posts | reverse %}
                         {% if loop.index %}
-
-                            <article class="mw-50 mb-25">
-
-                                <div class="" style="">
-                                    <a href="{{post.url}}" style="text-decoration:none;">
-                                        <h3 class="h3">{{post.data.title}}</h3>
-                                    </a>
-                                    
-                                    <p class="_14">{{post.data.description}}</p>   
-                                </div>
-
+                            <!-- Post -->
+                            <article class="mw-50 mb-25  paa-10" style=";height:310px;    ">
+                                <a href="{{post.url}}" style="text-decoration:none;">
+                                    <h3 class="h4">{{post.data.title}}</h3>
+                                </a>
+                                <p class=" mb-0">{{post.data.description}}</p>   
                             </article>
                         {% endif %}
                     {% endfor %}
@@ -51,20 +50,21 @@ description: "Hello, I'm Ruben Gutierrez A Website Designer in La Habra, Califor
 
         </div> 
 
-        <div class="projects paa-25 br mtb-100">
-            <h3>Projects</h3>
-            <p>Some of the things I've built</p>
-               <div class="inner-container service mtb-25 br">
-                <h4 class="h3">Figma Templates</h4>
-                <p>A pricing calculator</p>
-                <a href="/website-pricing-calculator/">Pricing Calculaotr</a>
-            </div>
-             <hr>
+    </div>
+
+    <div class="projects paa-25 br mtb-100 back-grey">
+        <h3>Projects</h3>
+        <p>Some of the things I've built</p>
             <div class="inner-container service mtb-25 br">
-                <h4 class="h3">Pricing Calculator</h4>
-                <p>A pricing calculator</p>
-                <a href="/website-pricing-calculator/">Pricing Calculaotr</a>
-            </div>
+            <h4 class="h3">Figma Templates</h4>
+            <p>A pricing calculator</p>
+            <a href="/website-pricing-calculator/">Pricing Calculaotr</a>
+        </div>
+            <hr>
+        <div class="inner-container service mtb-25 br">
+            <h4 class="h3">Pricing Calculator</h4>
+            <p>A pricing calculator</p>
+            <a href="/website-pricing-calculator/">Pricing Calculaotr</a>
         </div>
     </div>
 
