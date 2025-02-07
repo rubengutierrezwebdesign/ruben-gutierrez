@@ -43,7 +43,7 @@ nav a {font-size:12px;font-weight:500;top:0;}
     .links {
         display: flex;
         justify-content:space-between;
-        width:250px;
+        width:300px;
         color: #000;
     }
 }

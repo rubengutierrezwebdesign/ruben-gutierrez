@@ -28,7 +28,7 @@ h1,.h1 {font-size: 1.5rem;font-weight:600;}
 
 h2, .h2 {font-size:1.25rem;font-weight:600;}
 @media (min-width: 700px){h2, .h2 {font-size:1.50rem;}}
-@media (min-width: 100px){h2, .h2 {font-size:2.00rem;}}
+@media (min-width: 100px){h2, .h2 {font-size:1.75rem;}}
 
 h3, .h3 {font-size:1.0em;}
 @media (min-width: 700px){h3, .h3 {font-size:1.25rem;}}

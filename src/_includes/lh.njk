@@ -9,7 +9,7 @@
     <div class="container mtb-100 j-flex">
         
         <!-- Post Container -->
-        <div class="inner-container post border-box paa-25" style="max-width:800px;background:White;">
+        <div class="inner-container  border-box paa-25" style="width:100%;max-width:800px;background:White;">
             
             <!-- Post Information Container -->
             <div class="inner-container mb-50">    
@@ -22,7 +22,7 @@
             </div>
 
             <!-- Content Container -->
-            <div class="mtb-50"style="max-width: 600px;">
+            <div class="mtb-50"style="max-width: 700px;">
                 <!-- Content -->
                 {{ content  | safe}}
             </div>
@@ -34,7 +34,7 @@
             
             {# Recent Posts #}
             <div class="recent ">
-                <h2 class="h3 _600">Recent Posts</h2>
+                <h2 class="h3 _600">La Habra Website Services</h2>
 
                 {% for post in collections.la_habra | reverse %}
                     {% if loop.index0 < 6 %}
@@ -42,7 +42,7 @@
                             <article class="paa-25 mb-25" style="background:white;">
 
                                 <div class="" style="">
-                                    <a href="{{post.url}}" style="text-decoration:none;"><h3 class="h4">{{post.data.title }}</h3></a>
+                                    <a href="{{post.url}}" style="text-decoration:none;" class="_600">{{post.data.title }}</a>
                                 </div>
 
                             </article>
