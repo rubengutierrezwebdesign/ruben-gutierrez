@@ -1,0 +1,39 @@
+#myForm ul li {display: inline-block;justify-content: space-between;padding: 0 0;}
+#myForm ul li label {cursor: pointer;}
+#myForm ul li input {display: none;}
+#myForm ul li input:checked + label img {outline: 4px solid #000;animation: transition 2s;}
+#myForm label {
+    text-align: center;
+    border-radius:6px;
+    color:#fff;
+    font-weight:600;  
+  }
+  
+  #myForm ul li  {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    flex-direction: column;
+    margin-bottom:20px;
+  }
+  
+  #myForm ul li img {
+    width:50px;  
+    border-radius:5px;
+    outline:2px solid #000;
+  }
+  
+  #myForm ul   {
+    display: flex;
+  }
+  
+  #myForm ul li p  {
+    text-align:center;
+    font-weight: 600;
+    
+  }
+  
+  #myForm .option  {
+    border-radius:10px;
+    width:min-content;
+  }

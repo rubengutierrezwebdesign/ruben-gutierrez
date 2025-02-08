@@ -9,13 +9,11 @@
     <div class="container mtb-100 j-flex">
         
         <!-- Post Container -->
-        <div class="inner-container  border-box paa-25" style="width:100%;max-width:800px;background:White;">
+        <div class="border-box paa-25 back-white" style="width:100%;max-width:800px;">
             
             <!-- Post Information Container -->
             <div class="inner-container mb-50">    
 
-                <!-- Date -->
-                <p class="_10 _600">{{ page.date | postDate }}</p>
                 <!-- Title -->
                 <h1 class="" style="font-size:36px;">{{title}}</h1>
 
@@ -34,7 +32,7 @@
             
             {# Recent Posts #}
             <div class="recent ">
-                <h2 class="h3 _600">La Habra Website Services</h2>
+                <h2 class="h3 _600">Los Angeles Website Services</h2>
 
                 {% for post in collections.los_angeles | reverse %}
                     {% if loop.index0 < 6 %}
@@ -42,7 +40,7 @@
                             <article class="paa-25 mb-25" style="background:white;">
 
                                 <div class="" style="">
-                                    <a href="{{post.url}}" style="text-decoration:none;" class="_600">{{post.data.title }}</a>
+                                    <a href="{{post.url}}" style="text-decoration:none;" class="_600">{{post.data.display}}</a>
                                 </div>
 
                             </article>

@@ -9,7 +9,7 @@
     <div class="container mtb-100 j-flex">
         
         <!-- Post Container -->
-        <div class="inner-container  border-box paa-25" style="width:100%;max-width:800px;background:White;">
+         <div class="border-box paa-25 back-white" style="width:100%;max-width:800px;">
             
             <!-- Post Information Container -->
             <div class="inner-container mb-50">    
@@ -38,21 +38,20 @@
 
                 {% for post in collections.la_habra | reverse %}
                     {% if loop.index0 < 6 %}
+                        <article class="paa-25 mb-25" style="background:white;">
 
-                            <article class="paa-25 mb-25" style="background:white;">
+                            <div class="" style="">
+                                <a href="{{post.url}}" style="text-decoration:none;" class="_600">{{post.data.display }}</a>
+                            </div>
 
-                                <div class="" style="">
-                                    <a href="{{post.url}}" style="text-decoration:none;" class="_600">{{post.data.title }}</a>
-                                </div>
-
-                            </article>
-
-                        {% endif %}
-                    {% endfor %}
-                </div>
+                        </article>
+                    {% endif %}
+                {% endfor %}
+            </div>
         </div>
     </div>
-            {%- include 'footer.njk' -%}
+    
+    {%- include 'footer.njk' -%}
 
 
 </body>
