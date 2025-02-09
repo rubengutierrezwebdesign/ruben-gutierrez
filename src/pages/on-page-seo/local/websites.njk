@@ -1,0 +1,23 @@
+---
+layout: 'default.njk'
+title:  "websites"
+date:        2024-12-03
+permalink: /websites/
+---
+<div class="container mb-100">
+
+    <div class="mtb-50 back-white paa-50">
+        <h1>Websites</h1>
+        <p>Learn More About Websites</p>
+    </div>
+
+    <div class="mtb-50 flex-wrap mtb-50">
+        {% for post in collections.websites | reverse %}
+            {% if loop.index0 < 10 %}
+                <div class="back-white paa-50">
+                    <a href="{{post.url}}"><h3 class="">{{post.data.title}}</h3></a>
+                </div>
+            {% endif %}
+        {% endfor %}
+    </div>
+</div>

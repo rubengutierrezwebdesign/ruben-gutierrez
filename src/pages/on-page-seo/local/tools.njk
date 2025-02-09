@@ -1,0 +1,23 @@
+---
+layout: 'default.njk'
+title:  "Tools"
+date:        2024-12-03
+permalink: /tools/
+---
+<div class="container mb-100">
+
+    <div class="pd-50 back-white paa-50">
+        <h1>Tools</h1>
+        <p>Tools I've Made</p>
+    </div>
+
+    <div class="flex flex-wrap mtb-50">
+        {% for post in collections.tools | reverse %}
+            {% if loop.index0 < 10 %}
+                <div class=" mb-20 back-white paa-50">
+                    <a href="{{post.url}}"><h3 class="h4">{{post.data.title}}</h3></a>
+                </div>
+            {% endif %}
+        {% endfor %}
+    </div>
+</div>

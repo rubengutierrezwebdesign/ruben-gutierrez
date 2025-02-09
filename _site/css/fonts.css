@@ -35,11 +35,11 @@ h3, .h3 {font-size:1.0em;}
 @media (min-width: 1100px){h3, .h3 {font-size:1.50rem;}}
 
 h4, .h4 {font-size:.875rem}
-@media (min-width: 700px){h4,.h4 {font-size:1.25rem;}}
-@media (min-width: 1100px){h4, .h4 {font-size:1.50rem;}}
+@media (min-width: 700px){h4,.h4 {font-size:1.0rem;}}
+@media (min-width: 1100px){h4, .h4 {font-size:1.250rem;}}
 
 p {font-size: 14px;line-height:160%;margin-bottom:15px;font-weight:500;}
-@media (min-width: 700px){p {font-size:14px;line-height:160%;}}
+@media (min-width: 700px){p {font-size:16px;line-height:160%;}}
 
 .large-copy {font-size: 16px;line-height: 140%;}
 @media (min-width: 700px){.large-copy {font-size: 20px;line-height:140%;margin-bottom:25px;}}
