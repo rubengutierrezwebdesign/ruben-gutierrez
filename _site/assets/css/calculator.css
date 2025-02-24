@@ -1,7 +1,7 @@
 #myForm ul li {display: inline-block;justify-content: space-between;padding: 0 0;}
 #myForm ul li label {cursor: pointer;}
 #myForm ul li input {display: none;}
-#myForm ul li input:checked + label img {outline: 4px solid #000;animation: transition 2s;}
+#myForm ul li input:checked + label img {outline: 5px solid #000;animation: transition 2s;}
 #myForm label {
     text-align: center;
     color:#fff;
@@ -9,8 +9,8 @@
   
   #myForm ul li  {
     display: flex;
-    width: 75px;
-    height: 70px;
+    width: 90px;
+    height: 90px;
     flex-direction: column;
     margin-bottom:20px;
   }
@@ -37,14 +37,15 @@
   #myForm .option  {
     border-radius:10px;
     width:min-content;
-    width: 190px;
+    width: 215px;
     margin-right:10px;
+  
   }
 
   #myForm .option h4  {
-    width:80px;
-    font-size: 14px;
-    font-weight:800;
+    width:17.5%;
+    font-size: 13px;
+    font-weight:900;
   }
 
   
@@ -52,6 +53,37 @@
     margin-bottom: 0;
     font-size: 12px;
     font-weight:600;
+    width:77.5%;
+    text-align: ;
   }
 
   
+
+  #myForm .option .description  {
+   display: flex;
+   justify-content: space-between;
+  }
+
+  
+  #myForm .option .input  {
+    border: 2px solid #000;
+   }
+
+   #myForm .option .input .input-title  {
+    border: 2px solid #000;
+    padding:10px;
+    background:#000;
+   }
+
+   #myForm .option .input .input-buttons  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding:10px;
+    text-align: center;
+   }
+
+   #myForm .option .input .input-buttons p  {
+    font-size:10px;
+    text-align: center;
+   }
