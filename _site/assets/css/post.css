@@ -1,2 +1,12 @@
-.post h1 {font-size:32px !important;}
-.post h2 {font-size:24px !important;}
+@keyframes smooth-appear {
+    to{
+      bottom: 20px;
+      opacity:1;
+    }
+  }
+  .animated {
+
+    opacity:0;
+   
+    animation: smooth-appear 2s ease forwards;
+  }

@@ -64,3 +64,13 @@ nav a {font-size:12px;font-weight:500;top:0;}
 
 #page-container {position: relative;min-height: 100vh;}
 #footer {position: absolute;bottom: 0;padding: 25px 0!important;}
+
+.hide {
+    display: none;
+    }
+
+.myDIV:hover + .hide {
+    display: block;
+    color: red;
+    position: absolute;
+    }
