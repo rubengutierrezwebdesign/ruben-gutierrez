@@ -12,7 +12,7 @@
     width: 80px;
     height: 75px;
     flex-direction: column;
-    margin-bottom:20px;
+    margin-bottom:15px;
   }
   
   #myForm ul li img {
@@ -38,7 +38,7 @@
   #myForm .option  {
     border-radius:10px;
     width:min-content;
-    width: 215px;
+    width: 200px;
     margin-right:10px;
   
   }
