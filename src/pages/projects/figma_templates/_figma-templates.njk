@@ -6,9 +6,9 @@ permalink:   /figma-templates/
 display:     "Web Design Agency"
 description: "Free Figma Templates - Download Now - Car Importing Website, Pricing Table, IT Website Designs"
 ---
-<div class="container mtb-50 paa-50 back-white">
+<div class="container mtb-50 paa-25 back-white">
     <h1>Figma Templates - A Collection of Free Website Designs</h1>
-    <p class="large-copy">
+    <p class="">
         These are designs that I've made in Figma. Feel Free to 
         duplicate them.  Hopefully they help you in your 
         website design journey!
@@ -17,8 +17,8 @@ description: "Free Figma Templates - Download Now - Car Importing Website, Prici
     <p>Figma is  cloud-based design tool that give you the ability to create and mock up designs for websites, mobile apps, and other digital mediums.</p>
 </div>
 
-<div class="container back-white paa-50">
-    <ul class="flex flex-wrap" style="padding-left:0;">
+<div class="container back-white paa-25">
+    <ul class="flex flex-wrap">
             
         <div class="flex flex-wrap">
         {%- for post in collections.figma -%}
@@ -26,7 +26,9 @@ description: "Free Figma Templates - Download Now - Car Importing Website, Prici
                 <li class="" style='max-width: 330px;'>
                     <article class="">
                         <img src="{{post.data.thumbnail}}" alt="" style="border-radius:5px;">
-                        <h3 class="_18">{{post.data.display}}</h3>
+                        <h3 class="h5">{{post.data.display}}</h3>
+                                                <p>{{post.data.description}}</p>
+
                         <a class="btn" href="{{post.url}}">Read More</a>
                     </article>
                 </li>
