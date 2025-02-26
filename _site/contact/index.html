@@ -93,7 +93,7 @@
     </div>
    
     
-    <form class="br contact-form back-white paa-25 animated mw-50" style="animation-delay:1s;">
+    <form class="br contact-form back-white paa-25 animated" style="animation-delay:1s;max-width:500px;width:100%;">
         <input type="search" class="full-name mb-20 paa-10" placeholder="Your Name"  style="width:100%;max-width:500px;">
         <br>
         <input type="search" class="email-address mb-20 paa-10" placeholder="Your Email" style="width:100%;max-width:500px;">
@@ -121,7 +121,7 @@
         submit.addEventListener("click", (e) => {
             e.preventDefault();
             db.collection('contact-form')
-                .doc()
+                .doc('Message')
                 .set({
                     name: name.value,
                     email: email.value,
@@ -134,7 +134,7 @@
     </script>
 
 </div>
-            </div><footer class="container mb-50 paa-50" style="background:white;">
+            </div><footer class="container mb-50 paa-25" style="background:white;">
     <span class="_12 _600">Author</span>
     <h3>Ruben Gutierrez</h3>
     <p class="_12">Hello My name is Ruben Gutierrez</p>

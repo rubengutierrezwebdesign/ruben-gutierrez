@@ -238,14 +238,6 @@
         </url>
     
         <url>
-            <loc>https://www.ruben-gutierrez.com/brea/</loc>
-        </url>
-    
-        <url>
-            <loc>https://www.ruben-gutierrez.com/la-habra-california/</loc>
-        </url>
-    
-        <url>
             <loc>https://www.ruben-gutierrez.com/pages/projects/figma_templates/importer/</loc>
         </url>
     
@@ -263,6 +255,14 @@
     
         <url>
             <loc>https://www.ruben-gutierrez.com/pages/projects/web-designer/styles/</loc>
+        </url>
+    
+        <url>
+            <loc>https://www.ruben-gutierrez.com/brea/</loc>
+        </url>
+    
+        <url>
+            <loc>https://www.ruben-gutierrez.com/la-habra-california/</loc>
         </url>
     
 </urlset>

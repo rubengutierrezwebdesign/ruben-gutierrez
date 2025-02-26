@@ -21,7 +21,7 @@ description: "Welcome to the blog of Ruben Gutierrez, Website Designer & Develop
     </div>
    
     
-    <form class="br contact-form back-white paa-25 animated mw-50" style="animation-delay:1s;">
+    <form class="br contact-form back-white paa-25 animated" style="animation-delay:1s;max-width:500px;width:100%;">
         <input type="search" class="full-name mb-20 paa-10" placeholder="Your Name"  style="width:100%;max-width:500px;">
         <br>
         <input type="search" class="email-address mb-20 paa-10" placeholder="Your Email" style="width:100%;max-width:500px;">
@@ -49,7 +49,7 @@ description: "Welcome to the blog of Ruben Gutierrez, Website Designer & Develop
         submit.addEventListener("click", (e) => {
             e.preventDefault();
             db.collection('contact-form')
-                .doc()
+                .doc('Message')
                 .set({
                     name: name.value,
                     email: email.value,
