@@ -1,7 +1,7 @@
 module.exports = function (eleventyConfig) {
 
     eleventyConfig.addPassthroughCopy('./src/assets');
-    eleventyConfig.addPassthroughCopy('./src/pages/projects/');
+    eleventyConfig.addPassthroughCopy('./src/pages/');
 
     
     eleventyConfig.addNunjucksFilter("postDate", function(value) {
