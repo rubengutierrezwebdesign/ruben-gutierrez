@@ -93,5 +93,6 @@
 
 .calc .section{
   width:100%;
-  max-width:50%;
 }
+
+@media (min-width: 670px) {.calc .section {max-width:50%;}}
