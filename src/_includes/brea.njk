@@ -6,15 +6,14 @@
     {%- include 'nav.njk' -%}
 
     <!-- Container -->
-    <div class="container mtb-100 j-flex">
+    <div class="container mtb-100 flex">
         
         <!-- Post Container -->
-     <div class="border-box paa-25 back-white" style="width:100%;max-width:800px;">
+        <div class="border-box paa-25 back-white" style="width:100%;max-width:800px;">
             
             <!-- Post Information Container -->
             <div class="inner-container mb-50">    
 
-                
                 <!-- Title -->
                 <h1 class="" style="font-size:36px;">{{title}}</h1>
 
@@ -33,15 +32,15 @@
             
             {# Recent Posts #}
             <div class="recent ">
-                <h2 class="h3 _600">La Habra Website Services</h2>
+                <h2 class="h3 _600">Brea Website Services</h2>
 
                 {% for post in collections.brea | reverse %}
                     {% if loop.index0 < 6 %}
 
-                            <article class="paa-25 mb-25" style="background:white;">
+                            <article class="paa-25 mb-10" style="background:white;">
 
                                 <div class="" style="">
-                                    <a href="{{post.url}}" style="text-decoration:none;" class="_600">{{post.data.title }}</a>
+                                    <a href="{{post.url}}" style="text-decoration:none;" class="_600">{{post.data.display }}</a>
                                 </div>
 
                             </article>
@@ -51,8 +50,8 @@
                 </div>
         </div>
     </div>
-            {%- include 'footer.njk' -%}
-
+    
+    {%- include 'footer.njk' -%}
 
 </body>
 </html>

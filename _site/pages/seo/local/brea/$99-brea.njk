@@ -1,13 +1,13 @@
 ---
 title:       "Get A Website in Brea, California for just $99"
 display:     "Get A Website for just $99"
-layout:      'brea.njk'
+layout:      'default.njk'
 date:        2024-12-03
 description: Get A Low Cost Website in The Brea, California Area For Just $199 by an Expert Website Designer - Free Domain - Free Server Space - (3 - 5) Premium Custom Pages
 permalink:   /get-$99-website-brea-california/
 tags:        brea
 ---
-<div class="paa-20">
+<div class="container paa-20">
     <div class="cont">
         <div class="mb-100">
             <span>Get A Website in Brea, California for just</span>
@@ -79,4 +79,13 @@ tags:        brea
 
 
     </div>
+</div>
+
+
+<div class="container mtb-150">
+    {% for post in collections.brea | reverse %}
+        {% if loop.index0 < 5 %}
+                <a href="{{post.url}}" style="text-decoration:none;"><h3 class="h4">{{post.data.display}}</h3></a>
+        {% endif %}
+    {% endfor %}
 </div>
