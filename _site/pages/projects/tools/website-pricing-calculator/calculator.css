@@ -198,3 +198,7 @@ display:inline-block}
 .home-intro {animation: fade-up 2s;} 
 
 
+
+.calc .section {
+  width: 50%;
+}
