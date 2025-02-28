@@ -9,10 +9,11 @@ permalink: /websites/
     <p>Learn More About How Website Work and How You Can Use Them To Improve Your Business</p>
 </div>
 
-<div class="container paa-25">
+<div class="container paa-25 flex flex-wrap">
     {% for post in collections.websites | reverse %}
         {% if loop.index0 < 10 %}
-            <div class="inner-container back-white mb-25">
+            <div class="inner-container back-white mb-25 br maa-10" style="width:200px">
+                <div style="background:black;height:150px;"></div>
                 <a href="{{post.url}}"><h3 class="h4">{{post.data.title}}</h3></a>
             </div>
         {% endif %}

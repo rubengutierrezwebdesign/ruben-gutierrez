@@ -41,7 +41,7 @@ description: "Hello, I'm Ruben Gutierrez A Website Designer in La Habra, Califor
     </div>
 
     <!-- Projects -->
-    <div class="animated mtb-50 paa-50" style="animation-delay:.225s;">
+    <div class="animated mtb-50 back-white paa-50" style="animation-delay:.225s;">
 
         <div class="">
             <h2 class="h2">Things I've Made</h3>
@@ -52,45 +52,65 @@ description: "Hello, I'm Ruben Gutierrez A Website Designer in La Habra, Califor
 
             <div class="inner-container mw-25 maa-10 back-white">
                 <img src="/assets/images/website-pricing-tool.png " alt="a javascript html website pricing calculator tool">
-                <h3 class="h4">Pricing Calculator</h3>
+                <h3 class="h4"><a href="/website-pricing-calculator/">Pricing Calculator</a></h3>
                 <p class="_12">A pricing calculator that estimates the price of a website projects based on few specifications.</p>
-                <a class="btn" href="/website-pricing-calculator/">Pricing Calculator</a>
             </div>
 
             <div class="inner-container maa-10 mw-25 back-white">
                 <img src="/assets/images/figma.png " alt="figma logo templates">
-                <h3 class="h4">Figma Templates</h3>
+                <h3 class="h4"><a href="/figma-templates/">Figma Templates</a></h3>
                 <p class="_12">A collection of Figma Templates I've Made over the last year.</p>
-                <a class="btn" href="/figma-templates/">Figma Templates </a>
             </div>
 
             <div class="inner-container maa-10 mw-25 back-white">
                 <img src="/assets/images/figma.png " alt="">
-                <h3 class="h4">Local SEO</h3>
-                <p class="_12">Directory for local pages in North Orange County.</p>
-                <a class="btn" href="/local/">Local SEO </a>
-            </div>
-
-            <div class="inner-container maa-10 mw-25 back-white">
-                <img src="/assets/images/figma.png " alt="">
-                <h3 class="h4">Websites Information</h3>
+                <h3 class="h4"><a href="/websites/">Websites</a></h3>
                 <p class="_12">Learn More About Websites</p>
-                <a class="btn" href="/websites/">Guides</a>
             </div>
 
              <div class="inner-container maa-10 mw-25 back-white">
                 <img src="\assets\images\landing-page.png " alt="">
-                <h3 class="h4">HTML Template</h3>
+                <h3 class="h4"><a href="/html-landing-page-template/">HTML Template</a></h3>
                 <p class="_12">A Free HTML/CSS/JS Landing Page Template</p>
-                <a class="btn" href="/html-landing-page-template/"> Landing Page</a>
             </div>
 
              <div class="inner-container maa-10 mw-25 back-white">
                 <img src="\assets\images\landing-page.png " alt="">
-                <h3 class="h4">Restaurant</h3>
+                <h3 class="h4"><a href="/restaurant-preview/">Restaurant</a></h3>
                 <p class="_12">A Free HTML/CSS/JS Restuarant Landing Page</p>
-                <a class="btn" href="/restaurant/">Restaurant</a>
             </div>
         </div>
     </div>
+
+    <!-- Blog -->
+    <div class=" mtb-150 hero back-white paa-50">
+
+        <h3 class="h2">Blog</h3>
+        <p>Check Out My Blog</p>
+
+        <div class="flex flex-wrap mtb-25">
+            {% for post in collections.posts | reverse %}
+                {% if loop.index0 < 4 %}
+                    <!-- Blog Post -->
+
+                        <article class="" style="background:white;max-width:340px;">
+
+                            <!-- Title -->
+                            <a href="{{post.url}}" style="text-decoration:none;">
+                                <h3 class="h4">{{post.data.title}}</h3>
+                            </a>
+                            
+                            <!-- Description -->
+                            <p class="_14">{{post.data.description}}</p> 
+
+                        </article>
+
+                {% endif %}
+            {% endfor %}
+        </div>
+
+    </div>
+
+
+
 </div>

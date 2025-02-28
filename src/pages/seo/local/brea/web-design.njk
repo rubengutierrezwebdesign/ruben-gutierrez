@@ -1,82 +1,13 @@
-
-<!DOCTYPE html>
-<html lang="en"><head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>Website Design Services in Brea, California</title>
-    <link rel="canonical" href="https://www.ruben-gutierrez.com/brea-california-website-design/" />
-    <meta property="og:url" content="https://www.ruben-gutierrez.com/brea-california-website-design/" />
-    <meta property="og:description" content="Are you looking for someone to help you with your Website in the Brea, California area? - Click Here To Get Helpful Expert Website Services" />
-    <meta name="robots" content="index, follow" />
-
-    <!-- Stylesheets -->
-    <link rel="stylesheet" href="/assets/css/nav.css">
-    <link rel="stylesheet" href="/assets/css/styles.css">
-    <link rel="stylesheet" href="/assets/css/fonts.css">
-    <link rel="stylesheet" href="/assets/css/post.css">
-    <link rel="stylesheet" href="/assets/css/contact.css">
-
-
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap" rel="stylesheet">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
-    <!-- Google Search Console Verification -->
-    <meta name="google-site-verification" content="roJrnTfoY8SOAmERDhpcXA-uyfYj4wit8n4Gs5KH2zw" /> 
-
-    <!-- Payhip -->
-    <script type="text/javascript" src="https://payhip.com/payhip.js"></script>
-
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-55F069ENCX"></script>
-    <script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-55F069ENCX');</script>
-</head>
-<body>
-
-        <div id="page-container"><nav class="container j-flex mtb-25 paa-25 ">     
-
-    <!-- Logo -->
-    <a class="logo " href="/" style="max-width:75%;">
-        <img src="/assets/icons/logo.svg" alt="" style="max-width:75%;">
-    </a>
-    
-    <!-- Desktop Navigation Links -->
-    <ul class="links" >
-        <a class="_600" style="text-decoration:none;" href="/">HOME</a>
-        <a class="_600 " style="text-decoration:none;" href="/blog/">BLOG</a>
-        <div style="margin-top:-8px;">
-            <a class="btn" href="/contact/">CONTACT</a>
-        </div>
-    </ul>
-
-    <!-- Mobile/Off Screen Menu -->
-    <div class="off-screen-menu">
-        <ul>
-            <a href="/">HOME</a>
-            <a href="/blog/">BLOG</a>
-            <div style="margin:-8px auto 0;">
-                <a class="btn" href="/contact/" style="color:#fff;">CONTACT</a>
-            </div>
-        </ul>
-    </div>
-    <!-- Hamburger Icon -->
-    <div class="ham-menu-outter"> 
-        <div class="ham-menu">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-    </div>
-</nav>
-
-<div id="content-wrap content">
-                <div class="container back-white mtb-150 paa-25">
+---
+title:       "Website Design Services in Brea, California"
+display:     "Website Design Services"
+layout:      'default.njk'
+date:        2024-12-03
+permalink:   /brea-california-website-design/
+description: Are you looking for someone to help you with your Website in the Brea, California area? - Click Here To Get Helpful Expert Website Services
+tags:        brea
+---
+<div class="container back-white mtb-150 paa-25">
     <div class="mw-50">
 
         <h1>Website Design Services in Brea, California</h1>
@@ -177,61 +108,9 @@
 
 
 <div class="container mtb-150">
-    
-        
-                <a href="/brea-california-wordpress-website-design/" style="text-decoration:none;"><h3 class="h4">WordPress Website Design Services</h3></a>
-        
-    
-        
-                <a href="/brea-california-website-design/" style="text-decoration:none;"><h3 class="h4">Website Design Services</h3></a>
-        
-    
-        
-                <a href="/brea-california-search-engine-optimization/" style="text-decoration:none;"><h3 class="h4">Search Engine Optimization Services</h3></a>
-        
-    
-        
-                <a href="/brea-california-affordable-website-design/" style="text-decoration:none;"><h3 class="h4">Affordable Expert Website Design Services</h3></a>
-        
-    
-        
-                <a href="/get-$99-website-brea-california/" style="text-decoration:none;"><h3 class="h4">Get A Website for just $99</h3></a>
-        
-    
+    {% for post in collections.brea | reverse %}
+        {% if loop.index0 < 5 %}
+                <a href="{{post.url}}" style="text-decoration:none;"><h3 class="h4">{{post.data.display}}</h3></a>
+        {% endif %}
+    {% endfor %}
 </div>
-            </div><footer class="container mb-50 paa-25 flex" style="background:white;height:250px;">
-    <div class="footer-social">
-        <span class="_12 _600">Author</span>
-    <h3>Ruben Gutierrez</h3>
-    <p class="_12">Hello My name is Ruben Gutierrez</p>
-    <div class="link pd-10">
-        <a class="_12" href="https://dribbble.com/ruben_gutierrez" target="_blank">Dribbble</a>
-        <a class="_12" href="https://www.behance.net/ruben__gutierrez" target="_blank">Behance</a>
-        <a class="_12" href="https://x.com/rubengutierre_z" target="_blank">Twitter</a>
-    </div>
-    </div>
-
-    <div class="footer-menu" style="width:200px;">
-        <h5 class="h4">Menu</h5>
-        <a href="/">Home</a> <br>
-        <a href="/blog/">Blog</a> <br>
-        <a href="/contact/">Contact</a> <br>
-        <a href="/local/">Local SEO</a>
-
-    </div>
-</footer>
-</div>
-
-        <script>
-            const hamMenu = document.querySelector(".ham-menu");
-            const offScreenMenu = document.querySelector(".off-screen-menu");
-
-            hamMenu.addEventListener("click", () => {
-            hamMenu.classList.toggle("active");
-            offScreenMenu.classList.toggle("active");
-            }); 
-        </script>
-        
-    </body>
-
-</html>

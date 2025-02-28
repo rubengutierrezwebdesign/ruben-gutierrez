@@ -6,16 +6,9 @@ description: Get Website Services in The La Habra, California Area. WordPress, W
 tags: local
 ---
 <div class="container paa-25" >
+
     <div>
-            <h1>Brea, California</h1>
-
+        <h1>Brea, California</h1>
     </div>
 
-    <div class="flex flex-wrap">
-        {% for post in collections.brea | reverse %}
-            {% if loop.index0 < 5 %}
-                    <a href="{{post.url}}" style="text-decoration:none;"><h3 class="h4">{{post.data.display}}</h3></a>
-            {% endif %}
-        {% endfor %}
-    </div>
 </div>
