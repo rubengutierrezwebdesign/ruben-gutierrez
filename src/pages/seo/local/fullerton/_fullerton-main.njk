@@ -7,7 +7,7 @@ description: Get Website Services in The La Habra, California Area. WordPress, W
 tags:        local
 ---
 
-<div class="container paa-25">
+<div class="container paa-25 mtb-50">
     <span class=" _600">Fullerton, California</span>
     <h1>Website Services</h1>
     <p class="mw-50">
@@ -15,11 +15,12 @@ tags:        local
     </p>
 </div>
 
-<div class="container paa-25">
+<div class="container paa-25 flex">
     {% for post in collections.fullerton | reverse %}
         {% if loop.index0 < 6 %}
             <div>
                 <a href="{{post.url}}" style="text-decoration:none!important;">
+                    <div style="background:black;height:300px;width:200px;margin-bottom:20px;"></div>
                     <h3 class="h4">{{post.data.display}}</h3>
                 </a>
             </div>

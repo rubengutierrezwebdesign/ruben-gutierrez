@@ -105,3 +105,11 @@ display:inline-block}
 
 .home-intro {animation: fade-up 2s; } 
 
+
+.home p {
+    line-height: 150%;;
+}
+
+.home .about div {
+    width: 50%;
+}

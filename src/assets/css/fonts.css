@@ -4,13 +4,10 @@
 ._40 {font-size: 40px !important;}
 ._60 {font-size: 60px !important;}
 
-
 .title {
     font-size:2rem;
 }
 @media (min-width: 700px){.title {font-size:2.75rem;}}
-
-
 
 ._600 {font-weight:600;}
 ._700 {font-weight:700;}
@@ -51,12 +48,3 @@ p {font-size: 16px;line-height:130%;margin-bottom:15px;font-weight:500;}
 
 .largest-title {font-size: 32px !important;line-height: 140%;}
 @media (min-width: 700px){.largest-title {font-size: 40px !important;line-height:140%;margin-bottom:25px;}}
-
-
-.home p {
-    line-height: 150%;;
-}
-
-.home .about div {
-    width: 50%;
-}
