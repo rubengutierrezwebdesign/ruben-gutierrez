@@ -1,0 +1,24 @@
+.home-intro {animation: fade-up 2s; } 
+
+.block {
+    background: #000;
+}
+
+.home .hero {
+    margin: 150px 0;
+    background: white;
+    max-width: 500px;
+    padding: 10px;
+}
+
+.home .about{
+    margin: 150px 0;
+    background-color: white;
+    padding: 10px;
+}
+
+
+.home .about .section {
+    width: 50% !important;
+    padding: 10px;
+}
