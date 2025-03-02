@@ -113,3 +113,8 @@ display:inline-block}
 .home .about div {
     width: 50%;
 }
+
+.block {
+    background: #000;
+    width: 100%;
+}
