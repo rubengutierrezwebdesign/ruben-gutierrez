@@ -4,7 +4,7 @@ title:  "Information About Websites"
 date:        2024-12-03
 permalink: /websites/
 ---
-<div class="container back-white paa-25 mb-25">
+<div class="container back-white paa-25 mb-25 mtb-100">
     <h1>Information About Websites</h1>
     <p>Learn More About How Website Work and How You Can Use Them To Improve Your Business</p>
 </div>
@@ -12,8 +12,8 @@ permalink: /websites/
 <div class="container paa-25 flex flex-wrap">
     {% for post in collections.websites | reverse %}
         {% if loop.index0 < 10 %}
-            <div class="inner-container back-white mb-25" style="width:190px">
-                <div style="background:black;height:150px;"></div>
+            <div class="inner-container back-white mb-25" style="width:200px">
+                <div style="background:black;height:175px;"></div>
                 <a href="{{post.url}}"><h3 class="h4">{{post.data.title}}</h3></a>
             </div>
         {% endif %}
