@@ -12,17 +12,3 @@
   }
 
 
-.home-section {
-  padding: 50px;
-  background-color: white;;
-}
-
-.home-section .projects .project {
-  background: white;
-  width: 350px;
-  margin: 10px;
-}
-
-.projects .project p {
-  font-size: 12px;  
-}

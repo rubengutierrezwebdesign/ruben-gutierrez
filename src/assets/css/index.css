@@ -11,6 +11,14 @@
     padding: 10px;
 }
 
+.home .hero h1 {
+    margin-bottom: 25px;;
+}
+
+ .hero h1 span {
+    font-size: 14px;
+}
+
 .home .about{
     margin: 150px 0;
     background-color: white;
@@ -19,6 +27,20 @@
 
 
 .home .about .section {
-    width: 50% !important;
     padding: 10px;
 }
+
+.home-section {
+    padding: 50px;
+    background-color: white;;
+  }
+  
+  .home-section .projects .project {
+    background: white;
+    width: 45%;
+    margin: 10px;
+  }
+  
+  .projects .project p {
+    font-size: 12px;  
+  }
