@@ -44,7 +44,7 @@ a {color: #000;text-decoration: underline !important;}
 /* Layouts - Container */
 .container {
     width:100%;
-    max-width: 1200px;
+    max-width: 1400px;
     margin-left: auto !important;
     margin-right: auto !important;
 }
