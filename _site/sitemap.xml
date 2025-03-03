@@ -130,14 +130,6 @@
         </url>
     
         <url>
-            <loc>https://www.ruben-gutierrez.com/2025-03-02/</loc>
-        </url>
-    
-        <url>
-            <loc>https://www.ruben-gutierrez.com/wordpress/</loc>
-        </url>
-    
-        <url>
             <loc>https://www.ruben-gutierrez.com/404.html</loc>
         </url>
     
@@ -171,6 +163,14 @@
     
         <url>
             <loc>https://www.ruben-gutierrez.com/restaurant-preview/</loc>
+        </url>
+    
+        <url>
+            <loc>https://www.ruben-gutierrez.com/2025-03-03/</loc>
+        </url>
+    
+        <url>
+            <loc>https://www.ruben-gutierrez.com/wordpress/</loc>
         </url>
     
 </urlset>
