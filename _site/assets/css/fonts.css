@@ -38,7 +38,7 @@ h5, .h5 {font-size:.75rem}
 @media (min-width: 700px){h5, .h5 {font-size:1.00rem;}}
 
 p {font-size: 16px;line-height:130%;margin-bottom:15px;font-weight:500;}
-@media (min-width: 700px){p {font-size:16px;line-height:145%;}}
+@media (min-width: 700px){p {font-size:18px;line-height:145%;}}
 
 .large-copy {font-size: 16px;line-height: 140%;}
 @media (min-width: 700px){.large-copy {font-size: 20px;line-height:140%;margin-bottom:25px;}}

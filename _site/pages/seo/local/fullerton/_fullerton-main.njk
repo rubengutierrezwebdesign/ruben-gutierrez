@@ -13,17 +13,6 @@ tags:        local
     <p class="mw-50">
         Are you looking for website design services in La Habra, California?
     </p>
+    <p></p>
 </div>
 
-<div class="container paa-25 flex">
-    {% for post in collections.fullerton | reverse %}
-        {% if loop.index0 < 6 %}
-            <div>
-                <a href="{{post.url}}" style="text-decoration:none!important;">
-                    <div style="background:black;height:300px;width:200px;margin-bottom:20px;"></div>
-                    <h3 class="h4">{{post.data.display}}</h3>
-                </a>
-            </div>
-        {% endif %}
-    {% endfor %}
-</div>
