@@ -2,7 +2,7 @@
 title:       Ruben Gutierrez - Professional Website Designer & Developer
 layout:      'default.njk'
 date:        2025-03-03
-description: "Hello, I'm Ruben Gutierrez A Website Designer in La Habra, California. Let's talk today! Email: rubengutierrezwebdesign@gmail.com phone: (562) 475-8959"
+description: "Ruben Gutierrez Is A Website Designer in La Habra, California that focuses on WordPress."
 ---
 
  <!-- Hero -->
@@ -76,16 +76,16 @@ description: "Hello, I'm Ruben Gutierrez A Website Designer in La Habra, Califor
         <h3 class="h2">Blog</h3>
         <p>Check Out My Blog</p>
 
-        <div class="flex flex-wrap mtb-25">
+        <div class="flex flex-wrap mtb-25" style="background:white;width:600px;">
             {% for post in collections.posts | reverse %}
                 {% if loop.index0 < 4 %}
                     <!-- Blog Post -->
 
-                        <article class="mb-50" style="background:white;max-width:340px;">
+                        <article class="mb-50">
 
                             <!-- Title -->
                             <a href="{{post.url}}" style="text-decoration:none;">
-                                <h3 class="h2">{{post.data.title}}</h3>
+                                <h3 class="">{{post.data.title}}</h3>
                             </a>
                             
                             <!-- Description -->
@@ -102,8 +102,19 @@ description: "Hello, I'm Ruben Gutierrez A Website Designer in La Habra, Califor
     <!-- About -->
     <div class="container mtb-150 about flex paa-25" >
 
-        <div class=" br mw-30">
-            
+        <div class="mw-50">
+            <h2>How I Got Started In Website Design</h2>
+            <p>
+                My interest with technology started when I received my first computer for Christmas at ten years old. When I wasn't taking it apart and putting it back together I was researching new ways to try and make it work faster and more efficiently. Fast forward a couple years and I started
+            </p>
+
+            <p>
+                Now that I'm 30 I've focused my attention to website development and design. While building websites these last few years I've developed a lot of technology related skills, theirs diffrent ways.
+            </p>
+
+            <p>
+                Below you'll find some of my projects including Website Templates, Website Designs and Tools I've been building over the past year.
+            </p>
         </div>
 
         <div class="" style="max-width:50%;">
