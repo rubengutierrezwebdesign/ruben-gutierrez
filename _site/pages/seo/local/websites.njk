@@ -3,6 +3,7 @@ layout: 'default.njk'
 title:  "Information About Websites"
 date:        2024-12-03
 permalink: /websites/
+description: Are you intrested in learning more about 
 ---
 <div class="container back-white paa-25 mb-25 mtb-100">
     <h1>Information About Websites</h1>
@@ -12,9 +13,9 @@ permalink: /websites/
 <div class="container paa-25 flex flex-wrap">
     {% for post in collections.websites | reverse %}
         {% if loop.index0 < 10 %}
-            <div class="inner-container back-white mb-25" style="width:200px">
-                <div style="background:black;height:175px;"></div>
-                <a href="{{post.url}}"><h3 class="h4">{{post.data.title}}</h3></a>
+            <div class="inner-container back-white mb-25" style="width:300px">
+                <a href="{{post.url}}"><h3 class="h3">{{post.data.title}}</h3></a>
+                <p>{{post.data.description}}</a>
             </div>
         {% endif %}
     {% endfor %}
