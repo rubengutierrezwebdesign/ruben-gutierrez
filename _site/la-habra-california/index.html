@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en"><head>
     <meta charset="utf-8">
@@ -39,7 +40,9 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-55F069ENCX"></script>
     <script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-55F069ENCX');</script>
 </head>
-<body><nav>     
+<body>
+
+        <div id="page-container"><nav>     
 
     <div class="container nav">
             <!-- Logo -->
@@ -77,38 +80,24 @@
     </div>
 </nav>
 
-<!-- Container -->
-    <div class="container mtb-100 flex">
-        
-        <!-- Post Container -->
-         <div class="border-box paa-25 back-white" style="width:100%;max-width:800px;">
-            
-            <!-- Post Information Container -->
-            <div class="inner-container mb-50">    
-
-                <!-- Date -->
-                <p class="_10 _600">March 5, 2025</p>
-                <!-- Title -->
-                <h1 class="" style="font-size:36px;">La Habra, California</h1>
-
-            </div>
-
-            <!-- Content Container -->
-            <div class="mtb-50"style="max-width: 700px;">
-                <!-- Content -->
+<div id="content-wrap content">
                 
-<div class="inner-container" style="max-width:760px;">
+<div class="container paa-25">
 
-    <h2>Where is La Habra, California</h2>
-    <p class="mw-500">
-        La Habra, California is a city in the United States of America. La Habra is located in the Orange County California region. It sits at the northern edge of the county bordering cities in the Los Angles County Area.
-    </p>
+    <div class="mw-50">
+        <h2>Where is La Habra, California</h2>
+        <p class="mw-500">
+            La Habra, California is a city in the United States of America. La Habra is located in the Orange County California region. It sits at the northern edge of the county bordering cities in the Los Angles County Area.
+        </p>
+    </div>
 
     
-    <h3>How Did La Habra Get it's Name?</h3>
-    <p>
-        La Habra officially got it's name from Mariano Reyes Roldan a farmer who was given a land grant by the Mexican Government in the early 1800's. The area was initially named by Don Gaspar de Portolá, a Spanish Explorer, who encountered the region when he was making his way up from San Diego into Monterey along the California coast in what would later be known as the portola expedition.
-    </p>
+    <div class="mw-50">
+        <h3>How Did La Habra Get it's Name?</h3>
+        <p>
+            La Habra officially got it's name from Mariano Reyes Roldan a farmer who was given a land grant by the Mexican Government in the early 1800's. The area was initially named by Don Gaspar de Portolá, a Spanish Explorer, who encountered the region when he was making his way up from San Diego into Monterey along the California coast in what historians would later refer to as the Portola Expedition.
+        </p>
+    </div>
 
     <h3>What Does La Habra Mean?</h3>
     <p>
@@ -150,26 +139,12 @@
     <p>
         Did you know that at one point La Habra was part to the largest electric railway in the world. The Pacific Electric Railway company which got started in the the early 1900's became an important factor in the fast urbanization of Southern California. These all electric passenger carts which connected people from major cities with the more urban and rural populations where a major factor in the rapid development of Southern California. About a 1000 miles of track linked southern california from San Bernadino all the way to Los Angeles. This all eclectic railway was active from 1901 all the way to 1965.
     </p>
-    <p>The Electr</p>
+    <p>Improvements in transportation would later make the railway impractical as buses began to be easier and more convientnt.</p>
 </div>
 
 
 
-            </div>
-      
-        </div>
-            
-        
-        <div class="inner-cont  mt-50" style="max-width:275px;">
-            
-            
-            <div class="recent ">
-                <h2 class="h3 _600">La Habra Website Services</h2>
-
-                
-            </div>
-        </div>
-    </div><footer class="container mb-50 paa-25 flex" style="background:white;height:250px;border-top:1px solid #eee;">
+            </div><footer class="container mb-50 paa-25 flex" style="background:white;height:250px;border-top:1px solid #eee;">
     <div class="footer-social">
         <span class="h3">Ruben Gutierrez</span>
         <p class="_12">Ruben Gutierrez: Website Designer</p>
@@ -189,5 +164,18 @@
         <a class="_14" href="/local/">SEO</a> <br>
     </div>
 </footer>
-</body>
+</div>
+
+        <script>
+            const hamMenu = document.querySelector(".ham-menu");
+            const offScreenMenu = document.querySelector(".off-screen-menu");
+
+            hamMenu.addEventListener("click", () => {
+            hamMenu.classList.toggle("active");
+            offScreenMenu.classList.toggle("active");
+            }); 
+        </script>
+        
+    </body>
+
 </html>
