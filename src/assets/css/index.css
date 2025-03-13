@@ -31,14 +31,15 @@
 }
 
 .home-section {
-    padding: 50px;
+    padding: 25px;
     background-color: white;;
-  }
+}
   
-  .home-section .projects .project {
+.home-section .projects .project {
     background: white;
-    width: 40%;
     margin: 10px;
-  }
+}
   
  
+
+@media (min-width: 700px){.home-section .projects .project {width: 45%;}}
