@@ -19,7 +19,7 @@ nav a {font-size:12px;font-weight:500;top:0;}
 }
 
 /* Display Inner Hamburger Menu at 600px*/
-@media(min-width:600px){
+@media(min-width:760){
     .ham-menu {
         display: block;
     }
@@ -54,7 +54,7 @@ nav a {font-size:12px;font-weight:500;top:0;}
 .ham-menu-outer {width: 25px;position: relative;}
 
 /* Hides Outer Hamburger Container at 600px */
-@media(min-width:600px){.ham-menu-outer{display: none;}}
+@media(min-width:760px){.ham-menu-outer{display: none;}}
 
 /* Off-Screen Menu */
 .off-screen-menu {background-color: #ffffff;width:100%;height: 100%;position: fixed;top: 0;right: -100%;transition: .3s ease;z-index: 10000;}
