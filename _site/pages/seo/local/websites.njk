@@ -3,7 +3,7 @@ layout: 'default.njk'
 title:  "Information About Websites"
 date:        2024-12-03
 permalink: /websites/
-description: Are you intrested in learning more about 
+description: Are you interested in learning more about 
 ---
 <div class="container back-white paa-25 mb-25 mtb-100">
     <h1>Information About Websites</h1>
@@ -14,7 +14,8 @@ description: Are you intrested in learning more about
     {% for post in collections.websites | reverse %}
         {% if loop.index0 < 10 %}
             <div class="inner-container back-white mb-25" style="width:300px">
-                <a href="{{post.url}}"><h3 class="h3">{{post.data.title}}</h3></a>
+                <img src="{{ post.data.thumbnail }}" alt="{{ post.data.alt }}">
+                <a href="{{ post.url }}"><h3 class="h3">{{post.data.title}}</h3></a>
                 <p>{{post.data.description}}</a>
             </div>
         {% endif %}
