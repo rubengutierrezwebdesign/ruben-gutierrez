@@ -58,15 +58,15 @@
         </url>
     
         <url>
-            <loc>https://www.ruben-gutierrez.com/los-angeles-california/</loc>
-        </url>
-    
-        <url>
             <loc>https://www.ruben-gutierrez.com/web-design-fullerton-california/</loc>
         </url>
     
         <url>
             <loc>https://www.ruben-gutierrez.com/local/</loc>
+        </url>
+    
+        <url>
+            <loc>https://www.ruben-gutierrez.com/los-angeles-california/</loc>
         </url>
     
         <url>
@@ -118,10 +118,6 @@
         </url>
     
         <url>
-            <loc>https://www.ruben-gutierrez.com/2024-11-24/</loc>
-        </url>
-    
-        <url>
             <loc>https://www.ruben-gutierrez.com/404.html</loc>
         </url>
     
@@ -131,10 +127,6 @@
     
         <url>
             <loc>https://www.ruben-gutierrez.com/contact/</loc>
-        </url>
-    
-        <url>
-            <loc>https://www.ruben-gutierrez.com/blog/making-free-design-resources-figma/</loc>
         </url>
     
         <url>
@@ -171,6 +163,10 @@
     
         <url>
             <loc>https://www.ruben-gutierrez.com/the-best-mini-pc-for-under-100-dollars/</loc>
+        </url>
+    
+        <url>
+            <loc>https://www.ruben-gutierrez.com/switching-from-jekyll-to-11ty/</loc>
         </url>
     
 </urlset>
