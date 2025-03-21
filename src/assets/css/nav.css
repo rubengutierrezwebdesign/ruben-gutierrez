@@ -6,7 +6,7 @@ nav {
     border-bottom:1px solid #ececec;
 }
 
-nav .nav {align-items: center;display: flex;justify-content: space-between;padding:25px;}
+nav .nav {align-items: center;display: flex;justify-content: space-between;padding:20px;}
 
 nav a {font-size:12px;font-weight:500;top:0;}
 
