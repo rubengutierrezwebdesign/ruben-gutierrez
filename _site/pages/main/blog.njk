@@ -17,45 +17,12 @@ description: "Welcome to the blog of Ruben Gutierrez, Website Designer & Develop
 <div class="container animated" style="animation-delay:.5s;">
 
     <div class="mtb-25">
-
-        <!-- Current Post Container -->
-        <div class="todays-post">
-            {% for post in collections.current_post | reverse %}
-                {% if loop.index0 < 1 %}
-
-                    <!-- Post Container -->
-                    <div class=" mb-10 post"> 
-
-                        <div class="">
-
-                            <!-- Current Post Title Link -->
-                            <a href="{{post.url}}" style="text-decoration:none;">
-                                <h2 class="mb-25">{{post.data.title}}</h2>
-                            </a>
-                            <!-- Current Post Image No Link -->
-
-                            <div class="mb-25" style="width:100%;">
-                                <img src="{{post.data.thumbnail}}" alt="">
-                            </div>
-
-                            <p class="_16 _600">{{post.data.description}}</p>   
-                            <a href="{{post.url}}" class="btn">Read More</a>
-
-                        </div>
-
-                    </div>
-                {% endif %}
-            {% endfor %}
-        </div>
-
         <div class="">
-
             <!-- Blog Posts Container -->
             <div class="flex flex-wrap">
                 {% for post in collections.posts | reverse %}
                     {% if loop.index0 < 4 %}
                         <!-- Blog Post -->
-
                             <article class="paa-25 maa-10" style="background:white;max-width:400px;">
                                 
                                 <!-- Image Container -->
@@ -71,23 +38,19 @@ description: "Welcome to the blog of Ruben Gutierrez, Website Designer & Develop
 
                                     <!-- Title -->
                                     <a href="{{post.url}}" style="text-decoration:none;">
-                                        <h3 class="">{{post.data.title}}</h3>
+                                        <h2 class="h3">{{post.data.title}}</h2>
                                     </a>
                                     
                                     <!-- Description -->
                                     <p class="_14">{{post.data.description}}</p> 
                                 </div>
-
                             </article>
-
-
                     {% endif %}
                 {% endfor %}
             </div>
-
         </div>
-
     </div>
+    x`x`x
 </div>
 
 
