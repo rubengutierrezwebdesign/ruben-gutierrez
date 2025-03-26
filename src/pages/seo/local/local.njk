@@ -15,7 +15,7 @@ permalink: /local/
         {% for post in collections.local | reverse %}
             {% if loop.index0 < 10 %}
                 <div class="back-white mb-25">
-                    <div style="background:black;height:300px;width:200px;margin-bottom:20px;"></div>
+                    <div style="background:black;height:100px;width:200px;margin-bottom:20px;"></div>
                     <a href="{{post.url}}"><h2 class="h4">{{post.data.title}}</h2></a>
                 </div>
             {% endif %}
