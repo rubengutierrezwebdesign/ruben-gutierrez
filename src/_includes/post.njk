@@ -6,13 +6,13 @@
     {%- include 'nav.njk' -%}
 
     <!-- Container -->
-    <div class="container mtb-50 flex">
+    <div class="container mac mtb-50 flex">
         
         <!-- Post Container -->
-        <div class="inner-container post border-box paa-25" style="max-width:1000px;background:White;">
+        <div class="inner-container post border-box paa-25">
             
             <!-- Post Information Container -->
-            <div class="inner-container mb-100">    
+            <div class="inner-container mb-50">    
 
                 <!-- Title -->
                 <h1>{{title}}</h1>
@@ -30,8 +30,10 @@
       
         </div>
             
-        {# Related Posts #}
-        <div class="inner-cont  mt-50" style="max-width:275px;">
+    </div>
+
+    {# Related Posts #}
+        <div class=" mac  mt-50" style="max-width:275px;">
             
             {# Recent Posts #}
             <div class="recent ">
@@ -53,7 +55,6 @@
                     {% endfor %}
                 </div>
         </div>
-    </div>
             {%- include 'footer.njk' -%}
 
 
