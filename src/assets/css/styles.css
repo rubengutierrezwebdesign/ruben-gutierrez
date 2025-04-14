@@ -24,6 +24,9 @@ a {color: #000;text-decoration: underline !important;}
 .paa-25 {padding: 25px;}
 .paa-10 {padding: 10px;}
 
+.ptb-50 {padding:50px 0 ;}
+.ptb-100 {padding:100px 0 ;}
+
 /* Flex Tools */
 .flex {display:flex;flex-direction: column;}
 @media (min-width: 670px) {.flex {display:flex;flex-direction: row;justify-content: space-between;}}
@@ -43,8 +46,8 @@ a {color: #000;text-decoration: underline !important;}
 
 /* Layouts - Container */
 .container {
-    width:100%;
-    max-width: 1500px;
+    width:90%;
+    max-width: 1200px;
     margin-left: auto !important;
     margin-right: auto !important;
 }
@@ -93,7 +96,7 @@ ul {padding:0;}
 
 .transition{transition: all .3s ease-out;}
 
-.btn {background:#000;padding:15px 25px;color:#fff;text-decoration: none;font-weight:600;transition:.25s;border-radius: 40px;border:1px solid #000;
+.btn {background:#000;padding:10px 20px;color:#fff;text-decoration: none;font-weight:600;transition:.25s;border-radius: 40px;border:1px solid #000;
 display:inline-block}
 .btn:hover {background:#000;color:#fff;}
 
