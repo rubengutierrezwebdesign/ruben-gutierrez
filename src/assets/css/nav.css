@@ -2,6 +2,8 @@ nav {
     background:white;
     display: flex;
     justify-content: space-between;
+    
+    margin: 0 auto;
 }
 
 
@@ -65,7 +67,7 @@ nav a {font-size:12px;font-weight:500;top:0;}
 .off-screen-menu.active {right: 0;}
 
 #page-container {position: relative;min-height: 100vh;}
-#footer {position: absolute;bottom: 0;padding: 50px !important;}
+#footer {position: absolute;bottom: 0;padding: 50px 0!important;}
 
 .hide {
     display: none;
@@ -77,7 +79,4 @@ nav a {font-size:12px;font-weight:500;top:0;}
     position: absolute;
     }
 
-
-.footer-social .link a {
-    text-decoration: none !important;
-}
+footer {width:90%;max-width:1200px;}
