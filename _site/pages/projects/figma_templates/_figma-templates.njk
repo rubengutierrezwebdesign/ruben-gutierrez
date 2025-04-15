@@ -1,0 +1,49 @@
+---
+title:       Figma Templates - A Collection of Free Website Designs
+layout:      'default.njk'
+date:        2024-12-01
+permalink:   /figma-templates/
+display:     "Web Design Agency"
+description: "A collection of Figma Templates I've Made over the last year. Here you can find interface designs ranging from mobile to desktop covering a range of designs dentistry to photography - Download Now."
+---
+<div class="container mac mtb-50 paa-25 back-white">
+    
+    <div class="">
+        <h1 class="title">Figma Templates - A Collection of Free Website Designs</h1>
+
+        <p class="">
+            These are designs that I've made in Figma. Feel Free to 
+            duplicate them.  Hopefully they help you in your 
+            website design journey!
+        </p>
+
+        <p>
+            Figma is  cloud-based design tool. With Figma you can design user interfaces like websites, mobile application, and other digital mediums. 
+            Some of the more cutting edge features that captivate so many designers are the mockup tools. Mock up tools give you the ability
+            Figma has been around for about 5 years now. It is the most popular tool of it's kind and
+        </p>
+
+    </div>
+</div>
+
+<div class="container mac back-white paa-25">
+    <ul class="flex flex-wrap">
+            
+        <div class="flex flex-wrap">
+        {%- for post in collections.figma -%}
+
+                <li class="" style='max-width: 330px;'>
+                    <article class="">
+                        <img src="{{post.data.thumbnail}}" alt="{{post.data.alt}}" style="border-radius:5px;">
+                        <h3 class="h4"><a href="{{post.url}}">{{post.data.display}}</a></h3>
+                                                <p>{{post.data.description}}</p>
+
+                    </article>
+                </li>
+
+        {%- endfor -%}
+        </div>
+
+    </ul>
+</div>
+
