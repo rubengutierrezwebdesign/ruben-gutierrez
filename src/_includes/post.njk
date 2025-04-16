@@ -5,29 +5,27 @@
 
     {%- include 'nav.njk' -%}
 
-    <div class="mac">
-        <img style="margin:0 auto;" src="/assets\images\jekyll-to-11ty.png" alt="">
-    </div>
+    
 
     <!-- Container -->
-    <div class="mac mtb-50 flex" style="max-width:900px;">
+    <div class="mtb-25">
         
         <!-- Post Container -->
-        <div class="inner-container post border-box paa-25">
+        <div class="post border-box paa-25">
             
             <!-- Post Information Container -->
-            <div class="inner-container mb-50">    
+            <div class=" mb-50">    
 
-                <!-- Title -->
-                <h1 style="text-align:center;">{{title}}</h1>
-
+               <img src="{{ post.data.thumbnail }}" alt="">
                  <!-- Date -->
-                <p class="_10 _600">{{ page.date | postDate }}</p>
+                <span class="_10 _700 mb-0">{{ page.date | postDate }}</span>
+                <!-- Title -->
+                <h1>{{title}}</h1>
 
             </div>
 
             <!-- Content Container -->
-            <div class="mtb-50"style="max-width: 760px;">
+            <div class="mtb-50">
                 <!-- Content -->
                 {{ content  | safe}}
             </div>
@@ -37,16 +35,16 @@
     </div>
 
     {# Related Posts #}
-        <div class="mac paa-25  mt-50">
-            
+        <div class="mac mt-50">
+            <h4 class=" _600">Recent Posts</h4>
+
             {# Recent Posts #}
-            <div class="recent ">
-                <h2 class="h3 _600">Recent Posts</h2>
+            <div class="recent flex paa-25">
 
                 {% for post in collections.posts | reverse %}
                     {% if loop.index0 < 3 %}
 
-                            <article class=" mb-25" style="background:white;">
+                            <article class=" mb-25 " style="background:white;max-width: 30%;height:200px;">
 
                                 <div class="" style="">
                                     <a href="{{post.url}}" style="text-decoration:none;"><h3 class="h5 _800">{{post.data.title }}</h3></a>

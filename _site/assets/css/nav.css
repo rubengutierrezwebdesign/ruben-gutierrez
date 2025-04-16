@@ -80,3 +80,5 @@ nav a {font-size:12px;font-weight:500;top:0;}
     }
 
 footer {width:90%;max-width:1200px;}
+
+.footer-social a {text-decoration: none!important;}
