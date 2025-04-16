@@ -5,22 +5,21 @@
 
     {%- include 'nav.njk' -%}
 
-    
-
     <!-- Container -->
-    <div class="mtb-25">
+    <div class="postop mtb-25">
         
         <!-- Post Container -->
-        <div class="post border-box paa-25">
+        <div class="border-box paa-25" >
             
             <!-- Post Information Container -->
-            <div class=" mb-50">    
+            <div class="post mb-50">    
 
-               <img src="{{ post.data.thumbnail }}" alt="">
-                 <!-- Date -->
-                <span class="_10 _700 mb-0">{{ page.date | postDate }}</span>
+                <!-- Date -->
+                <div style="text-align: center;">
+                    <span class="_10 _700" style="margin: 0 auto;">{{ page.date | postDate }}</span>
+                </div>
                 <!-- Title -->
-                <h1>{{title}}</h1>
+                <h1 style="text-align:center;">{{title}}</h1>
 
             </div>
 
@@ -36,26 +35,24 @@
 
     {# Related Posts #}
         <div class="mac mt-50">
-            <h4 class=" _600">Recent Posts</h4>
+            <h4 class=" _600 h3 paa-25">Recent Posts</h4>
 
             {# Recent Posts #}
             <div class="recent flex paa-25">
 
                 {% for post in collections.posts | reverse %}
                     {% if loop.index0 < 3 %}
+                        <article class=" mb-25 " style="background:white;max-width: 30%;height:200px;">
 
-                            <article class=" mb-25 " style="background:white;max-width: 30%;height:200px;">
+                            <div class="" style="">
+                                <a href="{{post.url}}" style="text-decoration:none;"><h3 class="h4 _800">{{post.data.title }}</h3></a>
+                                <p class="_12">{{post.data.description | truncate(100)}}</p>   
+                            </div>
 
-                                <div class="" style="">
-                                    <a href="{{post.url}}" style="text-decoration:none;"><h3 class="h5 _800">{{post.data.title }}</h3></a>
-                                    <p class="_12">{{post.data.description | truncate(100)}}</p>   
-                                </div>
-
-                            </article>
-
-                        {% endif %}
-                    {% endfor %}
-                </div>
+                        </article>
+                    {% endif %}
+                {% endfor %}
+            </div>
         </div>
         
         
