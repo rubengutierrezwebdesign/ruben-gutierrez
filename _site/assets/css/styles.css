@@ -29,7 +29,7 @@ a {color: #000;text-decoration: underline !important;}
 
 /* Flex Tools */
 .flex {display:flex;flex-direction: column;}
-@media (min-width: 670px) {.flex {display:flex;flex-direction: row;justify-content: space-between;}}
+@media (min-width: 600px) {.flex {display:flex;flex-direction: row;justify-content: space-between;}}
 .j-flex {display:flex;}
 
 
@@ -42,7 +42,10 @@ a {color: #000;text-decoration: underline !important;}
 @media (min-width: 670px) {.mw-50 {width:50%; max-width: 49.5%;}}
 
 @media (min-width: 600px) {.mw-30 {width:100%; max-width: 30%;}}
-@media (min-width: 600px) {.mw-25 {width:100%; max-width: 25%;}}
+
+.mw-25 {width:100%;}
+
+@media (min-width: 760px) {.mw-25 { width: 25%;}}
 
 /* Layouts - Container */
 .container {
