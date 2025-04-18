@@ -1,7 +1,7 @@
 * {margin: 0;padding:0;box-sizing:border-box;} 
 body {font-family: "SUSE", sans-serif;}
 li{ list-style-type: none !important;}
-a {color: #000;text-decoration: underline !important;}
+a {color: #000;text-decoration: underline !important;font-weight: 600;}
 /* Tools */
 .br {outline: 2px solid #000 !important ;}
 .bw {border: 1px solid #fff !important;}
