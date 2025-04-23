@@ -39,7 +39,7 @@ a {color: #000;text-decoration: underline !important;font-weight: 600;}
 @media (min-width: 600px) {.mw-75 {width:100%; max-width: 75%;}}
 
 .mw-50 {width:100%;}
-@media (min-width: 670px) {.mw-50 {width:50%; max-width: 49.5%;}}
+@media (min-width: 670px) {.mw-50 {width:45%; max-width: 49.5%;}}
 
 @media (min-width: 600px) {.mw-30 {width:100%; max-width: 30%;}}
 
