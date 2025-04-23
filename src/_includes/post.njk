@@ -12,14 +12,21 @@
         <div class="border-box" >
             
             <!-- Post Information Container -->
-            <div class="post mb-50">    
+            <div class="mb-50 flex paa-25">    
 
                 <!-- Date -->
-                <div style="text-align: center;">
-                    <span class="_10 _700" style="margin: 0 auto;">{{ page.date | postDate }}</span>
+                <div style="max-width:30%;padding:50px 0">
+
+                    <span class="_10 _700">{{ page.date | postDate }}</span>
+
+                     <!-- Title -->
+                    <h1 class="h2">{{title}}</h1>
+
                 </div>
-                <!-- Title -->
-                <h1 style="text-align:center;">{{title}}</h1>
+
+               
+
+                <img class="" style="max-width:55%;" src="\assets\images\jekyll-to-11ty.png" alt="">
 
             </div>
 
