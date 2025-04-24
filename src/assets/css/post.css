@@ -1,16 +1,2 @@
 /* Fade Up Animation */
 
-@keyframes smooth-appear {
-    to{
-      bottom: 20px;
-      opacity:1;
-    }
-  }
-  .animated {
-
-    opacity:0;
-   
-    animation: smooth-appear 1.25s ease forwards;
-  }
-
-

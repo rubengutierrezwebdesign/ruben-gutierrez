@@ -1,9 +1,4 @@
-nav { 
-    display: flex;
-    justify-content: space-between;
-}
-
-nav .nav {align-items: center;display: flex;justify-content: space-between;padding:25px;;width:90%;max-width: 1200px !important;margin: 0 auto;}
+nav .nav {align-items: center;display: flex;justify-content:space-between;max-width: 1200px !important;margin: 0 auto;padding:20px 25px;}
 
 nav a {font-size:12px;font-weight:700;top:0;text-decoration: none !important;}
 

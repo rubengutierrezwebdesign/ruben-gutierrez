@@ -42,13 +42,13 @@
   
  
 
-@media (min-width: 700px){.home-section .projects .project {width: 45%;}}
+@media (min-width: 800px){.home-section .projects .project {width: 45%;}}
 
 .home-services .service  {
     width:100%;
     background:#eeea;
-    margin-bottom:20px;
+    margin-bottom:10px;
     padding: 50px;
 }
 
-@media (min-width: 700px){.home-services .service {width:40%;}}
+@media (min-width: 700px){.home-services .service {width:48%;}}
