@@ -6,13 +6,13 @@
     {%- include 'nav.njk' -%}
 
     <!-- Container -->
-    <div class="postop mtb-25">
+    <div class="postop">
         
         <!-- Post Container -->
-        <div class="border-box" >
+        <div class="" >
             
             <!-- Post Information Container -->
-            <div class="mb-50 flex paa-25">    
+            <div class="flex">    
 
                 <!-- Date -->
                 <div style="max-width:30%;padding:50px 0">
@@ -23,10 +23,11 @@
                     <h1 class="h2">{{title}}</h1>
 
                 </div>
-
-               
-
-                <img class="" style="max-width:55%;" src="\assets\images\jekyll-to-11ty.png" alt="">
+                
+                <!-- Image -->
+                <div style="max-width:50%;">
+                    <img src="\assets\images\jekyll-to-11ty.png" alt="">
+                </div>
 
             </div>
 
@@ -40,31 +41,33 @@
             
     </div>
 
-    {# Related Posts #}
-        <div class="mac mt-50">
-            <h4 class=" _600 h3 paa-25">Recent Posts</h4>
+    {# Related Posts Container #}
+    <div class="mac">
+        <h3 class="paa-25">Recent Posts</h3>
 
-            {# Recent Posts #}
-            <div class="recent flex paa-25">
+        {# Posts #}
+        <div class="recent flex paa-25">
 
-                {% for post in collections.posts | reverse %}
-                    {% if loop.index0 < 3 %}
-                        <article class=" mb-25 " style="background:white;max-width: 30%;height:200px;">
+            {% for post in collections.posts | reverse %}
+                {% if loop.index0 < 3 %}
+                    <article class="mw-30">
 
-                            <div class="" style="">
-                                <a href="{{post.url}}" style="text-decoration:none;"><h3 class="h4 _800">{{post.data.title }}</h3></a>
-                                <p class="_12">{{post.data.description | truncate(100)}}</p>   
-                            </div>
+                        {# Related Post Title #}
+                        <a href="{{post.url}}" style="text-decoration:none;">
+                            <h3 class="h4">{{post.data.title }}</h3>
+                        </a>
+                        
+                        {# Related Post Description #}
+                        <p class="_12">{{post.data.description | truncate(100)}}</p>   
 
-                        </article>
-                    {% endif %}
-                {% endfor %}
-            </div>
+                    </article>
+                {% endif %}
+            {% endfor %}
+
         </div>
+    </div>
         
-        
-        {%- include 'footer.njk' -%}
-
+    {%- include 'footer.njk' -%}
 
 </body>
 </html>

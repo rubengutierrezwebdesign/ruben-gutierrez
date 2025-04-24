@@ -71,9 +71,13 @@ nav a {font-size:12px;font-weight:700;top:0;text-decoration: none !important;}
     position: absolute;
 }
 
+/* Outer Hamburger Container*/
+
 footer {width:90%;max-width:1200px;}
 
 .footer-social a {text-decoration: none!important;}
 
-/* Outer Hamburger Container*/
-nav
+
+.footer-social .link {
+    text-align: center;
+}
