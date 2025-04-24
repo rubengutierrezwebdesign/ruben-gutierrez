@@ -4,7 +4,7 @@
 }
 
 
-/* Hand Wave */
+/* Hand Wave Homepage */
 
 .wave {
     animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
@@ -24,4 +24,21 @@
      60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
     100% { transform: rotate( 0.0deg) }
   }
-  
+
+
+  /* Fade Up Animation */
+
+@keyframes smooth-appear {
+    to{
+      bottom: 20px;
+      opacity:1;
+    }
+  }
+  .animated {
+
+    opacity:0;
+   
+    animation: smooth-appear 1.25s ease forwards;
+  }
+
+

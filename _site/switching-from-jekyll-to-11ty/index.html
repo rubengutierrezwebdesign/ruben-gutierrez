@@ -201,7 +201,19 @@
             
 
         </div>
-    </div><footer class=" mac paa-25" style="padding:100px 25px;">
+        
+    </div>
+        
+    
+        <script>
+            const hamMenu = document.querySelector(".ham-menu");
+            const offScreenMenu = document.querySelector(".off-screen-menu");
+
+            hamMenu.addEventListener("click", () => {
+            hamMenu.classList.toggle("active");
+            offScreenMenu.classList.toggle("active");
+            }); 
+        </script><footer class=" mac paa-25" style="padding:100px 25px;">
     
     <div class=" flex">
         <div class="footer-social">

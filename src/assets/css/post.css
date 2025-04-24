@@ -1,3 +1,5 @@
+/* Fade Up Animation */
+
 @keyframes smooth-appear {
     to{
       bottom: 20px;

@@ -43,3 +43,12 @@
  
 
 @media (min-width: 700px){.home-section .projects .project {width: 45%;}}
+
+.home-services .service  {
+    width:100%;
+    background:#eeea;
+    margin-bottom:20px;
+    padding: 50px;
+}
+
+@media (min-width: 700px){.home-services .service {width:40%;}}
