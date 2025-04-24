@@ -3,7 +3,7 @@ nav {
     justify-content: space-between;
 }
 
-nav .nav {align-items: center;display: flex;justify-content: space-between;padding:30px 25px;;width:90%;max-width: 1200px !important;margin: 0 auto;}
+nav .nav {align-items: center;display: flex;justify-content: space-between;padding:25px;;width:90%;max-width: 1200px !important;margin: 0 auto;}
 
 nav a {font-size:12px;font-weight:700;top:0;text-decoration: none !important;}
 
