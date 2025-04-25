@@ -12,21 +12,21 @@
         <div class="" >
             
             <!-- Post Information -->
-            <div class="post-information flex">    
+            <div class="mac post-information flex">    
 
-                <!-- Date -->
-                <div style="max-width:30%;padding:50px 25px">
+                <!-- Post Title -->
+                <div class="post-title" style="padding: 0 50px">
 
                     <span class="_10 _700">{{ page.date | postDate }}</span>
 
                      <!-- Title -->
-                    <h1 class="h2">{{title}}</h1>
+                    <h1 class="">{{title}}</h1>
 
                 </div>
                 
                 <!-- Image -->
                 <div style="max-width:50%;">
-                    <img src="\assets\images\jekyll-to-11ty.png" alt="">
+                    <img src="{{ page.thumbnail }}" alt="">
                 </div>
 
             </div>
@@ -42,15 +42,15 @@
     </div>
 
     {# Related Posts Container #}
-    <div class="mac">
-        <h3 class="paa-25">Recent Posts</h3>
+    <div class="mac" style="padding: 25px">
+        <h3 style=";">Recent Posts</h3>
 
         {# Posts #}
-        <div class="recent flex paa-25">
+        <div class="recent flex related-post">
 
             {% for post in collections.posts | reverse %}
                 {% if loop.index0 < 3 %}
-                    <article class="mw-30">
+                    <article class="mw-30" style="padding:10px 0;">
 
                         {# Related Post Title #}
                         <a href="{{post.url}}" style="text-decoration:none;">
