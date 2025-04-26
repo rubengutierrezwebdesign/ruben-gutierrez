@@ -9,10 +9,9 @@
    id="svg1"
    xml:space="preserve"
    inkscape:version="1.4 (86a8ad7, 2024-10-11)"
-   sodipodi:docname="one.svg"
+   sodipodi:docname="drawing.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
      id="namedview1"
@@ -33,16 +32,8 @@
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g76" /><defs
-     id="defs1"><linearGradient
-       id="linearGradient4"
-       inkscape:collect="always"><stop
-         style="stop-color:#00ffff;stop-opacity:1;"
-         offset="0"
-         id="stop4" /><stop
-         style="stop-color:#00ffff;stop-opacity:0;"
-         offset="1"
-         id="stop5" /></linearGradient><style
+     inkscape:current-layer="g77" /><defs
+     id="defs1"><style
        id="style1">
       .cls-1 {
         fill: #0678be;
@@ -60,15 +51,7 @@
       .cls-2 {
         fill: none;
       }
-    </style><linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4"
-       id="linearGradient5"
-       x1="121.98396"
-       y1="104.75288"
-       x2="145.79646"
-       y2="104.75288"
-       gradientUnits="userSpaceOnUse" /></defs><g
+    </style></defs><g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
@@ -79,7 +62,7 @@
          style="fill:#f9f9f9;stroke-width:0.604789;stroke-opacity:0.8"
          d="m 123.57146,92.846633 h 20.63749 c 0.87948,0 1.5875,0.708025 1.5875,1.5875 v 20.637497 c 0,0.87948 -0.70802,1.5875 -1.5875,1.5875 h -20.63749 c -0.87948,0 -1.5875,-0.70802 -1.5875,-1.5875 V 94.434133 c 0,-0.879475 0.70802,-1.5875 1.5875,-1.5875 z" /><path
          id="rect131-3"
-         style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;fill:url(#linearGradient5);enable-background:accumulate;stop-color:#000000"
+         style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;fill:#f9f9f9;enable-background:accumulate;stop-color:#000000"
          d="m 123.57146,92.846634 h 20.6375 c 0.87948,0 1.5875,0.708025 1.5875,1.5875 v 20.637496 c 0,0.87948 -0.70802,1.5875 -1.5875,1.5875 h -20.6375 c -0.87947,0 -1.5875,-0.70802 -1.5875,-1.5875 V 94.434134 c 0,-0.879475 0.70803,-1.5875 1.5875,-1.5875 z" /><g
          id="g77"><path
            style="fill:#ffffff"
