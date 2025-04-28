@@ -21,11 +21,11 @@ p { font-size: 16px;font-weight: 600;line-height: 125%;margin-bottom: 0;
 
 // Container For Page
 .container {max-width: 1100px;margin: 0 auto;}
-.lp-padding {padding: 0 20px;@media (min-width:1200px) {padding: 0;}}
+.lp-padding {padding: 0 25px; @media (min-width:1200px) {padding: 0;}}
 
 .lp-navigation {
     background: #D9D9D9;
-    padding: 20px 10px;
+    padding: 20px 25px;
 
     .inner-navigation {
         @include center;
