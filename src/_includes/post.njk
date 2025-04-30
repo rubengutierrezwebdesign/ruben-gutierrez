@@ -42,15 +42,15 @@
     </div>
 
     {# Related Posts Container #}
-    <div class="mac" style="padding: 50px">
-        <h3 style=";">Recent Posts</h3>
+    <div class="mac" style="margin-top:50px;">
+        <h3 style="padding:0 25px 25px;">Recent Posts</h3>
 
         {# Posts #}
         <div class="recent flex related-post">
 
             {% for post in collections.posts | reverse %}
                 {% if loop.index0 < 3 %}
-                    <article class="mw-30" style="padding:10px 0;">
+                    <article class="mw-30" style="padding:10px 25px 50px ;:grey;">
 
                         {# Related Post Title #}
                         <a href="{{post.url}}" style="text-decoration:none;">
@@ -59,7 +59,7 @@
                         
                         {# Related Post Description #}
                         <p class="_12">{{post.data.description | truncate(100)}}</p>   
-
+                        <div style="height:20px;width:20px;border:1px solid black;border-radius:50px;background:black;margin-top:50px;margin-left:auto;"></div>
                     </article>
                 {% endif %}
             {% endfor %}
