@@ -50,7 +50,7 @@
 
             {% for post in collections.posts | reverse %}
                 {% if loop.index0 < 3 %}
-                    <article class="mw-30" style="padding:10px 25px 50px ;:grey;">
+                    <article class="mw-30" style="padding:10px 50px 50px 25px;background:;">
 
                         {# Related Post Title #}
                         <a href="{{post.url}}" style="text-decoration:none;">
@@ -59,7 +59,7 @@
                         
                         {# Related Post Description #}
                         <p class="_12">{{post.data.description | truncate(100)}}</p>   
-                        <div style="height:20px;width:20px;border:1px solid black;border-radius:50px;background:black;margin-top:50px;margin-left:auto;"></div>
+                        <div style="height:20px;width:20px;border:1px solid black;border-radius:50px;background:black;margin-top:75px;margin-left:auto;"></div>
                     </article>
                 {% endif %}
             {% endfor %}
