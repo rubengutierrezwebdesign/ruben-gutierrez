@@ -130,6 +130,7 @@
         </url>
     
         <url>
+<<<<<<< Updated upstream
             <loc>https://www.ruben-gutierrez.com/</loc>
         </url>
     
@@ -154,6 +155,8 @@
         </url>
     
         <url>
+=======
+>>>>>>> Stashed changes
             <loc>https://www.ruben-gutierrez.com/404/</loc>
         </url>
     
@@ -182,7 +185,31 @@
         </url>
     
         <url>
+            <loc>https://www.ruben-gutierrez.com/</loc>
+        </url>
+    
+        <url>
+            <loc>https://www.ruben-gutierrez.com/why-you-need-a-website/</loc>
+        </url>
+    
+        <url>
+            <loc>https://www.ruben-gutierrez.com/wordpress/</loc>
+        </url>
+    
+        <url>
             <loc>https://www.ruben-gutierrez.com/la-habra-california/</loc>
+        </url>
+    
+        <url>
+            <loc>https://www.ruben-gutierrez.com/the-best-mini-pc-for-under-100-dollars/</loc>
+        </url>
+    
+        <url>
+            <loc>https://www.ruben-gutierrez.com/switching-from-jekyll-to-11ty/</loc>
+        </url>
+    
+        <url>
+            <loc>https://www.ruben-gutierrez.com/plans-for-future/</loc>
         </url>
     
         <url>
@@ -206,11 +233,19 @@
         </url>
     
         <url>
+<<<<<<< Updated upstream
             <loc>https://www.ruben-gutierrez.com/la-habra/</loc>
         </url>
     
         <url>
             <loc>https://www.ruben-gutierrez.com/fullerton/</loc>
+=======
+            <loc>https://www.ruben-gutierrez.com/fullerton-technology-services/</loc>
+        </url>
+    
+        <url>
+            <loc>https://www.ruben-gutierrez.com/la-habra-technology-services/</loc>
+>>>>>>> Stashed changes
         </url>
     
         <url>
