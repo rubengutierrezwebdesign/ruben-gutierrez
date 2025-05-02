@@ -26,5 +26,17 @@ module.exports = function (eleventyConfig) {
 }
 
 
-
+module.exports = function(eleventyConfig) {
+    // Add a custom Nunjucks filter for truncating text
+    eleventyConfig.addFilter("truncate", function(text, length) {
+      if (text.length > length) {
+        return text.slice(0, length) + "..."; // Adds "..." at the end
+      }
+      return text; // If text is shorter than the specified length, return it as-is
+    });
+  
+    return {
+      // Eleventy config options
+    };
+  };
 

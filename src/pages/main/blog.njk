@@ -23,7 +23,7 @@ description: "Welcome to the blog of Ruben Gutierrez, Website Designer & Develop
                 {% for post in collections.posts | reverse %}
                     {% if loop.index0 < 4 %}
                         <!-- Blog Post -->
-                            <article class=" mw-50">
+                            <article class=" mw-25">
                                 
                                 <!-- Image Container -->
                                 <div class="" style="">
@@ -38,7 +38,7 @@ description: "Welcome to the blog of Ruben Gutierrez, Website Designer & Develop
 
                                     <!-- Title -->
                                     <a href="{{post.url}}" style="text-decoration:none!important;">
-                                        <h2 class="h3">{{post.data.title}}</h2>
+                                        <h2 class="h4">{{post.data.title}}</h2>
                                     </a>
                                     
                                     <!-- Description -->

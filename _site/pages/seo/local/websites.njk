@@ -5,18 +5,17 @@ date:        2024-12-03
 permalink: /websites/
 description: Are you interested in learning more about 
 ---
-<div class="mac br back-white paa-25 mb-25">
+<div class="mac back-white paa-25 mb-25">
     <h1>Information About Websites</h1>
     <p>Learn More About How Website Work and How You Can Use Them To Improve Your Business</p>
 </div>
 
-<div class="mac br paa-25 flex flex-wrap">
+<div class="mac paa-25 flex flex-wrap">
     {% for post in collections.websites | reverse %}
         {% if loop.index0 < 10 %}
             <div class=" back-white mb-25" style="width:250px">
-                <img src="{{ post.data.thumbnail }}" alt="{{ post.data.alt }}">
                 <a href="{{ post.url }}"><h3 class="h4">{{post.data.title}}</h3></a>
-                <p>{{post.data.description}}</a>
+                <p>{{ post.data.description | truncate(80) }}</p>
             </div>
         {% endif %}
     {% endfor %}

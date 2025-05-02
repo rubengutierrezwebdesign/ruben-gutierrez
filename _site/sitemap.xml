@@ -130,33 +130,6 @@
         </url>
     
         <url>
-<<<<<<< Updated upstream
-            <loc>https://www.ruben-gutierrez.com/</loc>
-        </url>
-    
-        <url>
-            <loc>https://www.ruben-gutierrez.com/why-you-need-a-website/</loc>
-        </url>
-    
-        <url>
-            <loc>https://www.ruben-gutierrez.com/wordpress/</loc>
-        </url>
-    
-        <url>
-            <loc>https://www.ruben-gutierrez.com/the-best-mini-pc-for-under-100-dollars/</loc>
-        </url>
-    
-        <url>
-            <loc>https://www.ruben-gutierrez.com/switching-from-jekyll-to-11ty/</loc>
-        </url>
-    
-        <url>
-            <loc>https://www.ruben-gutierrez.com/building-out-my-website/</loc>
-        </url>
-    
-        <url>
-=======
->>>>>>> Stashed changes
             <loc>https://www.ruben-gutierrez.com/404/</loc>
         </url>
     
@@ -197,10 +170,6 @@
         </url>
     
         <url>
-            <loc>https://www.ruben-gutierrez.com/la-habra-california/</loc>
-        </url>
-    
-        <url>
             <loc>https://www.ruben-gutierrez.com/the-best-mini-pc-for-under-100-dollars/</loc>
         </url>
     
@@ -209,7 +178,7 @@
         </url>
     
         <url>
-            <loc>https://www.ruben-gutierrez.com/plans-for-future/</loc>
+            <loc>https://www.ruben-gutierrez.com/building-out-my-website/</loc>
         </url>
     
         <url>
@@ -217,7 +186,7 @@
         </url>
     
         <url>
-            <loc>https://www.ruben-gutierrez.com/us-mexico/</loc>
+            <loc>https://www.ruben-gutierrez.com/us-mexico-relationships/</loc>
         </url>
     
         <url>
@@ -233,19 +202,11 @@
         </url>
     
         <url>
-<<<<<<< Updated upstream
-            <loc>https://www.ruben-gutierrez.com/la-habra/</loc>
-        </url>
-    
-        <url>
             <loc>https://www.ruben-gutierrez.com/fullerton/</loc>
-=======
-            <loc>https://www.ruben-gutierrez.com/fullerton-technology-services/</loc>
         </url>
     
         <url>
-            <loc>https://www.ruben-gutierrez.com/la-habra-technology-services/</loc>
->>>>>>> Stashed changes
+            <loc>https://www.ruben-gutierrez.com/la-habra/</loc>
         </url>
     
         <url>
@@ -266,6 +227,14 @@
     
         <url>
             <loc>https://www.ruben-gutierrez.com/empty-ports-throughout-los-angeles-county/</loc>
+        </url>
+    
+        <url>
+            <loc>https://www.ruben-gutierrez.com/why-i-make-free-website-design-resources/</loc>
+        </url>
+    
+        <url>
+            <loc>https://www.ruben-gutierrez.com/la-habra-california/</loc>
         </url>
     
 </urlset>
