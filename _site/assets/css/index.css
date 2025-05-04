@@ -1,0 +1,54 @@
+.home-intro {animation: fade-up 2s; } 
+
+.block {
+    background: #000;
+}
+
+.home .hero {
+    margin: 150px 0;
+    background: white;
+    max-width: 400px;
+    padding: 10px;
+}
+
+.home .hero h1 {
+    margin-bottom: 25px;;
+}
+
+ .hero h1 span {
+    font-size: 14px;
+}
+
+.home .about{
+    margin: 150px 0;
+    background-color: white;
+    padding: 10px;
+}
+
+
+.home .about .section {
+    padding: 10px;
+}
+
+.home-section {
+    padding: 25px;
+    background-color: white;;
+}
+  
+.home-section .projects .project {
+    background: white;
+    margin: 10px;
+}
+  
+ 
+
+@media (min-width: 800px){.home-section .projects .project {width: 45%;}}
+
+.home-services .service  {
+    width:100%;
+    background:#eeea;
+    margin-bottom:10px;
+    padding: 50px;
+}
+
+@media (min-width: 760px){.home-services .service {width:48%;}}
