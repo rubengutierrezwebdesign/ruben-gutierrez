@@ -1,0 +1,94 @@
+---
+permalink: /pizzeria-reservations/
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/pages/projects/html-templates/restaurant-template/app.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="container flex paa-25">
+        <a href="/restaurant/">
+            <img src="\pages\projects\html-templates\restaurant-template\pizza.svg" alt="">
+        </a>
+    </nav>
+
+    <!-- Title -->
+    <div class="br" style="background:#AC3333;padding: 25px;">
+        <div class="container" style="text-align:center">
+            <h1 class="" style="color:#fff;font-weight:600;">
+                
+                Reservations</span>
+            </h1>
+        </div>
+    </div>
+
+
+    <!-- Reservation -->
+    <div class="container back-white" style="padding:100px 25px 300px;width:40%;">
+
+        <h2>Make Your Reservations Here Right Now</h2>
+
+        <h2>How Many People?</h2>
+        
+        <h3>Email</h3>
+        <input type="d" style="padding:10px 50px 10px 10px;width:100%" placeholder="Name">
+
+        <h3>Phone</h3>
+        <input type="d" style="padding:10px 50px 10px 10px;" placeholder="Name">
+
+        <h3>Budget Per Person</h3>
+        <input type="d" style="padding:10px 50px 10px 10px;" placeholder="Name">
+
+        <h3>Event Type</h3>
+        <input type="d" style="padding:10px 50px 10px 10px;" placeholder="Name">
+
+        <h3>Preferred Dates</h3>
+        <input type="d" style="padding:10px 50px 10px 10px;" placeholder="Name">
+
+    </div>
+
+    <hr style="border:1px solid #DCDCDC;">
+
+   
+
+    <div class=" flex paa-25"  style="background:#AC3333">
+        <div class="container" style="padding:50px 0;">
+
+             <div class="">
+                 <h3 style="color:#fff;font-size:40px;">Fire Pizza</h3>
+                 <span>Something religious completely brigade</span>
+             </div>
+         
+             <div class="container footer-links">
+                 <a href="">Menu</a><br>
+                 <a href="">Home</a><br>
+                 <a href="">About</a><br>
+                 <a href="">Contact</a><br>
+                 <a href="">Home</a>
+             </div>
+
+        </div>
+     </div>
+
+    <script>
+        function hideshow(menuId) {
+            const menuSections = document.querySelectorAll('#one,#two,#three,#four');
+            menuSections.forEach(section => section.style.display = 'none');
+            document.getElementById(menuId).style.display = 'block';
+        }
+    </script>
+
+</body>
+</html>

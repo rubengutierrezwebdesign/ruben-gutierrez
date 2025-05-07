@@ -1,0 +1,84 @@
+body {  font-family: "Inter", serif;}
+#one,#two,#three,#four {display: none;animation-name: example;animation-duration: 1s;font-weight:800;}
+
+#one{display:block;}        
+@keyframes example {from {opacity:0;}to {opacity:1;}}
+* {margin:0;}
+.br {outline:2px solid black;}
+ul {margin:0;padding:0;}
+ul a{color:#000;text-decoration:none;margin-bottom:50px;font-size:20px;margin: 0 15px;}
+.container {width:90%;max-width:1280px;margin:0 auto;}
+.back-white {background:#fff;}
+.paa-50 {padding:50px;}
+.paa-25 {padding:25px;}
+.flex {display: flex;justify-content: space-between;}
+.item {font-weight:800;align-items:center;}
+.inner-container {min-width: max-content;}
+.btn {background:#AC3333;border:0;color:#fff;width:160px;border-radius:5px;}
+.section h2 {font-size:16px;}
+
+h1 {
+    color:#fff;font-size:32px;display:inline-block;font-family:Josefin Sans;
+}
+
+@media (min-width: 670px) {h1 {font-size:48px;max-width: 49.5%;}}
+@media (min-width: 960px) {h1 {font-size:60px;max-width: 49.5%;}}
+
+
+.section span {font-weight:900;}
+.nav-links a {font-size:16px;font-weight:600;}
+.nav-links a:hover {color:#AC3333}
+
+
+.section {width:100%;max-width:393px;border:2px solid #000;} 
+
+.menu-container {
+    text-align:center;
+}
+
+.menu {
+    max-width: 1000px;
+    margin: 0 auto 180px;
+    background-color: #fff;;
+}
+
+.item {
+    height:66px;
+    width:392px;
+    border-bottom:1px solid #A9A9A9;
+    font-size:16px;
+    display: flex;
+    justify-content: space-between;
+    min-width: max-content;
+}
+
+.footer-links a {
+    color:#fff;
+}
+
+.about {
+    width:90%;max-width:900px;margin:100px auto;
+}
+
+h2 {
+    font-size:32px;font-family:'Josefin Sans'!important;font-weight:600;margin-bottom:50px;line-height: 120%;;
+}
+
+@media (min-width: 670px) {h2  {font-size:40px;}}
+
+h2 span {
+    width:200px;display:inline-block;font-weight:500;
+}
+
+.about button {
+    font-size:20px;padding:15px;display:inline-block;
+}
+
+.about-description p {
+    max-width: 400px;font-size:20px;font-weight:500;
+}
+
+.about p {
+    line-height:150%;
+}
+
