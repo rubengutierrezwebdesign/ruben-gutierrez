@@ -1,6 +1,6 @@
 nav .nav {align-items: center;display: flex;justify-content:space-between;max-width: 1200px !important;margin: 0 auto;padding:20px 25px;}
 
-nav a {font-size:12px;font-weight:700;top:0;text-decoration: none !important;}
+nav a {font-size:12px;font-weight:500;top:0;text-decoration: none !important;}
 
 /* Inner Hamburger Container */
 .ham-menu {
@@ -34,7 +34,7 @@ nav a {font-size:12px;font-weight:700;top:0;text-decoration: none !important;}
         display: flex;
         justify-content:space-between;
         align-items: center;
-        width:280px;
+        width:310px;
         color: #000;
     }
 }
@@ -68,11 +68,6 @@ nav a {font-size:12px;font-weight:700;top:0;text-decoration: none !important;}
 
 /* Outer Hamburger Container*/
 
-footer {width:90%;max-width:1200px;}
 
 .footer-social a {text-decoration: none!important;}
 
-
-.footer-social .link {
-    text-align: center;
-}
