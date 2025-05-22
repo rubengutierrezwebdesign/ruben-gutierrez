@@ -12,8 +12,14 @@
 }
 
 .home .hero h1 {
-    margin-bottom: 25px;;
+    margin-bottom: 25px;
 }
+
+.home .hero h1 {
+    margin-bottom: 25px;
+    font-size:18px;
+}
+
 
  .hero h1 span {
     font-size: 14px;
@@ -39,16 +45,46 @@
     background: white;
     margin: 10px;
 }
-  
- 
+
+/*  */
+.home-hero .about {
+    width:100%;
+}
+ @media (min-width: 800px){.home-hero .about {width:50%;}}
+
 
 @media (min-width: 800px){.home-section .projects .project {width: 45%;}}
+
+.home-services  {
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-services h3 {
+    font-size:18px;
+    margin-bottom: 75px;;
+}
 
 .home-services .service  {
     width:100%;
     background:#eeea;
     margin-bottom:10px;
-    padding: 50px;
+    padding:25px 50px 25px 25px;
 }
 
-@media (min-width: 760px){.home-services .service {width:48%;}}
+.home-services .service:hover  {
+    background:black;
+    color:#fff;
+}
+.home-services .service img:hover  {
+    color:#fff;
+}
+
+.work div {
+    width:33.3%;
+}
+
+@media (min-width: 480px){.home-services .service {width:100%;}}
+@media (min-width: 800px){.home-services .service {width:49.5%;}}
+
+
