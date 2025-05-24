@@ -10,6 +10,10 @@
         </url>
     
         <url>
+            <loc>https://www.ruben-gutierrez.com/what-is-figma/</loc>
+        </url>
+    
+        <url>
             <loc>https://www.ruben-gutierrez.com/figma-templates/web-agency-design/</loc>
         </url>
     
@@ -47,10 +51,6 @@
     
         <url>
             <loc>https://www.ruben-gutierrez.com/website-pricing-calculator/</loc>
-        </url>
-    
-        <url>
-            <loc>https://www.ruben-gutierrez.com/what-is-figma/</loc>
         </url>
     
         <url>
@@ -138,15 +138,15 @@
         </url>
     
         <url>
+            <loc>https://www.ruben-gutierrez.com/website-fundamentals/</loc>
+        </url>
+    
+        <url>
             <loc>https://www.ruben-gutierrez.com/sell-solutions/</loc>
         </url>
     
         <url>
             <loc>https://www.ruben-gutierrez.com/what-is-a-website/</loc>
-        </url>
-    
-        <url>
-            <loc>https://www.ruben-gutierrez.com/website-fundamentals/</loc>
         </url>
     
         <url>
@@ -273,13 +273,6 @@
             <loc>https://www.ruben-gutierrez.com/pizzeria-reservations/</loc>
         </url>
     
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-        <url>
-            <loc>https://www.ruben-gutierrez.com/pages/seo/general/web-fundamentals/what-is-a-website/</loc>
-        </url>
-    
         <url>
             <loc>https://www.ruben-gutierrez.com/anaheim/</loc>
         </url>
@@ -308,10 +301,4 @@
             <loc>https://www.ruben-gutierrez.com/making-more-posts/</loc>
         </url>
     
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 </urlset>
