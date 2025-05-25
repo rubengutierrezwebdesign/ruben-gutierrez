@@ -293,12 +293,22 @@
             <loc>https://www.ruben-gutierrez.com/pizzeria-reservations/</loc>
         </url>
     
-        <url>
-            <loc>https://www.ruben-gutierrez.com/website-packages/</loc>
-        </url>
-    
+<<<<<<< Updated upstream
+=======
         <url>
             <loc>https://www.ruben-gutierrez.com/making-more-posts/</loc>
         </url>
     
+>>>>>>> Stashed changes
+        <url>
+            <loc>https://www.ruben-gutierrez.com/website-packages/</loc>
+        </url>
+    
+<<<<<<< Updated upstream
+        <url>
+            <loc>https://www.ruben-gutierrez.com/making-more-posts/</loc>
+        </url>
+    
+=======
+>>>>>>> Stashed changes
 </urlset>
