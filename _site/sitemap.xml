@@ -158,22 +158,6 @@
         </url>
     
         <url>
-            <loc>https://www.ruben-gutierrez.com/404/</loc>
-        </url>
-    
-        <url>
-            <loc>https://www.ruben-gutierrez.com/blog/</loc>
-        </url>
-    
-        <url>
-            <loc>https://www.ruben-gutierrez.com/contact/</loc>
-        </url>
-    
-        <url>
-            <loc>https://www.ruben-gutierrez.com/html-landing-page-template-preview/</loc>
-        </url>
-    
-        <url>
             <loc>https://www.ruben-gutierrez.com/</loc>
         </url>
     
@@ -202,10 +186,6 @@
         </url>
     
         <url>
-            <loc>https://www.ruben-gutierrez.com/wordpress-website-packages/</loc>
-        </url>
-    
-        <url>
             <loc>https://www.ruben-gutierrez.com/us-mexico/</loc>
         </url>
     
@@ -219,18 +199,6 @@
     
         <url>
             <loc>https://www.ruben-gutierrez.com/website-maker-la-habra-california/</loc>
-        </url>
-    
-        <url>
-            <loc>https://www.ruben-gutierrez.com/fullerton/</loc>
-        </url>
-    
-        <url>
-            <loc>https://www.ruben-gutierrez.com/la-habra/</loc>
-        </url>
-    
-        <url>
-            <loc>https://www.ruben-gutierrez.com/los-angeles/</loc>
         </url>
     
         <url>
@@ -262,15 +230,23 @@
         </url>
     
         <url>
-            <loc>https://www.ruben-gutierrez.com/la-habra-california/</loc>
-        </url>
-    
-        <url>
-            <loc>https://www.ruben-gutierrez.com/anaheim/</loc>
-        </url>
-    
-        <url>
             <loc>https://www.ruben-gutierrez.com/wordpress-is-getting-ai-features/</loc>
+        </url>
+    
+        <url>
+            <loc>https://www.ruben-gutierrez.com/wordpress-website-packages/</loc>
+        </url>
+    
+        <url>
+            <loc>https://www.ruben-gutierrez.com/404/</loc>
+        </url>
+    
+        <url>
+            <loc>https://www.ruben-gutierrez.com/blog/</loc>
+        </url>
+    
+        <url>
+            <loc>https://www.ruben-gutierrez.com/contact/</loc>
         </url>
     
         <url>
@@ -279,6 +255,10 @@
     
         <url>
             <loc>https://www.ruben-gutierrez.com/html-landing-page-template/</loc>
+        </url>
+    
+        <url>
+            <loc>https://www.ruben-gutierrez.com/html-landing-page-template-preview/</loc>
         </url>
     
         <url>
@@ -293,22 +273,32 @@
             <loc>https://www.ruben-gutierrez.com/pizzeria-reservations/</loc>
         </url>
     
-<<<<<<< Updated upstream
-=======
         <url>
-            <loc>https://www.ruben-gutierrez.com/making-more-posts/</loc>
+            <loc>https://www.ruben-gutierrez.com/anaheim/</loc>
         </url>
     
->>>>>>> Stashed changes
+        <url>
+            <loc>https://www.ruben-gutierrez.com/fullerton/</loc>
+        </url>
+    
+        <url>
+            <loc>https://www.ruben-gutierrez.com/la-habra/</loc>
+        </url>
+    
+        <url>
+            <loc>https://www.ruben-gutierrez.com/la-habra-california/</loc>
+        </url>
+    
+        <url>
+            <loc>https://www.ruben-gutierrez.com/los-angeles/</loc>
+        </url>
+    
         <url>
             <loc>https://www.ruben-gutierrez.com/website-packages/</loc>
         </url>
     
-<<<<<<< Updated upstream
         <url>
             <loc>https://www.ruben-gutierrez.com/making-more-posts/</loc>
         </url>
     
-=======
->>>>>>> Stashed changes
 </urlset>

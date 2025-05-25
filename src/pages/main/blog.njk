@@ -19,11 +19,11 @@ description: "Welcome to the blog of Ruben Gutierrez, Website Designer & Develop
     <div class="mtb-25">
         <div class="">
             <!-- Blog Posts Container -->
-            <div class="flex flex-wrap paa-25 br">
+            <div class="flex flex-wrap paa-25">
                 {% for post in collections.posts | reverse %}
                     {% if loop.index0 < 6 %}
                         <!-- Blog Post -->
-                            <article class=" mw-25 br">
+                            <article class=" mw-30 mb-25">
                                 
                                 <!-- Image Container -->
                                 <div class="" style="">
@@ -44,6 +44,7 @@ description: "Welcome to the blog of Ruben Gutierrez, Website Designer & Develop
                                     <!-- Description -->
                                     <p class="_14">{{post.data.description}}</p> 
                                 </div>
+
                             </article>
                     {% endif %}
                 {% endfor %}
