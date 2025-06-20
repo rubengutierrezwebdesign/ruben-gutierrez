@@ -15,8 +15,15 @@ description: Are you interested in learning more about
         {% if loop.index0 < 10 %}
             <div class=" back-white mb-25" style="width:250px">
                 <a href="{{ post.url }}"><h3 class="h4">{{post.data.title}}</h3></a>
-                <p>{{ post.data.description | truncate(80) }}</p>
             </div>
         {% endif %}
     {% endfor %}
+</div> 
+
+<div class="mac paa-25 flex flex-wrap">
+    <a href="/wordpress">WordPress</a>
+    <a href="/online-marketing/">Online Marketing</a>
+    <a href="/seo/">Search Engine Optimization</a>
+    <a href="/website-fundamentals/">Website Fundamentals</a>
+
 </div>

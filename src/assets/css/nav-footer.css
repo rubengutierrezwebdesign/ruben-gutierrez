@@ -1,7 +1,11 @@
-nav .nav {align-items: center;display: flex;justify-content:space-between;max-width: 1200px !important;margin: 0 auto;padding:20px 25px;}
+nav .nav {align-items: center;display: flex;justify-content:space-between;max-width: 1200px !important;margin: 0 auto;padding:15px 25px;}
 
 nav a {font-size:12px;font-weight:500;top:0;text-decoration: none !important;}
 
+.nav .logo img {
+    width:85%;
+    height:auto;
+}
 /* Inner Hamburger Container */
 .ham-menu {
     height: 35px;

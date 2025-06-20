@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="190.57903mm"
+   height="189.9832mm"
+   viewBox="0 0 190.57903 189.9832"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="squares.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.50835204"
+     inkscape:cx="287.20255"
+     inkscape:cy="416.05026"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3"
+       id="linearGradient4"
+       x1="-0.20716727"
+       y1="66.318214"
+       x2="132.22316"
+       y2="66.318214"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.439089,0,0,1.439089,25.433549,-41.985797)" />
+    <linearGradient
+       id="linearGradient3"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#0000ff;stop-opacity:1;"
+         offset="0"
+         id="stop3" />
+      <stop
+         style="stop-color:#008bd7;stop-opacity:1;"
+         offset="1"
+         id="stop4" />
+    </linearGradient>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-25.135418,41.539585)">
+    <rect
+       style="fill:url(#linearGradient4);stroke:none;stroke-width:10.6277;stroke-dasharray:none;paint-order:fill markers stroke"
+       id="rect1-5-2"
+       width="190.57903"
+       height="189.9832"
+       x="25.135418"
+       y="-41.539585"
+       ry="0" />
+    <g
+       id="g6"
+       transform="translate(48.964221,-34.577798)">
+      <g
+         id="g2"
+         transform="matrix(0.24725267,0,0,0.24725267,46.663932,53.392035)">
+        <polygon
+           points="40,60 100,20 160,60 100,100 "
+           fill="#eeeeee"
+           stroke="#000000"
+           stroke-width="2"
+           id="polygon1" />
+        <polygon
+           points="40,120 40,60 100,100 100,160 "
+           fill="#cccccc"
+           stroke="#000000"
+           stroke-width="2"
+           id="polygon2" />
+        <polygon
+           points="160,120 160,60 100,100 100,160 "
+           fill="#999999"
+           stroke="#000000"
+           stroke-width="2"
+           id="polygon3" />
+      </g>
+      <g
+         id="g3"
+         transform="matrix(0.24725267,0,0,0.24725267,61.558378,77.997279)">
+        <polygon
+           points="40,60 100,20 160,60 100,100 "
+           fill="#eeeeee"
+           stroke="#000000"
+           stroke-width="2"
+           id="polygon1-9" />
+        <polygon
+           points="40,120 40,60 100,100 100,160 "
+           fill="#cccccc"
+           stroke="#000000"
+           stroke-width="2"
+           id="polygon2-2" />
+        <polygon
+           points="160,120 160,60 100,100 100,160 "
+           fill="#999999"
+           stroke="#000000"
+           stroke-width="2"
+           id="polygon3-7" />
+      </g>
+      <g
+         id="g2-1"
+         transform="matrix(0.24725267,0,0,0.24725267,31.912507,77.971031)">
+        <polygon
+           points="100,100 40,60 100,20 160,60 "
+           fill="#eeeeee"
+           stroke="#000000"
+           stroke-width="2"
+           id="polygon1-9-2" />
+        <polygon
+           points="100,160 40,120 40,60 100,100 "
+           fill="#cccccc"
+           stroke="#000000"
+           stroke-width="2"
+           id="polygon2-2-3" />
+        <polygon
+           points="100,160 160,120 160,60 100,100 "
+           fill="#999999"
+           stroke="#000000"
+           stroke-width="2"
+           id="polygon3-7-3" />
+      </g>
+    </g>
+  </g>
+</svg>
