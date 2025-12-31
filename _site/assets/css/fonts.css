@@ -41,8 +41,8 @@ h5, .h5 {font-size:.75rem}
 @media (min-width: 1000px){h5, .h5 {font-size:1.00rem;}}
 
 
-p {font-size: 14px;line-height:170%;margin-bottom:15px;font-weight:300;}
-@media (min-width: 700px){p {font-size:14px;line-height:180%;}}
+p {font-size: 14px;line-height:170%;margin-bottom:15px;font-weight:400;}
+@media (min-width: 700px){p {font-size:16px;line-height:180%;}}
 
 .large-copy {font-size: 16px;line-height: 140%;}
 @media (min-width: 700px){.large-copy {font-size: 20px;line-height:140%;margin-bottom:25px;}}
