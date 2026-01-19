@@ -1,0 +1,45 @@
+---
+title:       "Control"
+permalink:   /1/16/26/
+layout:      'default.njk'
+date:        2025-05-23
+tags:        day
+thumbnail:   https://bronze-reasonable-parrot-188.mypinata.cloud/ipfs/QmRFwwDgdFNHiMW9kdF7SDAmEK5g18voZNBW3cFftKAwHi
+description: 
+---
+
+
+<div class="mac" style="padding: 20px 25px;">
+
+    <h1>Day</h1>
+
+     {% for post in collections.day | reverse %}
+            {% if loop.index0 < 6 %}
+                <!-- Blog Post -->
+                    <article class=" mw-30 mb-25">
+                        
+                        <!-- Image Container -->
+                        <div class="" style="">
+
+                            <!-- Image -->
+                            <img src="{{post.data.thumbnail}}" alt="" >
+
+                        </div>
+                        
+                        <!-- Information Container -->
+                        <div class="" style="">
+
+                            <!-- Title -->
+                            <a href="{{post.url}}" style="text-decoration:none!important;">
+                                <h2 class="h4">{{post.data.title}}</h2>
+                            </a>
+                            
+                            <!-- Description -->
+                            <p class="_14">{{post.data.description}}</p> 
+                        </div>
+
+                    </article>
+            {% endif %}
+        {% endfor %}
+ 
+</div>

@@ -1,8 +1,9 @@
 .contact-form input, textarea {
-    padding: 50px;
+    padding: 15px;
     width:100%;
     max-width:500px;
     font-weight: 700;
     background: #eee;
     border:0;
+    margin-bottom:10px;
 }

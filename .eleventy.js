@@ -2,8 +2,6 @@ module.exports = function (eleventyConfig) {
 
     eleventyConfig.addPassthroughCopy('./src/assets');
     eleventyConfig.addPassthroughCopy('./src/pages/');
-
-    
     eleventyConfig.addNunjucksFilter("postDate", function(value) {
         // Assuming value is a Date object or a string that can be parsed into a Date
         const date = new Date(value);

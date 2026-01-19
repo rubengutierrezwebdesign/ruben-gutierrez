@@ -5,50 +5,25 @@ permalink: /blog/
 description: "Welcome to the blog of Ruben Gutierrez, Website Designer & Developer. Check out my current project, along with insights into my design and development processes"
 ---
 
-<div class="animated">
-    <div class="mac" style="padding:20px 25px;text-align:center;">
+<div class="" style="padding:20px;">
+    <div class="mac" style="padding:25px;">
         <span class="_600 _12">Ruben Gutierrez's </span>
         <h1 class="h1">Blog</h1>
     </div>
 </div>
 
-<hr>    
+<hr>
 
-<div class="mac animated" style="animation-delay:.5s;">
+<div class="mac" style="padding:20px;">
 
     <div class="mtb-25">
         <div class="">
-            <!-- Blog Posts Container -->
-            <div class="flex flex-wrap paa-25">
-                {% for post in collections.posts | reverse %}
-                    {% if loop.index0 < 6 %}
-                        <!-- Blog Post -->
-                            <article class=" mw-30 mb-25">
-                                
-                                <!-- Image Container -->
-                                <div class="" style="">
-
-                                    <!-- Image -->
-                                    <img src="{{post.data.thumbnail}}" alt="" >
-
-                                </div>
-                                
-                                <!-- Information Container -->
-                                <div class="" style="">
-
-                                    <!-- Title -->
-                                    <a href="{{post.url}}" style="text-decoration:none!important;">
-                                        <h2 class="h4">{{post.data.title}}</h2>
-                                    </a>
-                                    
-                                    <!-- Description -->
-                                    <p class="_14">{{post.data.description}}</p> 
-                                </div>
-
-                            </article>
-                    {% endif %}
-                {% endfor %}
-            </div>
+            
+            <a href="/day/">Day</a>
+            <br>
+            <br>
+            <a href="/technology/">Technology</a>
+            
         </div>
     </div>
 </div>

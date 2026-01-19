@@ -64,23 +64,28 @@
 }
 
 
-.home-buttons div {
+.home-buttons a {
     background:#eee;
-    border-radius:5%;
+    border: 1px solid black;
+    border-radius: 2%;
     padding:10px;
-    width: 280px;
     align-items: center;
     margin-bottom: 10px;
     display: flex;
+
     align-items:center;
+    text-decoration: none !important;
 }
 
-.home-buttons div:hover {
-    background:#e2e2e2;
-    
+.home-buttons a h5 {
+    margin: 0 0 0 5px;
 }
 
-.home-buttons div img {
+.home-buttons a:hover {
+    background:#c4c2c2;
+}
+
+.home-buttons a img {
     width:50px;
     border-radius:50%;
 }
